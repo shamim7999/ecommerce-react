@@ -3,6 +3,7 @@ import {FiHeart} from 'react-icons/fi'
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai'
 
 import '../css/Nav.css'
+import { Link } from 'react-router-dom'
 
 const Nav = ({query, handleInputChange}) => {
   return (
@@ -14,9 +15,9 @@ const Nav = ({query, handleInputChange}) => {
         <a href='#'>
             <FiHeart className='nav-icons' />
         </a>
-        <a href='#'>
-            <AiOutlineShoppingCart className='nav-icons' />
-        </a>
+        <Link to="/cart">
+          <AiOutlineShoppingCart className='nav-icons' />
+        </Link>
         <a href='#'>
             <AiOutlineUserAdd className='nav-icons' />
         </a>

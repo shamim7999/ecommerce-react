@@ -14,8 +14,9 @@
 }
 
 .card-img {
-    width: 13rem;
+    width: 100px;
     margin-bottom: 1rem;
+    height: 200px;
 }
 
 .card-title {

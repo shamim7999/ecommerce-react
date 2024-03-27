@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Navigation from "./navigation/Nav";
 import Products from "./products/Products";
@@ -7,9 +7,24 @@ import Sidebar from "./sidebar/Sidebar";
 import products from "./data/Data";
 import Card from "./components/Card";
 
+
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [query, setQuery] = useState("");
+  const [myCart, setMyCart] = useState({});
+
+  useEffect(() => {
+    console.log(myCart);
+  }, [myCart]);
+
+  const handleClickOnCart = (id, counter) => {
+    // Update myCart state
+    setMyCart(prevCart => {
+      const updatedCart = { ...prevCart };
+      updatedCart[id] = updatedCart[id] ? updatedCart[id] + counter : 1;
+      return updatedCart;
+    });
+  };
 
   // Input Filter
   const handleInputChange = (e) => {
@@ -53,15 +68,18 @@ const App = () => {
     }
 
     return filteredProducts.map(
-      ({ img, title, star, reviews, prevPrice, newPrice }) => (
+      ({id, img, title, star, reviews, prevPrice, newPrice }) => (
         <Card
-          key={Math.random}
+          id={id}
+          key={id}
           img={img}
           title={title}
           star={star}
           reviews={reviews}
           newPrice={newPrice}
           prevPrice={prevPrice}
+          handleClickOnCart={handleClickOnCart}
+          myCart={myCart}
         />
       )
     );

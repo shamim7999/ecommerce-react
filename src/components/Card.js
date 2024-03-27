@@ -1,11 +1,16 @@
 import React from 'react'
-import { AiFillStar } from 'react-icons/ai'
 import { FaShoppingBag } from "react-icons/fa";
 
 
 import '../css/Products.css'
 
-const Card = ({img, title, star, reviews, prevPrice, newPrice}) => {
+const Card = ({id, img, title, star, reviews, prevPrice, newPrice, handleClickOnCart, myCart}) => {
+
+  const handleClick = (e) => {
+    console.log(`title: ${title} and id: ${id}`)
+    handleClickOnCart(id, 1);
+  }  
+
   return (
     <section className='card'>
             <img src={img}
@@ -21,7 +26,7 @@ const Card = ({img, title, star, reviews, prevPrice, newPrice}) => {
                         <del>{prevPrice}</del> ${newPrice}
                     </div>
                     <div className='bag'>
-                        <FaShoppingBag className='bag-icon' />
+                        <FaShoppingBag className='bag-icon' onClick={handleClick} />
                     </div>
                 </section>
             </div>
