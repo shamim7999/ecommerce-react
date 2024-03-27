@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import '../../css/Colors.css'
-import Input from '../../components/Input'
+import "../../css/Colors.css";
+import Input from "../../components/Input";
 
 const Colors = ({ handleChange }) => {
   return (
@@ -65,4 +65,3 @@ const Colors = ({ handleChange }) => {
 };
 
 export default Colors;
- 

@@ -13,21 +13,23 @@ const App = () => {
 
   // Input Filter
   const handleInputChange = (e) => {
+    console.log(`Input: ${e.target.value}`);
     setQuery(e.target.value);
   };
 
   const filteredItems = products.filter((product) =>
-    product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase() !== -1)
+    product.title.toLowerCase().includes(query.toLowerCase())
   );
 
   // Radio Filter
   const handleChange = (e) => {
-    selectedCategory(e.target.value);
+    console.log(`Here: ${e.target.value}`);
+    setSelectedCategory(e.target.value);
   };
 
   // Button Filter
   const handleClick = (e) => {
-    selectedCategory(e.target.value);
+    setSelectedCategory(e.target.value);
   };
 
   function filteredProducts(products, selected, query) {
@@ -70,9 +72,9 @@ const App = () => {
   return (
     <>
       <Sidebar handleChange={handleChange} />
-      <Navigation />
-      <Recommended />
-      <Products />
+      <Navigation query={query} handleInputChange={handleInputChange} />
+      <Recommended handleClick={handleClick} />
+      <Products result={result} />
     </>
   );
 };
