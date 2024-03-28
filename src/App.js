@@ -11,10 +11,16 @@ import Card from "./components/Card";
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [query, setQuery] = useState("");
-  const [myCart, setMyCart] = useState({});
+  const [myCart, setMyCart] = useState(0); // Ids
 
   useEffect(() => {
-    console.log(myCart);
+    // Save products data to localStorage
+    localStorage.setItem('products', JSON.stringify(products));
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('myCart', JSON.stringify(myCart));
+     console.log(`Local: ${localStorage.getItem('myCart')}`);
   }, [myCart]);
 
   const handleClickOnCart = (id, counter) => {
