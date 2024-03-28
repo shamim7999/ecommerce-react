@@ -5,7 +5,9 @@ import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai'
 import '../css/Nav.css'
 import { Link } from 'react-router-dom'
 
-const Nav = ({query, handleInputChange, sz}) => {
+const Nav = ({query, handleInputChange, totalItemsInCart}) => {
+
+  console.log('Nav is called');
 
   return (
     <nav>
@@ -18,7 +20,7 @@ const Nav = ({query, handleInputChange, sz}) => {
         </a>
         <Link to="/cart">
           <AiOutlineShoppingCart className='nav-icons' />
-          <span class="dot">&nbsp; {sz}</span>
+          <span class="dot">&nbsp; {totalItemsInCart}</span>
         </Link>
         <a href='#'>
             <AiOutlineUserAdd className='nav-icons' />

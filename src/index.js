@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Test from "./pages/Test";
 import ShoppingCart from "./pages/Cart";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MakeOrder from "./pages/Checkout";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Helper />} />
+        <Route path="/checkout" element={<MakeOrder />} />
         <Route path="/test" element={<Test />} />
         <Route path="/cart" element={<ShoppingCart />} />
       </Routes>

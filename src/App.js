@@ -10,18 +10,27 @@ import Card from "./components/Card";
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [query, setQuery] = useState("");
-  const [myCart, setMyCart] = useState([]); // Ids
+  const [myCart, setMyCart] = useState(
+    localStorage.getItem("myCart") ? JSON.parse(localStorage.getItem("myCart")) : []
+  ); // items
   //const [itemCount, setItemCount] = useState(0);
+  const [totalItemsInCart, setTotalItemsInCart] = useState(
+    localStorage.getItem('myCart') ? JSON.parse(localStorage.getItem('myCart')).length : 0
+  );  
+
 
   useEffect(() => {
     // Save products data to localStorage
     localStorage.setItem("products", JSON.stringify(products));
     setMyCart(localStorage.getItem("myCart") ? JSON.parse(localStorage.getItem("myCart")) : [])
+    console.log('Refreshed....');
+    setTotalItemsInCart(localStorage.getItem('myCart') ? JSON.parse(localStorage.getItem('myCart')).length : 0)
   }, []);
 
   useEffect(() => {
     localStorage.setItem("myCart", JSON.stringify(myCart));
     console.log(`Local: ${localStorage.getItem("myCart")}`);
+    setTotalItemsInCart(localStorage.getItem('myCart') ? JSON.parse(localStorage.getItem('myCart')).length : 0)
   }, [myCart]);
 
   const handleClickOnCart = (item, counter) => {
@@ -41,7 +50,8 @@ const App = () => {
         return updatedCart;
       }
     });
-  
+    
+    setTotalItemsInCart(localStorage.getItem('myCart') ? JSON.parse(localStorage.getItem('myCart')).length : 0)
     
   };
   
@@ -111,7 +121,8 @@ const App = () => {
   return (
     <>
       <Sidebar handleChange={handleChange} />
-      <Navigation query={query} handleInputChange={handleInputChange} sz={JSON.parse(localStorage.getItem('myCart')).length} />
+      <Navigation query={query} handleInputChange={handleInputChange} 
+        totalItemsInCart={totalItemsInCart } />
       <Recommended handleClick={handleClick} />
       <Products result={result} />
     </>

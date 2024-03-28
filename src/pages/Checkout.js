@@ -3,18 +3,11 @@ import React, { useEffect, useState } from "react";
 import "../css/Cart.css";
 import { Link } from "react-router-dom";
 
-const ShoppingCart = () => {
+const MakeOrder = () => {
   const [cartItems, setCartItems] = useState(
     localStorage.getItem('myCart') ? JSON.parse(localStorage.getItem('myCart')) : []
   );
   const [totalPrice, setTotalPrice] = useState(0);
-
-  // useEffect(() => {
-  //   const storedCart = localStorage.getItem("myCart"); // Retrieve cart items from localStorage
-  //   if (storedCart) {
-  //     setCartItems(JSON.parse(storedCart)); // Parse and set cart items
-  //   }
-  // }, []); // Run once on component mount
 
   useEffect(() => {
     console.log(`Cart Cart: ${JSON.stringify(cartItems)}`);
@@ -28,41 +21,6 @@ const ShoppingCart = () => {
 
   }, [cartItems]);
 
-  const handleClickOnCross = (e) => {
-    const itemId = e.target.value;
-    console.log(`Cross : ${itemId}`);
-
-    const updatedCartItems = cartItems.filter((item) => item.id !== itemId);
-    localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
-    setCartItems(updatedCartItems);
-
-  }
-
-  const handleAdd = (e) => {
-    const itemId = e.target.value;
-    const updatedCartItems = cartItems.map((item) => {
-      if (item.id === itemId) {
-        return { ...item, amount: item.amount + 1 };
-      }
-      return item;
-    });
-    localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
-    setCartItems(updatedCartItems);
-  };
-
-
-  const handleSub = (e) => {
-    const itemId = e.target.value;
-    const updatedCartItems = cartItems.map((item) => {
-      if (item.id === itemId && item.amount > 0) {
-        return { ...item, amount: item.amount - 1 };
-      }
-      return item;
-    });
-    localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
-    setCartItems(updatedCartItems);
-  };
-  
   
   return (
     <div>
@@ -70,7 +28,7 @@ const ShoppingCart = () => {
         {/* Shopping cart table */}
         <div className="card">
           <div className="card-header">
-            <h2>Shopping Cart</h2>
+            <h2>Order Now!</h2>
           </div>
           <div className="card-body">
             <div className="table-responsive">
@@ -101,19 +59,7 @@ const ShoppingCart = () => {
                     >
                       Total
                     </th>
-                    <th
-                      className="text-center align-middle py-3 px-0"
-                      style={{ width: "40px" }}
-                    >
-                      <a
-                        href="#"
-                        className="shop-tooltip float-none text-light"
-                        title=""
-                        data-original-title="Clear cart"
-                      >
-                        <i className="ino ion-md-trash"></i>
-                      </a>
-                    </th>
+                    
                   </tr>
                 </thead>
                 <tbody>
@@ -167,41 +113,20 @@ const ShoppingCart = () => {
                         <td className="align-middle p-4">
                           <div className="text-center">
                             {/* You can implement add/subtract functionality here */}
-                            <button
-                              className="btn btn-primary mb-1"
-                              value={item.id}
-                              onClick={handleAdd}
-                            >
-                              +
-                            </button>
+                            
                             <input
                               type="text"
                               className="form-control text-center"
                               value={item.amount}
                               readOnly
                             />
-                            <button
-                              className="btn btn-danger mt-1"
-                              value={item.id}
-                              onClick={handleSub}
-                            >
-                              -
-                            </button>
+                            
                           </div>
                         </td>
                         <td className="text-right font-weight-semibold align-middle p-4">
                           ${(item.newPrice * item.amount).toFixed(2)}
                         </td>
-                        <td className="text-center align-middle px-0" >
-                          <a
-                            href="#"
-                            className="shop-tooltip close float-none text-danger"
-                            title=""
-                            data-original-title="Remove"
-                          >
-                            <button value={item.id} onClick={handleClickOnCross} >x</button>
-                          </a>
-                        </td>
+                        
                       </tr>
                     )
                   )}
@@ -228,18 +153,12 @@ const ShoppingCart = () => {
           </div>
 
           <div className="float-right">
-          <Link to="/">
+            <Link to="/">
                 <button type="button" className="btn btn-lg btn-danger mt-2"> 
                         Back to Shopping  
                 </button>
             </Link>
-          <Link to="/checkout">
-              <button type="button" className="btn btn-lg btn-primary mt-2 mx-3">
-                  
-                    Checkout
-                  
-              </button>
-            </Link>
+            <button type="button" className="btn btn-lg btn-primary mt-2 mx-3">Order Now!</button>
           </div>
           </div>
         </div>
@@ -248,4 +167,4 @@ const ShoppingCart = () => {
   );
 };
 
-export default ShoppingCart;
+export default MakeOrder;
