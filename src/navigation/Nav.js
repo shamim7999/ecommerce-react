@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {FiHeart} from 'react-icons/fi'
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from 'react-icons/ai'
 
 import '../css/Nav.css'
 import { Link } from 'react-router-dom'
 
-const Nav = ({query, handleInputChange}) => {
+const Nav = ({query, handleInputChange, sz}) => {
+
   return (
     <nav>
       <div className='nav-container'>
@@ -17,6 +18,7 @@ const Nav = ({query, handleInputChange}) => {
         </a>
         <Link to="/cart">
           <AiOutlineShoppingCart className='nav-icons' />
+          <span class="dot">&nbsp; {sz}</span>
         </Link>
         <a href='#'>
             <AiOutlineUserAdd className='nav-icons' />

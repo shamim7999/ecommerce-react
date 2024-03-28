@@ -7,30 +7,44 @@ import Sidebar from "./sidebar/Sidebar";
 import products from "./data/Data";
 import Card from "./components/Card";
 
-
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [query, setQuery] = useState("");
-  const [myCart, setMyCart] = useState(0); // Ids
+  const [myCart, setMyCart] = useState([]); // Ids
+  //const [itemCount, setItemCount] = useState(0);
 
   useEffect(() => {
     // Save products data to localStorage
-    localStorage.setItem('products', JSON.stringify(products));
+    localStorage.setItem("products", JSON.stringify(products));
+    setMyCart(localStorage.getItem("myCart") ? JSON.parse(localStorage.getItem("myCart")) : [])
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('myCart', JSON.stringify(myCart));
-     console.log(`Local: ${localStorage.getItem('myCart')}`);
+    localStorage.setItem("myCart", JSON.stringify(myCart));
+    console.log(`Local: ${localStorage.getItem("myCart")}`);
   }, [myCart]);
 
-  const handleClickOnCart = (id, counter) => {
-    // Update myCart state
+  const handleClickOnCart = (item, counter) => {
+    console.log(`Item APP: ${item.amount}`);
     setMyCart(prevCart => {
-      const updatedCart = { ...prevCart };
-      updatedCart[id] = updatedCart[id] ? updatedCart[id] + counter : 1;
-      return updatedCart;
+      if (!prevCart.some(cartItem => cartItem.id === item.id)) {
+        // If the item is not already in the cart, add it with the specified counter
+        return [...prevCart, { ...item, amount: counter }];
+      } else {
+        // If the item is already in the cart, find its index in the array
+        const index = prevCart.findIndex(cartItem => cartItem.id === item.id);
+        // Create a copy of the item with the updated amount
+        const updatedItem = { ...prevCart[index], amount: prevCart[index].amount + counter };
+        // Create a new array with the updated item
+        const updatedCart = [...prevCart];
+        updatedCart[index] = updatedItem;
+        return updatedCart;
+      }
     });
+  
+    
   };
+  
 
   // Input Filter
   const handleInputChange = (e) => {
@@ -64,7 +78,7 @@ const App = () => {
     // Filter by Select
     if (selected) {
       filteredProducts = filteredProducts.filter(
-        ({ category, color, company, newPrice, title }) =>
+        ({ category, color, company, newPrice, title, amount }) =>
           category === selected ||
           color === selected ||
           company === selected ||
@@ -74,7 +88,7 @@ const App = () => {
     }
 
     return filteredProducts.map(
-      ({id, img, title, star, reviews, prevPrice, newPrice }) => (
+      ({ id, img, title, star, reviews, prevPrice, newPrice, amount }) => (
         <Card
           id={id}
           key={id}
@@ -86,6 +100,7 @@ const App = () => {
           prevPrice={prevPrice}
           handleClickOnCart={handleClickOnCart}
           myCart={myCart}
+          amount={amount}
         />
       )
     );
@@ -96,7 +111,7 @@ const App = () => {
   return (
     <>
       <Sidebar handleChange={handleChange} />
-      <Navigation query={query} handleInputChange={handleInputChange} />
+      <Navigation query={query} handleInputChange={handleInputChange} sz={JSON.parse(localStorage.getItem('myCart')).length} />
       <Recommended handleClick={handleClick} />
       <Products result={result} />
     </>

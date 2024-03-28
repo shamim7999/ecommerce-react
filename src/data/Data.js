@@ -1,6 +1,5 @@
 import { AiFillStar } from "react-icons/ai";
 
-
 //https://picsum.photos/200/200?random=rnd_value
 
 const Data = [
@@ -15,6 +14,7 @@ const Data = [
     color: "#fd2538",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6f26ce98-afb2-4755-90b9-8307098c31a9",
@@ -27,6 +27,7 @@ const Data = [
     color: "#9b9947",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e3b05255-3189-4ccb-8f3a-0d167dc06f07",
@@ -39,6 +40,7 @@ const Data = [
     color: "#e72967",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ee29830f-e02c-4f72-a055-554a0c543ffc",
@@ -51,6 +53,7 @@ const Data = [
     color: "#2fb934",
     category: "dui",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "56c22379-ddb3-489a-9c0f-4bd500bf825d",
@@ -63,6 +66,7 @@ const Data = [
     color: "#017f6c",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "91db466e-bb3c-4965-ae0c-6cc89c02ce90",
@@ -75,6 +79,7 @@ const Data = [
     color: "#b262af",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "99456082-c7ab-4641-89ca-f00071c03c9a",
@@ -87,6 +92,7 @@ const Data = [
     color: "#bea412",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1251d524-79f4-4484-bcc1-42abc12c58fa",
@@ -99,6 +105,7 @@ const Data = [
     color: "#3a5c6f",
     category: "eleifend",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0631aa76-6f62-483b-b81c-5c7c135f0b66",
@@ -111,6 +118,7 @@ const Data = [
     color: "#158089",
     category: "condimentum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "5bbdb5fb-282d-4b33-8d1d-5d23848e7e59",
@@ -123,6 +131,7 @@ const Data = [
     color: "#127362",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "edb43cd0-93d6-487d-81c7-7c63701a94be",
@@ -135,6 +144,7 @@ const Data = [
     color: "#041732",
     category: "in",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a5997836-fe0d-498e-aa67-42c610c54430",
@@ -147,6 +157,7 @@ const Data = [
     color: "#ebcca4",
     category: "curabitur",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c1e89cfa-5319-48b2-b7eb-1935f6a51eea",
@@ -159,6 +170,7 @@ const Data = [
     color: "#d2a435",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a487aac1-4bba-4dbf-ad7e-16d5c7e00f5e",
@@ -171,6 +183,7 @@ const Data = [
     color: "#ee7af9",
     category: "malesuada",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "f3f07870-8bf7-4eb4-a5aa-c0265eb05bfb",
@@ -183,6 +196,7 @@ const Data = [
     color: "#b99834",
     category: "primis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ba51bf60-cacc-4269-a72d-b95e1e061f1f",
@@ -195,6 +209,7 @@ const Data = [
     color: "#2073b2",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c7d951ab-ea5c-40bb-a84a-93e91550c8d4",
@@ -207,6 +222,7 @@ const Data = [
     color: "#26525e",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a1b2b531-b12f-47d6-850f-731491d4af2e",
@@ -219,6 +235,7 @@ const Data = [
     color: "#be6994",
     category: "dolor",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "35f89bcb-93cb-419a-9481-ac83164b6995",
@@ -231,6 +248,7 @@ const Data = [
     color: "#60f720",
     category: "nam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3e2b4ddf-defd-4aef-8673-ca309b3f7082",
@@ -243,6 +261,7 @@ const Data = [
     color: "#fd8bd6",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b3eb733e-85f3-4598-a2d1-3d1da6215902",
@@ -255,6 +274,7 @@ const Data = [
     color: "#723033",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "21f89195-294a-4175-8bb7-2752f9f2c66e",
@@ -267,6 +287,7 @@ const Data = [
     color: "#981d9c",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4b31cbe0-0e94-4f54-9a65-bfd47596541d",
@@ -279,6 +300,7 @@ const Data = [
     color: "#b3c092",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "7830667e-f538-4a42-9023-59783a6af669",
@@ -291,6 +313,7 @@ const Data = [
     color: "#35b0ad",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f15f3340-7629-4168-b1c8-ea8efb04ebf2",
@@ -303,6 +326,7 @@ const Data = [
     color: "#ce8276",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "08a3d794-68dc-4fa7-b092-4f701d077a24",
@@ -315,6 +339,7 @@ const Data = [
     color: "#172870",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "ea9a2a4e-58bf-41d0-afef-508d1d80c216",
@@ -327,6 +352,7 @@ const Data = [
     color: "#5c6eca",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0dd4e4bb-c780-499a-bf9e-6196c139c692",
@@ -339,6 +365,7 @@ const Data = [
     color: "#51ee39",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "1e60fbdb-0c80-4944-a8ed-26452f6f27b6",
@@ -351,6 +378,7 @@ const Data = [
     color: "#5246f3",
     category: "rutrum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8cead425-0a95-4181-b1ca-0872171d1136",
@@ -363,6 +391,7 @@ const Data = [
     color: "#230c0d",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7d582c59-c097-4911-b33e-5e7b03560c9f",
@@ -375,6 +404,7 @@ const Data = [
     color: "#d85c44",
     category: "maecenas",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a4171a0d-8c21-41c6-a7e2-30bef77aada5",
@@ -387,6 +417,7 @@ const Data = [
     color: "#5c0af8",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9eabd676-205b-43fe-9050-a2cd5d7bb53d",
@@ -399,6 +430,7 @@ const Data = [
     color: "#ed6501",
     category: "elit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c8cb5b4c-60a8-442a-8b64-cff920e9dc90",
@@ -411,6 +443,7 @@ const Data = [
     color: "#c409c7",
     category: "curae",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6f76753f-32d2-4be3-a8e5-472729a4d9bd",
@@ -423,6 +456,7 @@ const Data = [
     color: "#917173",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6ac6e8c3-8a2c-4bcf-be7b-0bc981639b85",
@@ -435,6 +469,7 @@ const Data = [
     color: "#79d3c4",
     category: "metus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4cf72214-4a3e-429c-927d-bdd5226e6c66",
@@ -447,6 +482,7 @@ const Data = [
     color: "#680770",
     category: "est",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9e3cb73c-ce88-4f6b-9c46-39cf36a1278b",
@@ -459,6 +495,7 @@ const Data = [
     color: "#0477bd",
     category: "dignissim",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8f914c91-ae13-4a11-b1bd-1ad04e2d484c",
@@ -471,6 +508,7 @@ const Data = [
     color: "#9b467b",
     category: "vivamus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a19ad0e0-f835-4709-a0bd-5805b7789bf9",
@@ -483,6 +521,7 @@ const Data = [
     color: "#189f28",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "77e0c4cd-7db8-48ce-853e-33876098ec65",
@@ -495,6 +534,7 @@ const Data = [
     color: "#5e84db",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f4756e83-824b-403e-a6ed-f95637968704",
@@ -507,6 +547,7 @@ const Data = [
     color: "#1c87ed",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a686557a-4ae6-48d1-8f55-a57a375f61f2",
@@ -519,6 +560,7 @@ const Data = [
     color: "#97603c",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "dccb097c-3900-436f-ad96-841dc42c2d8a",
@@ -531,6 +573,7 @@ const Data = [
     color: "#6de964",
     category: "sodales",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2bb6803d-2c63-4dc0-ae95-9f77fc72c3b3",
@@ -543,6 +586,7 @@ const Data = [
     color: "#ee5fa8",
     category: "lobortis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "6ddee84c-0021-4bf7-9423-41406044a34d",
@@ -555,6 +599,7 @@ const Data = [
     color: "#9e5a80",
     category: "est",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a74969cd-69ec-446d-b941-6e02c9ee7118",
@@ -567,6 +612,7 @@ const Data = [
     color: "#c2d181",
     category: "tristique",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2225ac9a-4a21-429e-9e24-1ea5f2736fb0",
@@ -579,6 +625,7 @@ const Data = [
     color: "#b26537",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "945822d0-35d7-4cd6-ba12-94adcf5b9a93",
@@ -591,6 +638,7 @@ const Data = [
     color: "#8e0d0e",
     category: "tristique",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e3993899-8113-4ef9-bce2-14b152df8203",
@@ -603,6 +651,7 @@ const Data = [
     color: "#bfd733",
     category: "maecenas",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1f4e87ae-3780-447f-bd81-312430f35c43",
@@ -615,6 +664,7 @@ const Data = [
     color: "#0ec139",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "23604cf1-0035-4c1b-b64b-8eac22287d66",
@@ -627,6 +677,7 @@ const Data = [
     color: "#e98826",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "bfb2c794-3803-4952-aa5a-ce50ddd19cbc",
@@ -639,6 +690,7 @@ const Data = [
     color: "#36850b",
     category: "cum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "924cf413-8df9-4b8f-abf6-56e7470321e9",
@@ -651,6 +703,7 @@ const Data = [
     color: "#38b2a6",
     category: "felis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c4e26f9a-38c7-4628-bb30-3f3f5b283fdb",
@@ -663,6 +716,7 @@ const Data = [
     color: "#16b42d",
     category: "curabitur",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "1fd3374f-97c1-49a7-951f-962d62b1ac60",
@@ -675,6 +729,7 @@ const Data = [
     color: "#ef9978",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7378f3da-c859-4b59-aff4-551fd6b76b2a",
@@ -687,6 +742,7 @@ const Data = [
     color: "#42f1b3",
     category: "aliquet",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a3adb764-b8b9-40b8-bbc4-85d5beba5354",
@@ -699,6 +755,7 @@ const Data = [
     color: "#a27418",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "0f24398a-8668-4c4e-97a6-d4567dc60b66",
@@ -711,6 +768,7 @@ const Data = [
     color: "#f29527",
     category: "elementum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0a8883bf-340d-4c69-ae56-8fe2896f3697",
@@ -723,6 +781,7 @@ const Data = [
     color: "#fd6fa6",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e5402ffb-35ac-416c-ba07-83dbeb32c0e6",
@@ -735,6 +794,7 @@ const Data = [
     color: "#9f392c",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "16b72ca1-42cf-4439-8880-5723bfef8dc4",
@@ -747,6 +807,7 @@ const Data = [
     color: "#cc43bc",
     category: "venenatis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d43d97c3-a7cb-4710-a4f0-7cf2e936f4f9",
@@ -759,6 +820,7 @@ const Data = [
     color: "#5dd8db",
     category: "iaculis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "325c704b-ccdb-4326-8eef-4f744f07b4eb",
@@ -771,6 +833,7 @@ const Data = [
     color: "#b20fa5",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "35d55678-ac6f-47ac-95b2-1eb8912f298a",
@@ -783,6 +846,7 @@ const Data = [
     color: "#33c5d6",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "1be4e950-b242-4312-ba93-f09c6e243b0b",
@@ -795,6 +859,7 @@ const Data = [
     color: "#ee4350",
     category: "dolor",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0a0c26de-1612-4c52-a82a-1949c744edfd",
@@ -807,6 +872,7 @@ const Data = [
     color: "#bb5e49",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "44e68ea7-70e6-475f-b4f7-e2a5170267db",
@@ -819,6 +885,7 @@ const Data = [
     color: "#feed7c",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fbce19de-a466-432d-8b5a-f8bbf2a253f9",
@@ -831,6 +898,7 @@ const Data = [
     color: "#f9fa45",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e60dd170-a767-4bf5-993a-e67abcaf3c27",
@@ -843,6 +911,7 @@ const Data = [
     color: "#f6888e",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "28964b96-6901-4ed3-9139-b39cc598dd38",
@@ -855,6 +924,7 @@ const Data = [
     color: "#2c32c7",
     category: "at",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c1e942dd-69de-4482-9f46-317c682b2fc4",
@@ -867,6 +937,7 @@ const Data = [
     color: "#702c15",
     category: "lobortis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5629af3f-87fa-4749-8f38-7161312d27a6",
@@ -879,6 +950,7 @@ const Data = [
     color: "#c47cf2",
     category: "massa",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cbf69520-256d-480e-a807-ba2c9c3384ba",
@@ -891,6 +963,7 @@ const Data = [
     color: "#6f1928",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e63a7cfd-c911-451e-ae35-cd4ca8997753",
@@ -903,6 +976,7 @@ const Data = [
     color: "#f78831",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b45804f6-e133-45fd-b828-c28b6bde8de0",
@@ -915,6 +989,7 @@ const Data = [
     color: "#4ce6cc",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "71a24b58-5149-44ca-9da4-da06a80b127a",
@@ -927,6 +1002,7 @@ const Data = [
     color: "#91920c",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "978c7780-8d4c-44d3-85db-a2abf636c26c",
@@ -939,6 +1015,7 @@ const Data = [
     color: "#a6dce6",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "527166e4-e7ee-4f18-bd15-d0145bc1af29",
@@ -951,6 +1028,7 @@ const Data = [
     color: "#f4a91e",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "49678209-4d08-4b4f-8331-f827e092033f",
@@ -963,6 +1041,7 @@ const Data = [
     color: "#cd133b",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6ca91179-265a-4410-a2bb-cd131bb91886",
@@ -975,6 +1054,7 @@ const Data = [
     color: "#ed6bfd",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "8f99365a-bd5e-431c-b753-b7e4feb6664a",
@@ -987,6 +1067,7 @@ const Data = [
     color: "#7be215",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b367eb08-0daa-4bf2-a70e-d00c2c54baaa",
@@ -999,6 +1080,7 @@ const Data = [
     color: "#b6ca37",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "903b71d3-bccc-49ad-bc02-06a36614c868",
@@ -1011,6 +1093,7 @@ const Data = [
     color: "#db479a",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "52f96acf-8dbd-4c7d-8eff-f46c9e0ce7d1",
@@ -1023,6 +1106,7 @@ const Data = [
     color: "#ad4168",
     category: "euismod",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7676493a-3ece-4efa-9664-e425daaf13dd",
@@ -1035,6 +1119,7 @@ const Data = [
     color: "#15a736",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5db78dbb-57f5-4b1b-84f0-7527fcc9743c",
@@ -1047,6 +1132,7 @@ const Data = [
     color: "#e1925d",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "2eb091b2-65e1-4e87-a48e-59ff822998ae",
@@ -1059,6 +1145,7 @@ const Data = [
     color: "#9ce638",
     category: "tortor",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "61efaa58-10f9-45f3-8d8f-4b111234c0ec",
@@ -1071,6 +1158,7 @@ const Data = [
     color: "#e476df",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fdb0a0ef-aee3-4892-b249-b9b1b303ef83",
@@ -1083,6 +1171,7 @@ const Data = [
     color: "#09e1c5",
     category: "eros",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "2ca53c9e-8e5f-4d21-8d29-b6426c95069e",
@@ -1095,6 +1184,7 @@ const Data = [
     color: "#363a21",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "80fce015-96c0-474e-bc16-eece95f6715e",
@@ -1107,6 +1197,7 @@ const Data = [
     color: "#abb8e1",
     category: "aliquet",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ffdbd23a-d3c4-4cd0-a808-c22cc0b39077",
@@ -1119,6 +1210,7 @@ const Data = [
     color: "#1fedb4",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c6d1a184-7cf7-4cb0-8939-4500abd30b3c",
@@ -1131,6 +1223,7 @@ const Data = [
     color: "#05c7f6",
     category: "diam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "aaa94e09-923a-400e-9cfd-31f7c0f6ab9a",
@@ -1143,6 +1236,7 @@ const Data = [
     color: "#c6a881",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "bf2b498d-872e-429a-837f-700e455338f6",
@@ -1155,6 +1249,7 @@ const Data = [
     color: "#3308c9",
     category: "potenti",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "b23c2aff-fba7-4ad4-910a-af931aad2ac1",
@@ -1167,6 +1262,7 @@ const Data = [
     color: "#ec9c84",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "066f9220-4aa9-4397-91a7-7bb93e6d23d0",
@@ -1179,6 +1275,7 @@ const Data = [
     color: "#b337e3",
     category: "nullam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9532e3d3-5b8b-4439-92c5-9b137da60fbe",
@@ -1191,6 +1288,7 @@ const Data = [
     color: "#33b571",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "48278887-671d-4fc8-be57-286eb729b664",
@@ -1203,6 +1301,7 @@ const Data = [
     color: "#bca37f",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "8a281360-6d40-4962-91d8-6347a066aa6c",
@@ -1215,6 +1314,7 @@ const Data = [
     color: "#d87023",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "42b7070e-f515-425f-a44a-bc17da80a986",
@@ -1227,6 +1327,7 @@ const Data = [
     color: "#d438a1",
     category: "phasellus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d0bbeec1-ef30-4ea8-8e06-95e4256578a0",
@@ -1239,6 +1340,7 @@ const Data = [
     color: "#3abae3",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "708f2baf-2391-4b2f-aed4-5dec7bed975a",
@@ -1251,6 +1353,7 @@ const Data = [
     color: "#4d51d0",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c65760c1-6a19-44a9-9680-490424812cb0",
@@ -1263,6 +1366,7 @@ const Data = [
     color: "#65cc4b",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0264e634-3e99-4aca-89bb-2288606ec3f9",
@@ -1275,6 +1379,7 @@ const Data = [
     color: "#5eaeb8",
     category: "fringilla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c3c22139-fc13-4b0c-a479-2bcf003a0df7",
@@ -1287,6 +1392,7 @@ const Data = [
     color: "#72d921",
     category: "feugiat",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7db39042-c79f-4c27-8a10-57380fb93822",
@@ -1299,6 +1405,7 @@ const Data = [
     color: "#7b27f4",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d1261765-fead-433e-8116-435e1fbe2531",
@@ -1311,6 +1418,7 @@ const Data = [
     color: "#9ccdfc",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cf815abb-8d91-41b5-b012-2c8b1c8c0d24",
@@ -1323,6 +1431,7 @@ const Data = [
     color: "#fbdc26",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "42368d3b-5082-4507-8ffd-3262c1587457",
@@ -1335,6 +1444,7 @@ const Data = [
     color: "#2efc22",
     category: "nibh",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b7dffc9c-8f95-4d8a-965b-c15d2408b4c8",
@@ -1347,6 +1457,7 @@ const Data = [
     color: "#2e1027",
     category: "congue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "c4de4d3f-1f74-4a13-a426-a657d287d470",
@@ -1359,6 +1470,7 @@ const Data = [
     color: "#e2c57e",
     category: "tempor",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "08167f2f-674c-40ba-bf3b-27a2cfc958e6",
@@ -1371,6 +1483,7 @@ const Data = [
     color: "#bde0c9",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0c1bd6f7-a9b1-4ec9-aa6a-35dc8f67eb2d",
@@ -1383,6 +1496,7 @@ const Data = [
     color: "#44dc06",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0b34d89e-4528-4b0d-bda9-0524d7ed9643",
@@ -1395,6 +1509,7 @@ const Data = [
     color: "#dc8716",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "fada961a-0b4e-4170-8370-37d01ec55484",
@@ -1407,6 +1522,7 @@ const Data = [
     color: "#643e5e",
     category: "quisque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e94bc7b1-fbb0-47d0-8230-a8a23e1f49be",
@@ -1419,6 +1535,7 @@ const Data = [
     color: "#2f64fc",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3e712afb-d12f-492d-9bc9-36207ef00e42",
@@ -1431,6 +1548,7 @@ const Data = [
     color: "#f1f264",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e4455bfd-2b36-410f-9c4d-b022d6de848f",
@@ -1443,6 +1561,7 @@ const Data = [
     color: "#a68aba",
     category: "tincidunt",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "8f5d67b6-7ec4-47a2-9ff1-c3df3b8fc7f4",
@@ -1455,6 +1574,7 @@ const Data = [
     color: "#1332a2",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "ff2a5e23-9bf3-43fa-9824-86b4a6fdcb46",
@@ -1467,6 +1587,7 @@ const Data = [
     color: "#9fa17a",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "8128f91c-b95b-42b6-af3c-960fe107eec6",
@@ -1479,6 +1600,7 @@ const Data = [
     color: "#0a79f4",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9ec78957-16fc-4d46-8e21-1cae0dd973c7",
@@ -1491,6 +1613,7 @@ const Data = [
     color: "#97f26b",
     category: "malesuada",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "7714a716-9035-4896-8ae6-ac83a3e31ec5",
@@ -1503,6 +1626,7 @@ const Data = [
     color: "#495852",
     category: "nibh",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "75eece0b-f5cb-41c4-8f9b-ebafa3fffc91",
@@ -1515,6 +1639,7 @@ const Data = [
     color: "#63ccfb",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8706991c-7f3c-46d7-ad0d-c0fbf3575124",
@@ -1527,6 +1652,7 @@ const Data = [
     color: "#e2a344",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f5e21f46-0e21-4edb-98d5-f4e6de534ed7",
@@ -1539,6 +1665,7 @@ const Data = [
     color: "#125118",
     category: "rutrum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a5dd913d-0e79-4d15-a6dd-6332bea1ce39",
@@ -1551,6 +1678,7 @@ const Data = [
     color: "#eac442",
     category: "arcu",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "cdbfa081-229b-4c35-9483-c44803490c09",
@@ -1563,6 +1691,7 @@ const Data = [
     color: "#9b8793",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "17943164-950d-437c-81d7-a79620fbb9b4",
@@ -1575,6 +1704,7 @@ const Data = [
     color: "#e3887e",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "59adcb03-7b72-40db-b51b-0d27e8d19870",
@@ -1587,6 +1717,7 @@ const Data = [
     color: "#61e78b",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b127fb40-8d99-43c2-9fa5-3681da30f011",
@@ -1599,6 +1730,7 @@ const Data = [
     color: "#357743",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "88a8f2ae-2fc1-4bab-bc03-1e14d1547bcc",
@@ -1611,6 +1743,7 @@ const Data = [
     color: "#928d48",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "1f5d2199-9ed4-4142-8329-dc61ea32bf5c",
@@ -1623,6 +1756,7 @@ const Data = [
     color: "#1aa51f",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "14f62828-27b7-4980-993f-8aefe8c2a010",
@@ -1635,6 +1769,7 @@ const Data = [
     color: "#6b0ea3",
     category: "ridiculus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e93f42d5-e9fa-4353-87dc-17a66932f360",
@@ -1647,6 +1782,7 @@ const Data = [
     color: "#e75dc4",
     category: "placerat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "54b5f0d3-0ab0-4911-84f9-a38d6824f95a",
@@ -1659,6 +1795,7 @@ const Data = [
     color: "#09b671",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "de6ae94a-75a6-4329-8845-3e0fd4519e02",
@@ -1671,6 +1808,7 @@ const Data = [
     color: "#964464",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2809d2cd-353c-4d07-95d2-2da7372ab603",
@@ -1683,6 +1821,7 @@ const Data = [
     color: "#27060d",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "097de3b7-c743-42d1-a775-dc7cc04c35b2",
@@ -1695,6 +1834,7 @@ const Data = [
     color: "#58de4f",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ea197ac6-6244-4cb6-93ea-3c38131a5619",
@@ -1707,6 +1847,7 @@ const Data = [
     color: "#8c8a86",
     category: "at",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "271322b2-6c0d-44ec-be95-b10288d6ef7b",
@@ -1719,6 +1860,7 @@ const Data = [
     color: "#739637",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "00a0c2c7-e8ba-4ae0-915a-5520a51acee3",
@@ -1731,6 +1873,7 @@ const Data = [
     color: "#4268bc",
     category: "mus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "65a91a63-6353-4305-b236-682f6304bc61",
@@ -1743,6 +1886,7 @@ const Data = [
     color: "#895983",
     category: "est",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "2526d949-3cff-403f-b5ac-d4f07aeb3982",
@@ -1755,6 +1899,7 @@ const Data = [
     color: "#f4287b",
     category: "tellus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ad61b68a-8d9a-4467-bf44-9b30dbf95244",
@@ -1767,6 +1912,7 @@ const Data = [
     color: "#9e780f",
     category: "primis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "fa3cfa22-23a2-409f-b4e3-7b5fc08e05ff",
@@ -1779,6 +1925,7 @@ const Data = [
     color: "#24f09d",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e0e41fa7-0381-4e20-aa5f-46a6011300f9",
@@ -1791,6 +1938,7 @@ const Data = [
     color: "#1e78a8",
     category: "est",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7b14ef92-4420-4150-8a43-c4fcf77e3261",
@@ -1803,6 +1951,7 @@ const Data = [
     color: "#9e773f",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "aa43ca6d-2fe4-4ec4-a59d-c073318c5695",
@@ -1815,6 +1964,7 @@ const Data = [
     color: "#97c083",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a3f16160-b026-4f38-8eea-e60b840ead27",
@@ -1827,6 +1977,7 @@ const Data = [
     color: "#56f17e",
     category: "nibh",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "53d1e2e2-8642-46cc-be97-1b671573f06b",
@@ -1839,6 +1990,7 @@ const Data = [
     color: "#72d0c7",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0c78ce6c-f496-4e74-8f59-7bfa2e1ed91b",
@@ -1851,6 +2003,7 @@ const Data = [
     color: "#e7606a",
     category: "dui",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d238dbb5-01a1-4d61-9993-3a8d8f7f0156",
@@ -1863,6 +2016,7 @@ const Data = [
     color: "#1b02f7",
     category: "velit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b34ece6e-77a9-4166-a7eb-6765bc370b88",
@@ -1875,6 +2029,7 @@ const Data = [
     color: "#78e691",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d527ac35-b6f6-4fca-ae17-4d698908c12f",
@@ -1887,6 +2042,7 @@ const Data = [
     color: "#b787e6",
     category: "commodo",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8e4044b4-b547-4b4b-aff7-26e26b849a9a",
@@ -1899,6 +2055,7 @@ const Data = [
     color: "#424ba3",
     category: "dictumst",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1152e2cc-c52f-498f-a45d-2b85cfdfd82f",
@@ -1911,6 +2068,7 @@ const Data = [
     color: "#679146",
     category: "arcu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "299c853b-dc1d-4c5a-bd2d-d73f6769d47d",
@@ -1923,6 +2081,7 @@ const Data = [
     color: "#3a6bdf",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2d4018ea-caaf-4282-888b-505261db362e",
@@ -1935,6 +2094,7 @@ const Data = [
     color: "#e2de10",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "d3898a0b-37d7-483f-aeb5-12686ee5daa7",
@@ -1947,6 +2107,7 @@ const Data = [
     color: "#530c79",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ccfb27e3-7617-4416-8f06-cbfce7fb1ff9",
@@ -1959,6 +2120,7 @@ const Data = [
     color: "#d749c7",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "8f1d7468-acd3-44e6-b168-536afc69f866",
@@ -1971,6 +2133,7 @@ const Data = [
     color: "#a15d08",
     category: "viverra",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4de4013c-c37d-4a21-9a95-1e0d9f57599b",
@@ -1983,6 +2146,7 @@ const Data = [
     color: "#ada263",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2fcc4de7-715d-4714-8677-37940f65fad7",
@@ -1995,6 +2159,7 @@ const Data = [
     color: "#9bfbd6",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9a6fc1a9-4e54-4659-bf22-3159d1672ce9",
@@ -2007,6 +2172,7 @@ const Data = [
     color: "#005a3f",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "26235553-931f-4658-9362-b6e9af1889b2",
@@ -2019,6 +2185,7 @@ const Data = [
     color: "#14eea2",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "aeeee67d-9e70-4d5d-83ae-417fe2e7d394",
@@ -2031,6 +2198,7 @@ const Data = [
     color: "#fb58ce",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d120e203-0a36-4b12-b60c-34730119cf2c",
@@ -2043,6 +2211,7 @@ const Data = [
     color: "#514ecb",
     category: "velit",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "69040bd5-f937-4742-a6c4-dcc80c15431f",
@@ -2055,6 +2224,7 @@ const Data = [
     color: "#99f00c",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d1b4697e-2c16-454e-91e9-a931bd60a53b",
@@ -2067,6 +2237,7 @@ const Data = [
     color: "#3e4c05",
     category: "eros",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "1f31043b-b0f0-4894-808b-eb7a3792d75b",
@@ -2079,6 +2250,7 @@ const Data = [
     color: "#a12874",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a36ccb3f-6519-46b5-a5e9-b135968831b5",
@@ -2091,6 +2263,7 @@ const Data = [
     color: "#e7c6b8",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "208e3da5-f095-4572-b5be-eb2c61fe7a81",
@@ -2103,6 +2276,7 @@ const Data = [
     color: "#3673fc",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "029a6ca6-ad4e-47ac-b424-5e6061d18634",
@@ -2115,6 +2289,7 @@ const Data = [
     color: "#8d717d",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "85828b56-cfd2-4d17-99e0-2fd6b5a3fcc8",
@@ -2127,6 +2302,7 @@ const Data = [
     color: "#1fed02",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a5630aa1-5818-432c-9696-10a081546009",
@@ -2139,6 +2315,7 @@ const Data = [
     color: "#9c3df1",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "729f68f0-5dd8-4dc8-9440-6ec449c23c1f",
@@ -2151,6 +2328,7 @@ const Data = [
     color: "#739891",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "27a594a2-fa01-4919-a483-53b812185472",
@@ -2163,6 +2341,7 @@ const Data = [
     color: "#c352c8",
     category: "vivamus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "cb97bdea-630f-45fb-aaa6-949d163bf41f",
@@ -2175,6 +2354,7 @@ const Data = [
     color: "#d9f52c",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7b51952f-d3d3-4b87-b47d-54d61649a05f",
@@ -2187,6 +2367,7 @@ const Data = [
     color: "#677c4c",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e9615eff-dbab-4c05-abf1-d670d40c1069",
@@ -2199,6 +2380,7 @@ const Data = [
     color: "#79f710",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "f00ac878-478c-4382-816d-f9f8339aa447",
@@ -2211,6 +2393,7 @@ const Data = [
     color: "#d9daf3",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "33a0a346-dfca-42b6-aafe-46dcb42f3892",
@@ -2223,6 +2406,7 @@ const Data = [
     color: "#2f2625",
     category: "mi",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0519ccc6-8063-4b9b-8d63-966c797df169",
@@ -2235,6 +2419,7 @@ const Data = [
     color: "#e67bcf",
     category: "congue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "77d76772-d653-4a27-9e04-9cfe93a7f4f6",
@@ -2247,6 +2432,7 @@ const Data = [
     color: "#7e7255",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "d4c948a7-7512-4e63-8cc4-dd65ca344aea",
@@ -2259,6 +2445,7 @@ const Data = [
     color: "#035b8d",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c2a63d29-612e-466f-a046-3dd10bf203ed",
@@ -2271,6 +2458,7 @@ const Data = [
     color: "#2d043a",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "93bf1031-0c73-4323-8a23-9d0b17342436",
@@ -2283,6 +2471,7 @@ const Data = [
     color: "#13794f",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "03e37689-e406-4e1c-8fde-5f5478956a24",
@@ -2295,6 +2484,7 @@ const Data = [
     color: "#f5948f",
     category: "tempor",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "bb235c16-dbb6-4098-842c-41d4047d97ed",
@@ -2307,6 +2497,7 @@ const Data = [
     color: "#f003d9",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "29ab08a3-e255-4ae1-9a2a-adb6a372917c",
@@ -2319,6 +2510,7 @@ const Data = [
     color: "#aabba4",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "7a6538df-b869-4722-ae14-e6623cce2690",
@@ -2331,6 +2523,7 @@ const Data = [
     color: "#8edc7c",
     category: "non",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "30d8efcd-cba1-44ae-802d-5762c65fd920",
@@ -2343,6 +2536,7 @@ const Data = [
     color: "#63ed4b",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6c8f5e3e-c146-4325-b8b4-877b330080af",
@@ -2355,6 +2549,7 @@ const Data = [
     color: "#afe1e6",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3752e341-2ecb-4d12-8780-aa2af33d817f",
@@ -2367,6 +2562,7 @@ const Data = [
     color: "#17105e",
     category: "enim",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a54c9ca9-0fe0-4cd9-a0bb-324fe6ab28c5",
@@ -2379,6 +2575,7 @@ const Data = [
     color: "#cf13bb",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1503a923-9a51-4fe3-ae14-6e8c3e8bf76a",
@@ -2391,6 +2588,7 @@ const Data = [
     color: "#e9b5bb",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a11e5d61-0a10-40e1-9b4b-6f7f79da9059",
@@ -2403,6 +2601,7 @@ const Data = [
     color: "#a56a17",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2a3095f0-56aa-440e-b609-b3b70637ea1f",
@@ -2415,6 +2614,7 @@ const Data = [
     color: "#f34699",
     category: "et",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4e6cf9a4-a3c2-4fb4-a4e6-70c83b1c8011",
@@ -2427,6 +2627,7 @@ const Data = [
     color: "#0ce482",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "1a96b860-1b76-402a-b3e6-cd84f6911229",
@@ -2439,6 +2640,7 @@ const Data = [
     color: "#813665",
     category: "a",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "1e09bae8-4818-4819-a71f-abdf8be66d8c",
@@ -2451,6 +2653,7 @@ const Data = [
     color: "#963216",
     category: "suspendisse",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ff379aaa-4d96-4d0e-a886-e510ec922a6e",
@@ -2463,6 +2666,7 @@ const Data = [
     color: "#78a11d",
     category: "semper",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0cebe6e0-909e-40e6-9a7c-a697591443f0",
@@ -2475,6 +2679,7 @@ const Data = [
     color: "#ebded0",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "90f4e980-9ee5-438a-8585-f85472ff83f5",
@@ -2487,6 +2692,7 @@ const Data = [
     color: "#9cbee1",
     category: "primis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4db458d4-effa-4524-9d26-d3660baf58ed",
@@ -2499,6 +2705,7 @@ const Data = [
     color: "#c44a9e",
     category: "lobortis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2e0e4e07-b923-44e1-aa96-fad3bf6b9404",
@@ -2511,6 +2718,7 @@ const Data = [
     color: "#951544",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "d7b6f2e1-8be0-4834-a163-b6b22e22f9ec",
@@ -2523,6 +2731,7 @@ const Data = [
     color: "#b3b160",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "01ed4fd5-8f7d-4c41-8667-8e12d2b633f5",
@@ -2535,6 +2744,7 @@ const Data = [
     color: "#f6d385",
     category: "id",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "06032887-f815-4b28-b420-8e7ee4b43de1",
@@ -2547,6 +2757,7 @@ const Data = [
     color: "#8b30fb",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "eb09bf75-e017-411d-9918-6a82b88d820a",
@@ -2559,6 +2770,7 @@ const Data = [
     color: "#922cbd",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9c35e94f-3127-4996-b28f-e6c569784691",
@@ -2571,6 +2783,7 @@ const Data = [
     color: "#cbe5fb",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1e8b9112-f09a-4cf0-a6c7-4f7f0c1af0e7",
@@ -2583,6 +2796,7 @@ const Data = [
     color: "#34f41d",
     category: "phasellus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "0f230185-731a-4c07-aa59-f0758b8aa384",
@@ -2595,6 +2809,7 @@ const Data = [
     color: "#16c438",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "21df914c-1887-44c0-bf44-a702777a35fb",
@@ -2607,6 +2822,7 @@ const Data = [
     color: "#a78029",
     category: "id",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4cff2ad9-6e6e-4d89-8706-254067c395ab",
@@ -2619,6 +2835,7 @@ const Data = [
     color: "#e0d218",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c4eff716-9253-42e0-a535-cd272b7f7a1e",
@@ -2631,6 +2848,7 @@ const Data = [
     color: "#12f20d",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c9194759-1b76-456a-ba15-437cb5724975",
@@ -2643,6 +2861,7 @@ const Data = [
     color: "#de27de",
     category: "lobortis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9d98b778-7705-42ed-b907-233bc24c925b",
@@ -2655,6 +2874,7 @@ const Data = [
     color: "#f31956",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "28931785-839d-494b-bb2a-774e2f308b86",
@@ -2667,6 +2887,7 @@ const Data = [
     color: "#8b045d",
     category: "penatibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0c78cbb5-594b-4adf-b748-6ff7a17cb956",
@@ -2679,6 +2900,7 @@ const Data = [
     color: "#ab6503",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cbb7d79d-b44d-4654-952d-fbf9ded0847d",
@@ -2691,6 +2913,7 @@ const Data = [
     color: "#d9939b",
     category: "non",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9d424d25-16d2-49b9-86fe-3e98dbc69371",
@@ -2703,6 +2926,7 @@ const Data = [
     color: "#74db00",
     category: "fusce",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "11e15263-a797-45c4-bba8-8f07584c9c67",
@@ -2715,6 +2939,7 @@ const Data = [
     color: "#507e04",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "348c2959-c0fd-4a02-b1c4-6cc482d1e59e",
@@ -2727,6 +2952,7 @@ const Data = [
     color: "#f890f7",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "3f30e1e9-652e-491f-ba1c-e75647312513",
@@ -2739,6 +2965,7 @@ const Data = [
     color: "#0d26ac",
     category: "interdum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "127a04db-ccc0-4cc9-b64f-6be0920acc30",
@@ -2751,6 +2978,7 @@ const Data = [
     color: "#022e3e",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7d32bce8-5358-4160-bb32-8fc7ea861985",
@@ -2763,6 +2991,7 @@ const Data = [
     color: "#a38c3b",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3899b8b7-d987-4061-aba8-daf69e5858d2",
@@ -2775,6 +3004,7 @@ const Data = [
     color: "#49e684",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "92be4114-1781-47eb-9e25-db40353979cd",
@@ -2787,6 +3017,7 @@ const Data = [
     color: "#21f73d",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "f9fdc31e-2529-436d-94e2-b51fed382286",
@@ -2799,6 +3030,7 @@ const Data = [
     color: "#1eb855",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b9c002c4-51d0-4d46-93ee-06f6efc4a647",
@@ -2811,6 +3043,7 @@ const Data = [
     color: "#3577f3",
     category: "phasellus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "eb949f1b-c7f9-454b-aad5-4e7d15d86a93",
@@ -2823,6 +3056,7 @@ const Data = [
     color: "#4d35c1",
     category: "at",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "25e105fa-def3-46f8-bca1-0f3464f7f10c",
@@ -2835,6 +3069,7 @@ const Data = [
     color: "#9e1e2d",
     category: "tristique",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "cd782caa-4191-4865-bfd7-4856ea603c31",
@@ -2847,6 +3082,7 @@ const Data = [
     color: "#ff1eab",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9c136e3b-beca-4b39-bf1e-480c1555ae63",
@@ -2859,6 +3095,7 @@ const Data = [
     color: "#25747d",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "63deb18f-587c-4511-91db-bed10886b831",
@@ -2871,6 +3108,7 @@ const Data = [
     color: "#cadf13",
     category: "vehicula",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9362b9dd-2bb7-4eef-bc96-9350a68ac212",
@@ -2883,6 +3121,7 @@ const Data = [
     color: "#bf11c4",
     category: "congue",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f5e42f2d-4afe-4bd5-ba88-651e827e18a6",
@@ -2895,6 +3134,7 @@ const Data = [
     color: "#87ec50",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "2f9780cb-1361-4e6d-a753-d8050d54d2d1",
@@ -2907,6 +3147,7 @@ const Data = [
     color: "#9d3ea9",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "91aa7ad4-f59e-43c6-8d5c-b51737a6b599",
@@ -2919,6 +3160,7 @@ const Data = [
     color: "#76dc04",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "84f7db93-c2d3-456f-bc47-ed5b459482f1",
@@ -2931,6 +3173,7 @@ const Data = [
     color: "#dcaaac",
     category: "congue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fb85dcef-0918-4009-b900-16fd86e00934",
@@ -2943,6 +3186,7 @@ const Data = [
     color: "#c98c78",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6864ec10-2102-442e-91ce-36b8473e37f3",
@@ -2955,6 +3199,7 @@ const Data = [
     color: "#c59ef3",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "1b9a4a9e-43d2-4351-937c-11dfb30ffd02",
@@ -2967,6 +3212,7 @@ const Data = [
     color: "#a72ba2",
     category: "imperdiet",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a0736494-d66c-467d-8b27-981a95be16a4",
@@ -2979,6 +3225,7 @@ const Data = [
     color: "#00ec2a",
     category: "quisque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "923923b3-fc65-4bd7-86dd-89d13f9d7b7f",
@@ -2991,6 +3238,7 @@ const Data = [
     color: "#5e3c63",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "d7b75e58-7efe-4af0-8d04-980f1d42198e",
@@ -3003,6 +3251,7 @@ const Data = [
     color: "#890a1e",
     category: "venenatis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "773577d0-77d2-4c9a-8c76-6811b3af5075",
@@ -3015,6 +3264,7 @@ const Data = [
     color: "#5bc5d1",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "684ec502-dde9-45eb-9407-a80de06f5025",
@@ -3027,6 +3277,7 @@ const Data = [
     color: "#a2cd59",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d88883d3-f2b4-46ab-9c77-4bf01b6a04dd",
@@ -3039,6 +3290,7 @@ const Data = [
     color: "#aa932c",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fe24a585-9a76-420a-8dad-95801d46d9bd",
@@ -3051,6 +3303,7 @@ const Data = [
     color: "#137898",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9aca771f-63b2-4942-bc47-b461e2eeb650",
@@ -3063,6 +3316,7 @@ const Data = [
     color: "#1a9de1",
     category: "risus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b229d056-3f23-45d3-ba91-7701fff24eee",
@@ -3075,6 +3329,7 @@ const Data = [
     color: "#c6ffef",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ed91c4f9-1978-4fbd-ae9c-2dcbdff6083a",
@@ -3087,6 +3342,7 @@ const Data = [
     color: "#bf3ccc",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d4be95ac-5cd2-4c3d-a61c-4e4e897e558d",
@@ -3099,6 +3355,7 @@ const Data = [
     color: "#b3b267",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "b4025216-8c18-4d91-9f62-425e5cd33271",
@@ -3111,6 +3368,7 @@ const Data = [
     color: "#6935f0",
     category: "massa",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ed85cb8d-b300-41e6-a2ae-d8f6abbe4ee9",
@@ -3123,6 +3381,7 @@ const Data = [
     color: "#937998",
     category: "curabitur",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d83163f4-83f6-4f92-8993-f8247858806e",
@@ -3135,6 +3394,7 @@ const Data = [
     color: "#4f218d",
     category: "non",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8cdb8282-4816-4a31-a3e5-b739094dffaa",
@@ -3147,6 +3407,7 @@ const Data = [
     color: "#5dcd4e",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "551fd89b-4a92-4b17-89c9-cb46da047bde",
@@ -3159,6 +3420,7 @@ const Data = [
     color: "#7c5945",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4cc121e5-73f9-4ca0-a673-7ff6e975235f",
@@ -3171,6 +3433,7 @@ const Data = [
     color: "#fb6c77",
     category: "mi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "eed87cb5-772c-410e-a518-fea036347c64",
@@ -3183,6 +3446,7 @@ const Data = [
     color: "#8e776e",
     category: "convallis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4556377e-48e5-4426-8fc6-d641970c8bb1",
@@ -3195,6 +3459,7 @@ const Data = [
     color: "#6ca461",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "49f619dd-c9df-4c23-868f-2acc890edd4b",
@@ -3207,6 +3472,7 @@ const Data = [
     color: "#4138bb",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ec8d804c-06a5-45c9-a11f-196f39051ddd",
@@ -3219,6 +3485,7 @@ const Data = [
     color: "#4173d2",
     category: "venenatis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d544c1dc-68c8-484c-baca-6db282cd90e6",
@@ -3231,6 +3498,7 @@ const Data = [
     color: "#53f65c",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "431c6fb4-bf3b-4a4f-906a-16b31824ef58",
@@ -3243,6 +3511,7 @@ const Data = [
     color: "#b383cc",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9f4a20ec-97fa-41c9-a74a-68f5c34c00e9",
@@ -3255,6 +3524,7 @@ const Data = [
     color: "#f9ced4",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "8ab73435-b5e1-4351-8016-a8fde34584d3",
@@ -3267,6 +3537,7 @@ const Data = [
     color: "#f6b29b",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "00be3058-d486-4879-b581-6d2bd8105afc",
@@ -3279,6 +3550,7 @@ const Data = [
     color: "#bac966",
     category: "nullam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "bfc1c6a7-722d-46be-b37d-f6a0c4a9b749",
@@ -3291,6 +3563,7 @@ const Data = [
     color: "#b9fcf2",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "64af844e-272b-4895-a450-58725e5b366d",
@@ -3303,6 +3576,7 @@ const Data = [
     color: "#4d20bb",
     category: "accumsan",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "b26f35a8-079d-423e-9cb9-13dc2cc76ce4",
@@ -3315,6 +3589,7 @@ const Data = [
     color: "#3bf2e0",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a341a05f-0537-4fbb-acb4-fa37979a162e",
@@ -3327,6 +3602,7 @@ const Data = [
     color: "#d9ba98",
     category: "a",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "523a1a38-3a8f-4081-821f-26c883e788a2",
@@ -3339,6 +3615,7 @@ const Data = [
     color: "#8b1ac9",
     category: "at",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "34daa28c-8075-4698-99cd-c654c09e6bc0",
@@ -3351,6 +3628,7 @@ const Data = [
     color: "#db3315",
     category: "lorem",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "11558d54-b64e-475a-8b9c-451b20bac3fb",
@@ -3363,6 +3641,7 @@ const Data = [
     color: "#3ab390",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fa04939b-d1e4-49c5-a7cd-03d5124e170b",
@@ -3375,6 +3654,7 @@ const Data = [
     color: "#17d12b",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "dd8fa84f-0e48-4756-81f3-984d08757e06",
@@ -3387,6 +3667,7 @@ const Data = [
     color: "#382c66",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "8db70046-2e5d-41bf-94f4-60b13e2e0808",
@@ -3399,6 +3680,7 @@ const Data = [
     color: "#dc9c1e",
     category: "non",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9df99ed0-9498-4b06-941c-868468376af6",
@@ -3411,6 +3693,7 @@ const Data = [
     color: "#dbee27",
     category: "placerat",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "42e75272-a8bc-42af-af4e-45dabc758e70",
@@ -3423,6 +3706,7 @@ const Data = [
     color: "#e58380",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c19440ec-fc8d-4f2f-afc7-fda83a04c662",
@@ -3435,6 +3719,7 @@ const Data = [
     color: "#ba882b",
     category: "ultricies",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "eb995aa3-e740-457e-97a5-ae5e85c7851a",
@@ -3447,6 +3732,7 @@ const Data = [
     color: "#89fda1",
     category: "magnis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "6084c00c-e254-4f27-956e-139d65ddf14c",
@@ -3459,6 +3745,7 @@ const Data = [
     color: "#c81075",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "cabddd78-3dd3-4724-aa9b-20fe646264dd",
@@ -3471,6 +3758,7 @@ const Data = [
     color: "#5efe16",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7fc123c6-10d0-41be-bc33-1e1268fdbb6e",
@@ -3483,6 +3771,7 @@ const Data = [
     color: "#82408a",
     category: "venenatis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "71b29b4c-b816-42bb-b0ae-d2a95f5e4249",
@@ -3495,6 +3784,7 @@ const Data = [
     color: "#3a128e",
     category: "non",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "824c5eb3-df92-4636-b81c-5087da5c9deb",
@@ -3507,6 +3797,7 @@ const Data = [
     color: "#3dc811",
     category: "purus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "dac5a613-2b77-4ee4-b29a-f29da72e4d74",
@@ -3519,6 +3810,7 @@ const Data = [
     color: "#25804f",
     category: "egestas",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c47bba4a-6142-4f41-bb49-52a7c9a1e861",
@@ -3531,6 +3823,7 @@ const Data = [
     color: "#d385dc",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "2b0b1fe1-96d4-4381-8f12-f8d20a99d464",
@@ -3543,6 +3836,7 @@ const Data = [
     color: "#89b5f9",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "66a19f63-6a69-4778-877c-fc70e49f6155",
@@ -3555,6 +3849,7 @@ const Data = [
     color: "#2a79a2",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "40fa23f1-8a07-4519-bc48-ea20d40a5c9b",
@@ -3567,6 +3862,7 @@ const Data = [
     color: "#fd56f0",
     category: "non",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "edfb8742-0000-478e-8e1c-d40af6b23b0f",
@@ -3579,6 +3875,7 @@ const Data = [
     color: "#b32394",
     category: "curae",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5df3bc47-cf9a-47ce-b6f0-92afa61f9f78",
@@ -3591,6 +3888,7 @@ const Data = [
     color: "#c09cef",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3f6cdfb6-5d3e-40f7-a4ad-c9a2a6097050",
@@ -3603,6 +3901,7 @@ const Data = [
     color: "#550783",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "2326d208-6c2e-4786-a5c2-a186b8311e7f",
@@ -3615,6 +3914,7 @@ const Data = [
     color: "#42df11",
     category: "non",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "19c2da34-2ed0-4fd8-a857-cc6a5768606e",
@@ -3627,6 +3927,7 @@ const Data = [
     color: "#665422",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "61017c9a-22b4-48d7-923e-a41e625debfc",
@@ -3639,6 +3940,7 @@ const Data = [
     color: "#2e04dc",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7bfec43e-7f24-453d-b5cc-e05959445dcc",
@@ -3651,6 +3953,7 @@ const Data = [
     color: "#afa4d4",
     category: "cum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "377536bc-7f28-4afb-9792-14e3fced2da0",
@@ -3663,6 +3966,7 @@ const Data = [
     color: "#558b57",
     category: "sollicitudin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "5aeeeee3-2883-4261-8f32-2cbf2d155736",
@@ -3675,6 +3979,7 @@ const Data = [
     color: "#3ac970",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4414baf3-ab52-4904-a140-8e12336f73c5",
@@ -3687,6 +3992,7 @@ const Data = [
     color: "#c3d1e5",
     category: "aenean",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c6483466-9d6c-490d-9ea9-fcaba974b176",
@@ -3699,6 +4005,7 @@ const Data = [
     color: "#be8cdb",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "429c3820-ef7a-4e61-9cbc-e1b22be36534",
@@ -3711,6 +4018,7 @@ const Data = [
     color: "#bcb802",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d7c3075b-9f32-42b9-9b29-9c808d35e33e",
@@ -3723,6 +4031,7 @@ const Data = [
     color: "#298a2a",
     category: "varius",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "6b6a1910-520b-4657-bedf-b004cd45f408",
@@ -3735,6 +4044,7 @@ const Data = [
     color: "#479c95",
     category: "dis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e18a5852-75ff-4ecd-b6e3-7dd771159a4b",
@@ -3747,6 +4057,7 @@ const Data = [
     color: "#2a5aff",
     category: "et",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "92bac2b7-bfa7-49f7-bc8f-a708a51a6b38",
@@ -3759,6 +4070,7 @@ const Data = [
     color: "#5c1135",
     category: "leo",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "942e8e9c-63b1-4aac-b7c7-b730e3fb95de",
@@ -3771,6 +4083,7 @@ const Data = [
     color: "#66d7ec",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "29980813-11f6-48ab-ab40-81f4e1339eb9",
@@ -3783,6 +4096,7 @@ const Data = [
     color: "#1170fe",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9b8f5c8a-6531-4011-8c8e-276dfc791c0e",
@@ -3795,6 +4109,7 @@ const Data = [
     color: "#af9403",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "344061ae-0185-4902-885c-a6d325a6c8d9",
@@ -3807,6 +4122,7 @@ const Data = [
     color: "#2aad44",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6d62b0a8-ac99-4ac6-ae7a-cf18729b8005",
@@ -3819,6 +4135,7 @@ const Data = [
     color: "#50bc26",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5474ea50-f0c1-48b2-858a-0f15be5a8bea",
@@ -3831,6 +4148,7 @@ const Data = [
     color: "#22cde5",
     category: "praesent",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f231da75-d91e-4be2-b431-5dd67ea2fb3d",
@@ -3843,6 +4161,7 @@ const Data = [
     color: "#a829e1",
     category: "lacinia",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "201242cf-307c-42e2-814e-87baf73002ee",
@@ -3855,6 +4174,7 @@ const Data = [
     color: "#888bbf",
     category: "semper",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9992726b-a922-4cfb-b21f-a535dd6309a9",
@@ -3867,6 +4187,7 @@ const Data = [
     color: "#a3721b",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8350ca53-775c-4627-ba89-7d63bc183c1a",
@@ -3879,6 +4200,7 @@ const Data = [
     color: "#18d94b",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "d7067ce8-19f1-4069-9569-3de4265c5458",
@@ -3891,6 +4213,7 @@ const Data = [
     color: "#4ad8ba",
     category: "urna",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "98027144-d529-474f-9cfb-b570756e398f",
@@ -3903,6 +4226,7 @@ const Data = [
     color: "#48f6ad",
     category: "tincidunt",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "00768a0b-1c64-4835-88a4-fbcef3284db1",
@@ -3915,6 +4239,7 @@ const Data = [
     color: "#854d87",
     category: "turpis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fddfb57b-bd27-47f7-a76e-86915a2abf63",
@@ -3927,6 +4252,7 @@ const Data = [
     color: "#68fbe9",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "890d7dc0-7c67-474c-907b-0d39339e29cd",
@@ -3939,6 +4265,7 @@ const Data = [
     color: "#f88558",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "724454f0-0ed5-4dc1-8782-82e98710dec9",
@@ -3951,6 +4278,7 @@ const Data = [
     color: "#0e4c9c",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3d32f806-7d14-4519-8497-512712ad693c",
@@ -3963,6 +4291,7 @@ const Data = [
     color: "#1f1f0f",
     category: "elementum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "941c9bca-c58f-49d0-8cb1-9f9075e46bf6",
@@ -3975,6 +4304,7 @@ const Data = [
     color: "#c7df00",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0e9ddd24-19ac-429c-9e64-b380ee09f7c1",
@@ -3987,6 +4317,7 @@ const Data = [
     color: "#cd8d04",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8d02989c-99ee-4b6d-8482-1e3c70541bdd",
@@ -3999,6 +4330,7 @@ const Data = [
     color: "#807486",
     category: "magnis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3e842ff1-caf6-4145-8e40-d2007e6a4ae7",
@@ -4011,6 +4343,7 @@ const Data = [
     color: "#278853",
     category: "etiam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "cd701387-7f48-405f-9cc9-6fcafb0aab9d",
@@ -4023,6 +4356,7 @@ const Data = [
     color: "#41d11c",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0a1fe064-98e3-4647-accd-358940a8ea26",
@@ -4035,6 +4369,7 @@ const Data = [
     color: "#1ff24c",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "75f47c2c-878d-48a1-bdfb-5108908baef1",
@@ -4047,6 +4382,7 @@ const Data = [
     color: "#2d4d5f",
     category: "tellus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f0d00f18-a389-42ae-8176-4be790faf9a7",
@@ -4059,6 +4395,7 @@ const Data = [
     color: "#01d5b3",
     category: "leo",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5bec7265-57f4-4478-b598-dd43394fd8fb",
@@ -4071,6 +4408,7 @@ const Data = [
     color: "#68576d",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "43fc59f9-19f9-438b-a707-f6ce3eca7794",
@@ -4083,6 +4421,7 @@ const Data = [
     color: "#1b1195",
     category: "tortor",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "baed845d-5eff-4c64-ac73-5aa6622a32ac",
@@ -4095,6 +4434,7 @@ const Data = [
     color: "#93bde6",
     category: "rutrum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "522eb389-e291-49b7-bb8d-1310b0b3edaa",
@@ -4107,6 +4447,7 @@ const Data = [
     color: "#1a2f63",
     category: "sodales",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "dcf0cbb7-14d7-438e-86a8-5c4f2049928a",
@@ -4119,6 +4460,7 @@ const Data = [
     color: "#d91681",
     category: "quisque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "35d956dc-f48e-42c6-a0e7-93b7d85cb951",
@@ -4131,6 +4473,7 @@ const Data = [
     color: "#da40b3",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4aa0a5ac-4af7-4e72-8d62-4e1467d0b0fc",
@@ -4143,6 +4486,7 @@ const Data = [
     color: "#26c19e",
     category: "urna",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ca41a26e-5878-43a3-93a3-8f1315bf2062",
@@ -4155,6 +4499,7 @@ const Data = [
     color: "#a92998",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e7a153a3-ff09-49a0-bae9-e504b9b2fe6a",
@@ -4167,6 +4512,7 @@ const Data = [
     color: "#7706c8",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "42f827dd-6bf2-4d28-9263-e54e544deb12",
@@ -4179,6 +4525,7 @@ const Data = [
     color: "#9c829a",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "41aa71d3-95a2-4caf-94d1-aac6e2b4e472",
@@ -4191,6 +4538,7 @@ const Data = [
     color: "#a067e9",
     category: "tincidunt",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "69091a9f-f987-4599-95b9-a15b3a2aae77",
@@ -4203,6 +4551,7 @@ const Data = [
     color: "#91e642",
     category: "id",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "afaaaee6-8b1d-4062-bc80-5f2945f4efb0",
@@ -4215,6 +4564,7 @@ const Data = [
     color: "#fe9c79",
     category: "iaculis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b6fb4dfe-340a-48d2-8017-3f1bfe971ed8",
@@ -4227,6 +4577,7 @@ const Data = [
     color: "#a6ab92",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2c6a19e4-ad7e-4e33-897b-f7ef46d400ad",
@@ -4239,6 +4590,7 @@ const Data = [
     color: "#dc8b43",
     category: "mi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6bce150b-f450-4096-9f0b-59734587cca8",
@@ -4251,6 +4603,7 @@ const Data = [
     color: "#f7a909",
     category: "lobortis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "dc3aff1d-a7c8-42ec-a4c7-dc4ad3688857",
@@ -4263,6 +4616,7 @@ const Data = [
     color: "#bb8854",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "445b1176-1f90-4383-943f-16e943137bf3",
@@ -4275,6 +4629,7 @@ const Data = [
     color: "#6797c8",
     category: "fusce",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d98e9c12-dadd-441e-a91f-f294b6f47129",
@@ -4287,6 +4642,7 @@ const Data = [
     color: "#3877d8",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "bceceb18-17a3-48c6-813f-b346eb0eb0ef",
@@ -4299,6 +4655,7 @@ const Data = [
     color: "#b3fc67",
     category: "in",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f50f0946-350a-48b5-8c44-6bd5256375bb",
@@ -4311,6 +4668,7 @@ const Data = [
     color: "#734947",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "1e9bacf8-ca81-4cbb-aed7-c8af4dfba56d",
@@ -4323,6 +4681,7 @@ const Data = [
     color: "#2a5719",
     category: "sagittis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "db2da0b4-8835-4f5f-ab36-6c3d5ca8acb9",
@@ -4335,6 +4694,7 @@ const Data = [
     color: "#7fce89",
     category: "lorem",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6e28bf39-f8f9-4613-a208-dafe4fced776",
@@ -4347,6 +4707,7 @@ const Data = [
     color: "#6fbeac",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "56c97a09-64f4-4401-8303-e9c65fc44cac",
@@ -4359,6 +4720,7 @@ const Data = [
     color: "#5184a6",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "79dd06af-de0e-4b78-9fb8-7f49570f2ff1",
@@ -4371,6 +4733,7 @@ const Data = [
     color: "#cb317e",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "41a9d7fd-2cab-4e07-b607-7970572d12c3",
@@ -4383,6 +4746,7 @@ const Data = [
     color: "#97c1c7",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3f2ebb20-2827-4cbf-a4f4-e354fae1ca00",
@@ -4395,6 +4759,7 @@ const Data = [
     color: "#fdcc6b",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "04263d2c-877d-4a2b-aaa6-d65c14d1f4c2",
@@ -4407,6 +4772,7 @@ const Data = [
     color: "#93d70d",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "250b0b21-6cfc-45c1-b0c6-e24c48eda8a6",
@@ -4419,6 +4785,7 @@ const Data = [
     color: "#985672",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "43e91598-efb3-4da3-9e80-4a769a2c7be5",
@@ -4431,6 +4798,7 @@ const Data = [
     color: "#2df14a",
     category: "montes",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f0adb613-7396-45c7-82d3-b352a0003ed6",
@@ -4443,6 +4811,7 @@ const Data = [
     color: "#eb054c",
     category: "convallis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "99686372-fb28-4301-8e9e-067b45846667",
@@ -4455,6 +4824,7 @@ const Data = [
     color: "#20878d",
     category: "hac",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "446320eb-1c06-4f90-9a25-9e4e99d9fc20",
@@ -4467,6 +4837,7 @@ const Data = [
     color: "#e72057",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a80416e1-094d-4ca6-ad72-03158d9f56d4",
@@ -4479,6 +4850,7 @@ const Data = [
     color: "#2ff677",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "221aeb48-1eef-4661-940d-3dfbc69a03d3",
@@ -4491,6 +4863,7 @@ const Data = [
     color: "#838bbf",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ac1182c9-e6d2-43fa-b59b-f9341418ec8d",
@@ -4503,6 +4876,7 @@ const Data = [
     color: "#77a910",
     category: "consectetuer",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "159d5a1e-8dbe-49b2-86f1-a6532e32cc25",
@@ -4515,6 +4889,7 @@ const Data = [
     color: "#470b3c",
     category: "felis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2b19669d-2791-449b-b0fe-c51fee029de5",
@@ -4527,6 +4902,7 @@ const Data = [
     color: "#ca95fb",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0e6d10f9-d8ae-43c4-bb50-fb1e45804ea6",
@@ -4539,6 +4915,7 @@ const Data = [
     color: "#4e367c",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a1400a7b-50a7-4da1-b8f4-199e8abc0982",
@@ -4551,6 +4928,7 @@ const Data = [
     color: "#9e1357",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "526496b9-f111-4f8d-b445-34d08fe3e6f3",
@@ -4563,6 +4941,7 @@ const Data = [
     color: "#ffaa00",
     category: "phasellus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a2a7e274-5a0f-4f44-88b3-cead2a3ecfd0",
@@ -4575,6 +4954,7 @@ const Data = [
     color: "#e2d249",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9091a0c7-5ec2-4022-ba3f-d5dd0a8b5838",
@@ -4587,6 +4967,7 @@ const Data = [
     color: "#3e8e5a",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "182009cd-b539-4717-8322-7b8dcf3f3c48",
@@ -4599,6 +4980,7 @@ const Data = [
     color: "#64b5ba",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "397c9ec2-91e9-4bc4-bb68-2ec9331aa3eb",
@@ -4611,6 +4993,7 @@ const Data = [
     color: "#9956de",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "71996038-97b1-4cbc-b46f-ee683009321d",
@@ -4623,6 +5006,7 @@ const Data = [
     color: "#f85be8",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e5312cd7-943a-4c5c-a706-0fbc580c4810",
@@ -4635,6 +5019,7 @@ const Data = [
     color: "#ff0b34",
     category: "tempor",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "888a43f1-c6ff-481c-a9f2-8ac48f93379f",
@@ -4647,6 +5032,7 @@ const Data = [
     color: "#153225",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "1a722709-cecb-4f0a-9c4f-3f240458e83e",
@@ -4659,6 +5045,7 @@ const Data = [
     color: "#d1ec6e",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5bcf8064-4a1f-4e6f-a1dc-9af967b9bb53",
@@ -4671,6 +5058,7 @@ const Data = [
     color: "#0a3c03",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "24ed4bb4-7664-48e6-9db0-c09b99a9beb2",
@@ -4683,6 +5071,7 @@ const Data = [
     color: "#9678d8",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ac3fc5b5-4524-42c0-990d-7ead5c1a0d38",
@@ -4695,6 +5084,7 @@ const Data = [
     color: "#475097",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5085f6b3-ce34-476a-8ea2-a0a0792423a4",
@@ -4707,6 +5097,7 @@ const Data = [
     color: "#72d7ed",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "16ab248a-bb88-4fef-998c-9a02109a5e85",
@@ -4719,6 +5110,7 @@ const Data = [
     color: "#e1fa88",
     category: "nullam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "df002c60-eeb2-4056-943d-5e31cf48039e",
@@ -4731,6 +5123,7 @@ const Data = [
     color: "#fcb868",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6b18a712-5cd8-489f-8966-59b81c212b03",
@@ -4743,6 +5136,7 @@ const Data = [
     color: "#3ebd19",
     category: "et",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fc858659-9d96-4117-a9bb-0dc3f51bee02",
@@ -4755,6 +5149,7 @@ const Data = [
     color: "#6889cf",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "df52a415-3057-4c09-bb40-937c04bdc6b7",
@@ -4767,6 +5162,7 @@ const Data = [
     color: "#28b7a9",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3595cb73-212e-4b44-ad4e-c84ac88ad78c",
@@ -4779,6 +5175,7 @@ const Data = [
     color: "#99b45f",
     category: "et",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fb76b995-b2e9-4068-82a8-d5787c849a09",
@@ -4791,6 +5188,7 @@ const Data = [
     color: "#777d4d",
     category: "etiam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "39902f2a-bf07-43ba-87b1-74311a70cc31",
@@ -4803,6 +5201,7 @@ const Data = [
     color: "#f9f313",
     category: "non",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "2b0735bf-fa92-4199-a2fb-5d04383567dc",
@@ -4815,6 +5214,7 @@ const Data = [
     color: "#6c5be0",
     category: "non",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "95d06551-1c2a-4335-b149-59915a7ea4ee",
@@ -4827,6 +5227,7 @@ const Data = [
     color: "#23c4bc",
     category: "est",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "25487e09-82ee-4bec-8610-03a73e17c283",
@@ -4839,6 +5240,7 @@ const Data = [
     color: "#b58247",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c6c84a0b-dbc8-4567-a456-97804054013f",
@@ -4851,6 +5253,7 @@ const Data = [
     color: "#499620",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5d77cd4b-8372-400e-a2d3-941b6acb945d",
@@ -4863,6 +5266,7 @@ const Data = [
     color: "#ee0d5e",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9cdd84d7-fc45-413c-8461-66b1daf5250d",
@@ -4875,6 +5279,7 @@ const Data = [
     color: "#07d1f0",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "32460ea1-c1d0-4eb2-bc1d-071c274f1284",
@@ -4887,6 +5292,7 @@ const Data = [
     color: "#afeabc",
     category: "et",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "acb7d914-a7e0-425f-b513-e5247e0341d0",
@@ -4899,6 +5305,7 @@ const Data = [
     color: "#36899d",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7da6d851-b549-4e2e-a2ec-2e33d04b09b0",
@@ -4911,6 +5318,7 @@ const Data = [
     color: "#3f9b96",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2bf222f9-2fad-48ad-8ddd-8093d216a39a",
@@ -4923,6 +5331,7 @@ const Data = [
     color: "#a8f7d6",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "aed39543-4c3e-425b-919f-254c52efa8db",
@@ -4935,6 +5344,7 @@ const Data = [
     color: "#2c9764",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "92f03137-3039-43a3-af6c-b9f9b74bac76",
@@ -4947,6 +5357,7 @@ const Data = [
     color: "#ed6217",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d1d0af3e-605d-42cb-a9bc-3af13a10f3c4",
@@ -4959,6 +5370,7 @@ const Data = [
     color: "#f6e261",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "51f7ed17-fa11-4edd-b0d1-58784193f0c8",
@@ -4971,6 +5383,7 @@ const Data = [
     color: "#4bd1db",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "69cdc684-7135-4f3a-acc8-a644f54bba12",
@@ -4983,6 +5396,7 @@ const Data = [
     color: "#7d86c9",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d51fabe5-8f41-4959-8a48-16d4e0e63e77",
@@ -4995,6 +5409,7 @@ const Data = [
     color: "#7f4df2",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fa1646b5-9a58-47ad-8923-476c2bf6165b",
@@ -5007,6 +5422,7 @@ const Data = [
     color: "#fd455e",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4365ead8-6eaf-4cef-af27-5bfc1b6132ab",
@@ -5019,6 +5435,7 @@ const Data = [
     color: "#81af57",
     category: "malesuada",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3803e79a-acdd-4c3a-a593-e8ca99b1e2ea",
@@ -5031,6 +5448,7 @@ const Data = [
     color: "#f9725f",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "bcc53c94-f566-4e1f-bfc9-19826cc0fe55",
@@ -5043,6 +5461,7 @@ const Data = [
     color: "#f71a4e",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2b0b86db-853d-431b-b556-fa4f589fef8a",
@@ -5055,6 +5474,7 @@ const Data = [
     color: "#9ff28b",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "c156f091-53e9-4cf8-9da2-e869710cab3e",
@@ -5067,6 +5487,7 @@ const Data = [
     color: "#eedd7f",
     category: "est",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d619d7b6-d5a2-450b-9c66-e0f4f107c574",
@@ -5079,6 +5500,7 @@ const Data = [
     color: "#fd5896",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7c932081-ad14-42e8-917d-472a56b2f270",
@@ -5091,6 +5513,7 @@ const Data = [
     color: "#60a1e0",
     category: "interdum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c1bdb0b0-40f6-413c-92bc-36878f3b3ebe",
@@ -5103,6 +5526,7 @@ const Data = [
     color: "#ce28aa",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c9005b7c-ebcd-4087-aa23-e14721dd2c51",
@@ -5115,6 +5539,7 @@ const Data = [
     color: "#ce5d78",
     category: "dictumst",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "ea7e53af-a30c-4948-9e3a-8c2acb0c075f",
@@ -5127,6 +5552,7 @@ const Data = [
     color: "#9fcc82",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7d02167d-7687-48b0-aeab-5fa5d2f31b97",
@@ -5139,6 +5565,7 @@ const Data = [
     color: "#4bd70b",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e8d79780-cd2a-444e-87c4-e0796432a883",
@@ -5151,6 +5578,7 @@ const Data = [
     color: "#00743b",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "42f06d9b-b5f4-4988-a9de-7858ccfc5165",
@@ -5163,6 +5591,7 @@ const Data = [
     color: "#926a0a",
     category: "non",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "43410903-be7c-4b9e-acc7-b212ad78e418",
@@ -5175,6 +5604,7 @@ const Data = [
     color: "#232ae5",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d1e5a86f-85cd-44f2-8034-bb22d90bdad9",
@@ -5187,6 +5617,7 @@ const Data = [
     color: "#e615d8",
     category: "rutrum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "fb79c84e-0bab-4b09-a214-494b1c004d26",
@@ -5199,6 +5630,7 @@ const Data = [
     color: "#121667",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "72701552-2564-476b-9e20-d821c196d50e",
@@ -5211,6 +5643,7 @@ const Data = [
     color: "#d89875",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "298eb1ce-ffb3-4555-aa2a-7acddf7164dc",
@@ -5223,6 +5656,7 @@ const Data = [
     color: "#8c916a",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6e574f91-ffba-41b0-b07e-b2c2da342d4d",
@@ -5235,6 +5669,7 @@ const Data = [
     color: "#3abbd7",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "54c67693-6154-4947-91c8-f3d8f4a49ff0",
@@ -5247,6 +5682,7 @@ const Data = [
     color: "#527b70",
     category: "a",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "31a4a7c2-969a-42eb-93bd-34e99a26ad26",
@@ -5259,6 +5695,7 @@ const Data = [
     color: "#51ad61",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "8777c30c-e800-4b4f-aa47-3b5662d05e6b",
@@ -5271,6 +5708,7 @@ const Data = [
     color: "#414d1a",
     category: "aenean",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8e408931-1808-4f78-a909-2d3a9e127bab",
@@ -5283,6 +5721,7 @@ const Data = [
     color: "#d4a036",
     category: "ridiculus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2febd08c-7725-4cd2-9b67-643f4e008dba",
@@ -5295,6 +5734,7 @@ const Data = [
     color: "#40f11c",
     category: "leo",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4d724e97-2d50-4ac7-ad27-ad6aa4aa4155",
@@ -5307,6 +5747,7 @@ const Data = [
     color: "#5882c7",
     category: "suspendisse",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e615e880-c1c9-40fe-aadc-957fd4fd87d0",
@@ -5319,6 +5760,7 @@ const Data = [
     color: "#4b25d5",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "142e01b9-2168-44f9-bb35-059d36b370ba",
@@ -5331,6 +5773,7 @@ const Data = [
     color: "#b3c383",
     category: "consequat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "888a8320-6e21-455f-8956-e774c069ff50",
@@ -5343,6 +5786,7 @@ const Data = [
     color: "#f0d6b7",
     category: "in",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ffe6789c-7a18-413c-a2ac-f4632323d1ef",
@@ -5355,6 +5799,7 @@ const Data = [
     color: "#4486c4",
     category: "lacinia",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9ee86817-ef88-4c0a-bebf-1ef81fada0cf",
@@ -5367,6 +5812,7 @@ const Data = [
     color: "#477033",
     category: "diam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "abd8f9bd-0ec5-4657-a698-8dd8a4c00ed2",
@@ -5379,6 +5825,7 @@ const Data = [
     color: "#83c24f",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "07dc13df-dd86-4a6b-a819-3f10ef3fd9fa",
@@ -5391,6 +5838,7 @@ const Data = [
     color: "#56f483",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "479f3628-3f0a-4a38-b727-341eaf522933",
@@ -5403,6 +5851,7 @@ const Data = [
     color: "#058239",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9b381a06-b2e7-4e6b-91df-6675a446893f",
@@ -5415,6 +5864,7 @@ const Data = [
     color: "#9d54fc",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5cd65040-a400-410e-9f5f-6bb68b90ecb8",
@@ -5427,6 +5877,7 @@ const Data = [
     color: "#fa71ad",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "2385a974-648f-4150-9e10-3dc6d4e6910c",
@@ -5439,6 +5890,7 @@ const Data = [
     color: "#481b16",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7e42eb45-b547-4590-adfa-b0797c18909d",
@@ -5451,6 +5903,7 @@ const Data = [
     color: "#3ca31e",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6ede1267-2d7a-42bb-bf3d-d4195707d9df",
@@ -5463,6 +5916,7 @@ const Data = [
     color: "#cef3b4",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "19dbf98b-7473-43c5-87f4-fb0169a98b9f",
@@ -5475,6 +5929,7 @@ const Data = [
     color: "#1586f3",
     category: "integer",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "da56217e-74d4-4719-b00a-98343dc3a781",
@@ -5487,6 +5942,7 @@ const Data = [
     color: "#f118d3",
     category: "integer",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "eb0620ab-a2a6-451b-9a5c-519c17474ac3",
@@ -5499,6 +5955,7 @@ const Data = [
     color: "#ab823b",
     category: "hac",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "91e558cd-82ff-4624-9ae2-1ae148b84a94",
@@ -5511,6 +5968,7 @@ const Data = [
     color: "#e85573",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2e1312c3-7248-44ab-82b3-986d5a934f26",
@@ -5523,6 +5981,7 @@ const Data = [
     color: "#f5e663",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fcbfc1c9-d721-4cfb-8882-4c1e6efe0b4f",
@@ -5535,6 +5994,7 @@ const Data = [
     color: "#df51a0",
     category: "at",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9b3cedd0-a4c8-4130-a841-161a51fbd729",
@@ -5547,6 +6007,7 @@ const Data = [
     color: "#89128f",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "50edddbb-c213-48a4-9505-34de716391bd",
@@ -5559,6 +6020,7 @@ const Data = [
     color: "#787062",
     category: "enim",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "3477c3b7-8767-4314-a9cf-548faae5e067",
@@ -5571,6 +6033,7 @@ const Data = [
     color: "#adf593",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ec5e1952-2fb6-48b3-9437-f7d0b45e4fda",
@@ -5583,6 +6046,7 @@ const Data = [
     color: "#a569ba",
     category: "venenatis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "30b675e4-330a-4c42-958d-d4ab8fab9e9a",
@@ -5595,6 +6059,7 @@ const Data = [
     color: "#874cb6",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "91eb949f-3905-41c5-b2c9-12f07eda9894",
@@ -5607,6 +6072,7 @@ const Data = [
     color: "#1ee3b9",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "925bafcb-153b-4690-80a2-71b3cb905446",
@@ -5619,6 +6085,7 @@ const Data = [
     color: "#f7b285",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "381cec1f-95b0-4ef4-99c2-c22491317fa5",
@@ -5631,6 +6098,7 @@ const Data = [
     color: "#7029ae",
     category: "est",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0e86252f-1980-4168-8407-8a6aff4941b0",
@@ -5643,6 +6111,7 @@ const Data = [
     color: "#34cd56",
     category: "at",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "62cfe181-ff3a-442d-b02f-a46ba412f1b1",
@@ -5655,6 +6124,7 @@ const Data = [
     color: "#5595be",
     category: "at",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "355b4ccc-5b40-42f9-b5a8-f9693906f468",
@@ -5667,6 +6137,7 @@ const Data = [
     color: "#30aae8",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4db27bb0-3261-483d-b3f5-7ee81f5fb4d7",
@@ -5679,6 +6150,7 @@ const Data = [
     color: "#a2f9c7",
     category: "interdum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "6a2d97c4-cf13-4345-bb14-63f0bd756d14",
@@ -5691,6 +6163,7 @@ const Data = [
     color: "#42c740",
     category: "nisi",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "dc561e59-ca37-408b-b584-378f106d5811",
@@ -5703,6 +6176,7 @@ const Data = [
     color: "#2f38ad",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "258f0f34-0625-47c3-8d0e-88ae5baaa3c6",
@@ -5715,6 +6189,7 @@ const Data = [
     color: "#14ff9d",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "85b75c4d-43cd-45eb-8552-ef35d508b7bb",
@@ -5727,6 +6202,7 @@ const Data = [
     color: "#e09f49",
     category: "velit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c9f1f9a8-d1e7-43a5-bd7c-b9b8b793ae64",
@@ -5739,6 +6215,7 @@ const Data = [
     color: "#725234",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c6e47a99-48a8-4b54-9e06-be761019e544",
@@ -5751,6 +6228,7 @@ const Data = [
     color: "#88d852",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ef880960-ee74-4c99-b13f-604fa3fb0970",
@@ -5763,6 +6241,7 @@ const Data = [
     color: "#33b111",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "4f2a4dcf-e5cc-4e93-85db-4f4f095f0dfc",
@@ -5775,6 +6254,7 @@ const Data = [
     color: "#0ac1f6",
     category: "condimentum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6728bb9f-0b59-4ef1-aa7f-217070f630a3",
@@ -5787,6 +6267,7 @@ const Data = [
     color: "#da1dac",
     category: "platea",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "c76dc7c6-5ce8-43e6-8f6d-59398201308b",
@@ -5799,6 +6280,7 @@ const Data = [
     color: "#1bc756",
     category: "aliquet",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "db985309-d36c-4605-8d18-679701538682",
@@ -5811,6 +6293,7 @@ const Data = [
     color: "#518ff0",
     category: "nullam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4482f1c2-c323-4bca-92b9-bf3282b177a8",
@@ -5823,6 +6306,7 @@ const Data = [
     color: "#ac0e1f",
     category: "interdum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7d1963f1-07d0-4e05-9cab-6496679ac837",
@@ -5835,6 +6319,7 @@ const Data = [
     color: "#286338",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "78c6980d-b15c-41f1-8bb5-ee5c75b9cf34",
@@ -5847,6 +6332,7 @@ const Data = [
     color: "#ea5919",
     category: "at",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "8eabe666-28f4-42ae-ab79-0aeea9dcd1a4",
@@ -5859,6 +6345,7 @@ const Data = [
     color: "#5e5916",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "ab0184c2-75a2-4c26-83d9-06ff36f33750",
@@ -5871,6 +6358,7 @@ const Data = [
     color: "#6180fb",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "16ecb9f1-c8fc-4da1-b340-7d40d52d0ac1",
@@ -5883,6 +6371,7 @@ const Data = [
     color: "#5f315c",
     category: "praesent",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a61eb730-8ae4-4590-a6d8-3b46bdd6c918",
@@ -5895,6 +6384,7 @@ const Data = [
     color: "#2bccbd",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "649ea826-c4bf-4fb9-a2f8-c718918a5e16",
@@ -5907,6 +6397,7 @@ const Data = [
     color: "#f769b3",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "19ebf7b0-06e1-4dc8-8b89-0be2ac722c62",
@@ -5919,6 +6410,7 @@ const Data = [
     color: "#682966",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "fccca306-2bd0-4d22-a567-c7ee966ff040",
@@ -5931,6 +6423,7 @@ const Data = [
     color: "#01fa03",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "61ef3c18-654f-4e83-898c-8e97fe8fdf22",
@@ -5943,6 +6436,7 @@ const Data = [
     color: "#2484f1",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "10eaffe8-f5b8-45a5-a0d7-cf28ba8563ab",
@@ -5955,6 +6449,7 @@ const Data = [
     color: "#2eb9a8",
     category: "consectetuer",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "577c3667-b05c-4113-aded-acfbef1e2020",
@@ -5967,6 +6462,7 @@ const Data = [
     color: "#76baa1",
     category: "laoreet",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7e6f7ebd-f9ac-4cba-80e8-a60c56712e50",
@@ -5979,6 +6475,7 @@ const Data = [
     color: "#14fcc4",
     category: "rutrum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "2a9b9ff1-7c32-4bca-99e5-550d24820124",
@@ -5991,6 +6488,7 @@ const Data = [
     color: "#289494",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "02a57469-f451-48e7-b0fd-ce40c685487d",
@@ -6003,6 +6501,7 @@ const Data = [
     color: "#333220",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "730ea126-f908-41a9-9b2b-98c6c52f6b4f",
@@ -6015,6 +6514,7 @@ const Data = [
     color: "#4e2c62",
     category: "vivamus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "250e6aae-cc5f-418c-86d2-e206de802cdf",
@@ -6027,6 +6527,7 @@ const Data = [
     color: "#5f4272",
     category: "molestie",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "aadedd28-1ded-4527-b159-03af5b5d8dc3",
@@ -6039,6 +6540,7 @@ const Data = [
     color: "#6d24c6",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7d7c0b52-aaaf-44b7-8758-113d5ae42872",
@@ -6051,6 +6553,7 @@ const Data = [
     color: "#4abb8e",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "80bd20d7-693f-4dba-b1ab-498e66fa13e0",
@@ -6063,6 +6566,7 @@ const Data = [
     color: "#fa5e2f",
     category: "penatibus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d86e7414-6ad0-4a6f-8cea-597c05cfa981",
@@ -6075,6 +6579,7 @@ const Data = [
     color: "#6c2bfc",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d6f8ea3b-a854-4eb0-8401-5dafaf33fda1",
@@ -6087,6 +6592,7 @@ const Data = [
     color: "#f3250b",
     category: "tortor",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e0ca0eb5-1d5b-4639-a9ff-1c9ed971c40f",
@@ -6099,6 +6605,7 @@ const Data = [
     color: "#0f582a",
     category: "tempor",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cd7b8edc-1947-4a59-aa66-ef7384de6d8d",
@@ -6111,6 +6618,7 @@ const Data = [
     color: "#693298",
     category: "semper",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "68da3b88-d539-45b7-95dc-b1105b707823",
@@ -6123,6 +6631,7 @@ const Data = [
     color: "#73f4e1",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e539876a-3395-4918-9cfd-c0d91f8d86dd",
@@ -6135,6 +6644,7 @@ const Data = [
     color: "#6d5993",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4296cf0c-9bbc-4e9b-bfac-3690c1448aea",
@@ -6147,6 +6657,7 @@ const Data = [
     color: "#191cfd",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3979ccb5-d93d-4925-b3bd-3724d2bbfa46",
@@ -6159,6 +6670,7 @@ const Data = [
     color: "#7dff63",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a9b8629d-df81-45f6-aa07-0906cdba5803",
@@ -6171,6 +6683,7 @@ const Data = [
     color: "#62b1a2",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "894dd2a5-4961-4cb6-8b85-d8f88ac8a36a",
@@ -6183,6 +6696,7 @@ const Data = [
     color: "#2ec700",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4c689f97-c3d4-47f6-b517-ac8d6c50b937",
@@ -6195,6 +6709,7 @@ const Data = [
     color: "#661b62",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a0889e28-798d-41b9-81be-8adff75aa1ca",
@@ -6207,6 +6722,7 @@ const Data = [
     color: "#e11096",
     category: "nam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7a9ca494-51a8-466b-aa94-156c95d4c19e",
@@ -6219,6 +6735,7 @@ const Data = [
     color: "#460d52",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0b3c768b-ba59-4d82-b08f-6c7aba876c4d",
@@ -6231,6 +6748,7 @@ const Data = [
     color: "#51c269",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8f8e1c39-117d-4f3f-81e4-e4921c9b5e98",
@@ -6243,6 +6761,7 @@ const Data = [
     color: "#348289",
     category: "accumsan",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "35e9245e-f305-4379-a91a-f4fd8e114b34",
@@ -6255,6 +6774,7 @@ const Data = [
     color: "#117bbe",
     category: "nibh",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4b05ecb4-fdb9-4247-a0ed-99e44279a47b",
@@ -6267,6 +6787,7 @@ const Data = [
     color: "#11d375",
     category: "mattis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "080e1b1c-b0fb-448a-b4f5-146f98e04381",
@@ -6279,6 +6800,7 @@ const Data = [
     color: "#8c7a1e",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9793cae2-0951-4cd6-ba67-2c30c5759051",
@@ -6291,6 +6813,7 @@ const Data = [
     color: "#bb3a13",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cabbefe7-82f8-4550-9975-cb4d9a9d21c4",
@@ -6303,6 +6826,7 @@ const Data = [
     color: "#c5984e",
     category: "nam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "442f03d1-e49a-4029-b449-12323dc4298a",
@@ -6315,6 +6839,7 @@ const Data = [
     color: "#68b8bb",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fb0489c9-024c-42d3-a7fc-b15a8ad4a07b",
@@ -6327,6 +6852,7 @@ const Data = [
     color: "#184139",
     category: "tortor",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5d2f40a5-e04f-4ee6-adb6-c7ec58937de7",
@@ -6339,6 +6865,7 @@ const Data = [
     color: "#153e96",
     category: "vulputate",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6dad88a7-c583-4494-bfb6-a2df2443c2e0",
@@ -6351,6 +6878,7 @@ const Data = [
     color: "#165dc5",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a58a33c7-4d2c-4e84-8fa6-4eb0adfaa82b",
@@ -6363,6 +6891,7 @@ const Data = [
     color: "#f9bfa6",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0fbabccf-99c8-40e0-a60a-7b5e813814c0",
@@ -6375,6 +6904,7 @@ const Data = [
     color: "#dba492",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c336d7fe-f83c-4a2d-83b6-2f131975c075",
@@ -6387,6 +6917,7 @@ const Data = [
     color: "#0559bd",
     category: "magna",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0054f0f7-72a3-4c83-9b96-74089fe6f996",
@@ -6399,6 +6930,7 @@ const Data = [
     color: "#6969a3",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "bfa1167f-214c-4927-8bf0-21124c441b1b",
@@ -6411,6 +6943,7 @@ const Data = [
     color: "#8247c0",
     category: "nam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5ad54f1e-e20b-4787-b5c6-ef45d2adb4fa",
@@ -6423,6 +6956,7 @@ const Data = [
     color: "#85f351",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9e36146f-a374-46b7-bc18-6a8e72d5de56",
@@ -6435,6 +6969,7 @@ const Data = [
     color: "#1d093c",
     category: "nonummy",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c8ec6132-8c6f-44b7-a347-ec8376ba9724",
@@ -6447,6 +6982,7 @@ const Data = [
     color: "#d7a7a6",
     category: "dui",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8dbdb1b9-4206-4d19-ade5-806466707740",
@@ -6459,6 +6995,7 @@ const Data = [
     color: "#c824fd",
     category: "et",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5486cb5d-1161-4d14-8af8-2fead5aa3fb2",
@@ -6471,6 +7008,7 @@ const Data = [
     color: "#4a3fc4",
     category: "nullam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d9771bf6-b5e4-4bd1-bf51-92c777c6d696",
@@ -6483,6 +7021,7 @@ const Data = [
     color: "#80bd90",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3ddd60fd-ff6f-48fc-bcaf-0f96a56b00b3",
@@ -6495,6 +7034,7 @@ const Data = [
     color: "#ebd431",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9e0c6403-8c1e-44b4-9d83-968f51616545",
@@ -6507,6 +7047,7 @@ const Data = [
     color: "#d67821",
     category: "dictumst",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a2efe8e2-7245-4cac-942f-0abb4efc4ef2",
@@ -6519,6 +7060,7 @@ const Data = [
     color: "#2889da",
     category: "malesuada",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9fc8c4b0-d680-4738-a81e-a7f1b87e194d",
@@ -6531,6 +7073,7 @@ const Data = [
     color: "#fab2bb",
     category: "curae",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9a17d2f4-99c7-4c46-8ddb-28c5d0533086",
@@ -6543,6 +7086,7 @@ const Data = [
     color: "#77452f",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9e01f1fc-a6dd-44d2-be2c-6b306ba9bfc7",
@@ -6555,6 +7099,7 @@ const Data = [
     color: "#e9e3b8",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "156ce544-6684-4b1e-90c5-7b757194491f",
@@ -6567,6 +7112,7 @@ const Data = [
     color: "#ffdf97",
     category: "maecenas",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "67b6cc85-f3c5-4fa8-96b6-bbde474405b1",
@@ -6579,6 +7125,7 @@ const Data = [
     color: "#7ebfa1",
     category: "placerat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "128d7c4b-234f-4c04-891f-519c37949147",
@@ -6591,6 +7138,7 @@ const Data = [
     color: "#c6580d",
     category: "fusce",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2693a84e-3bf6-4725-8916-02cd65b65ace",
@@ -6603,6 +7151,7 @@ const Data = [
     color: "#4ed151",
     category: "cubilia",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "fdcf90ab-da2f-49e6-a3d6-c40f6b2ab129",
@@ -6615,6 +7164,7 @@ const Data = [
     color: "#674682",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a74a9774-eaa1-4d3d-9706-ec1602a6a6b5",
@@ -6627,6 +7177,7 @@ const Data = [
     color: "#477edd",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "fda2be32-cc6e-4e6c-b4b9-382eb4298a29",
@@ -6639,6 +7190,7 @@ const Data = [
     color: "#3cc43e",
     category: "tellus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8c9759bc-6396-4493-8f57-43f3418122a2",
@@ -6651,6 +7203,7 @@ const Data = [
     color: "#d3875d",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3bbc754c-a8cb-42f8-a02e-3d6f15b1b6c8",
@@ -6663,6 +7216,7 @@ const Data = [
     color: "#47c33e",
     category: "vulputate",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3e6efe6e-e462-45ff-b745-5387945c47f8",
@@ -6675,6 +7229,7 @@ const Data = [
     color: "#030823",
     category: "lectus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "67098d65-4710-4166-ab13-b977aa890315",
@@ -6687,6 +7242,7 @@ const Data = [
     color: "#02d6ae",
     category: "at",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c829a7c9-cd2d-4289-ab9c-457cbe6be184",
@@ -6699,6 +7255,7 @@ const Data = [
     color: "#8265a6",
     category: "aliquet",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "05da2aa7-0fb7-449a-a23d-c42f9f088cb8",
@@ -6711,6 +7268,7 @@ const Data = [
     color: "#109042",
     category: "id",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f3768f80-d8c1-4d96-a606-a3f37120429b",
@@ -6723,6 +7281,7 @@ const Data = [
     color: "#f4136d",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "38535cb4-0f74-4257-af7f-dace5f7f5d02",
@@ -6735,6 +7294,7 @@ const Data = [
     color: "#3f2a30",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "73b61c1c-51e9-444d-8945-44d12af0bdac",
@@ -6747,6 +7307,7 @@ const Data = [
     color: "#aaef75",
     category: "id",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "94ce1a33-a0c6-4d81-a530-ba1a5e1b34a0",
@@ -6759,6 +7320,7 @@ const Data = [
     color: "#8149d8",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "2b1c2e62-9d89-404d-a17b-8197abbd2825",
@@ -6771,6 +7333,7 @@ const Data = [
     color: "#05e1fa",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "bfc09c03-3458-431d-b162-9704bcb30e7e",
@@ -6783,6 +7346,7 @@ const Data = [
     color: "#ee9e24",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "8435e5de-70e7-487e-9f9b-0ef62a35fbfc",
@@ -6795,6 +7359,7 @@ const Data = [
     color: "#6ce930",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e779e06a-c20f-4f75-88ed-5b54cb43eadd",
@@ -6807,6 +7372,7 @@ const Data = [
     color: "#edf899",
     category: "tristique",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "febe736f-7161-4667-b6ef-f46dbda05185",
@@ -6819,6 +7385,7 @@ const Data = [
     color: "#4be4b4",
     category: "suspendisse",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e18140e9-558c-4e1f-ba4e-6190c4c08081",
@@ -6831,6 +7398,7 @@ const Data = [
     color: "#7040eb",
     category: "consequat",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "94f5a126-51a5-4ab2-bf6d-0069a1e30589",
@@ -6843,6 +7411,7 @@ const Data = [
     color: "#6ef7fa",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c494d17f-3c2f-45cf-b9fd-26b1883ed332",
@@ -6855,6 +7424,7 @@ const Data = [
     color: "#65946a",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e0f05adf-c037-4de9-a8ea-bf9a20c293fb",
@@ -6867,6 +7437,7 @@ const Data = [
     color: "#73e06a",
     category: "molestie",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "330f7637-3d35-432e-bf40-3912ea6d76f8",
@@ -6879,6 +7450,7 @@ const Data = [
     color: "#b88eef",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cc608dc7-a5c5-4e71-91b7-6dd1aebb4d89",
@@ -6891,6 +7463,7 @@ const Data = [
     color: "#e2c7ff",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "429963bb-6065-4bf7-abba-850973903ee6",
@@ -6903,6 +7476,7 @@ const Data = [
     color: "#14d420",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "848ccdae-4efd-47ba-9d60-9c05019306d2",
@@ -6915,6 +7489,7 @@ const Data = [
     color: "#1c525b",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "90a69ddd-7030-4be7-83a9-e78edaeedba6",
@@ -6927,6 +7502,7 @@ const Data = [
     color: "#31fcea",
     category: "non",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8feb3632-3f68-4f04-9cd4-2bfefc084984",
@@ -6939,6 +7515,7 @@ const Data = [
     color: "#331d13",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9ac51c41-970f-4658-aa99-8e13284e6eaf",
@@ -6951,6 +7528,7 @@ const Data = [
     color: "#61ab3e",
     category: "aliquet",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2c31d9ea-5bf7-4825-bdef-4af746f3e7b5",
@@ -6963,6 +7541,7 @@ const Data = [
     color: "#07f2a0",
     category: "est",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "decbca71-d64f-4dc3-9423-e4b269738946",
@@ -6975,6 +7554,7 @@ const Data = [
     color: "#1456d7",
     category: "diam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "274910e2-a622-4314-8fa0-3434339aa540",
@@ -6987,6 +7567,7 @@ const Data = [
     color: "#44754f",
     category: "cursus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a45a56d1-31e7-465b-9b47-4256c9d6a858",
@@ -6999,6 +7580,7 @@ const Data = [
     color: "#1facb1",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "4ee092b0-20b3-45ce-b969-6e6a32bab658",
@@ -7011,6 +7593,7 @@ const Data = [
     color: "#fd98ce",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8bccc59b-925c-4073-b5c7-511b683c444a",
@@ -7023,6 +7606,7 @@ const Data = [
     color: "#3b5cb4",
     category: "lobortis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "48cd7f60-c696-40ca-a80a-39fc19946d75",
@@ -7035,6 +7619,7 @@ const Data = [
     color: "#4ddf39",
     category: "nam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8218004c-d79a-4b20-8841-b6c3e790e2ae",
@@ -7047,6 +7632,7 @@ const Data = [
     color: "#4f6d38",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f3bcf59e-235b-4e0e-8d29-cf9c5f3c97da",
@@ -7059,6 +7645,7 @@ const Data = [
     color: "#3124bd",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e8381fa0-d96e-406c-9689-d4dcece6bd5f",
@@ -7071,6 +7658,7 @@ const Data = [
     color: "#0efd85",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "09ea7a37-89da-4e83-a7f5-47967b774639",
@@ -7083,6 +7671,7 @@ const Data = [
     color: "#c7cc12",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "245bf149-3ebe-48d1-91ff-4a08f02125ad",
@@ -7095,6 +7684,7 @@ const Data = [
     color: "#49d9dc",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5a6354ee-9c1e-4755-9c97-f9ee3e8f09ae",
@@ -7107,6 +7697,7 @@ const Data = [
     color: "#0f6815",
     category: "lectus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a8780a0c-795d-48ac-b831-ffdb643eff8a",
@@ -7119,6 +7710,7 @@ const Data = [
     color: "#ad962b",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d411b26a-cda0-4beb-8b9b-224f1a8bf105",
@@ -7131,6 +7723,7 @@ const Data = [
     color: "#6166ad",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "863bf435-0a05-4cca-9d45-54879ae1fed9",
@@ -7143,6 +7736,7 @@ const Data = [
     color: "#b2fbdc",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "02b82ce5-74f9-4cf5-b8bc-c781bb46d6e1",
@@ -7155,6 +7749,7 @@ const Data = [
     color: "#c8433c",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "44cc1ec0-da53-4671-ad21-614cbbbe04ff",
@@ -7167,6 +7762,7 @@ const Data = [
     color: "#00dd6d",
     category: "curae",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "3d05f234-4961-4257-b56a-452cfa011033",
@@ -7179,6 +7775,7 @@ const Data = [
     color: "#9ee6fc",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b4e504b8-488b-45d6-9ae0-a4cea6ffe6c9",
@@ -7191,6 +7788,7 @@ const Data = [
     color: "#b9955f",
     category: "sollicitudin",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "b16ffff5-69cc-4779-a6f5-8ca83ccb4400",
@@ -7203,6 +7801,7 @@ const Data = [
     color: "#fada25",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0e9ad428-7939-4d7c-8a98-d7f79051c4af",
@@ -7215,6 +7814,7 @@ const Data = [
     color: "#e2e224",
     category: "vulputate",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "0b1ef40a-a543-453c-bc5d-9f3ef6f2207b",
@@ -7227,6 +7827,7 @@ const Data = [
     color: "#d66959",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "53e0ff80-f0f4-4bb5-b8c6-9ef56ede3b1c",
@@ -7239,6 +7840,7 @@ const Data = [
     color: "#e854d3",
     category: "cum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9fbcad5a-64ec-443e-ad31-12ddda1a7803",
@@ -7251,6 +7853,7 @@ const Data = [
     color: "#346e28",
     category: "varius",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a1ebc925-68a4-4532-b7db-98c0c2bbe6c4",
@@ -7263,6 +7866,7 @@ const Data = [
     color: "#da2a0f",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "caba13a1-0da8-40cd-893e-a1e9a4e2c8e7",
@@ -7275,6 +7879,7 @@ const Data = [
     color: "#cfe1a6",
     category: "velit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c0c3d2cf-c3ee-4eb9-8fe8-6e06b289a599",
@@ -7287,6 +7892,7 @@ const Data = [
     color: "#9490b1",
     category: "molestie",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e3e60986-f6d1-47c6-99d5-0fc817cae21e",
@@ -7299,6 +7905,7 @@ const Data = [
     color: "#c9800a",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c1e65511-aaf2-4f24-96b5-59538b22af5f",
@@ -7311,6 +7918,7 @@ const Data = [
     color: "#569922",
     category: "fusce",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "aff1945c-6a5d-4699-aba4-007f47c0d983",
@@ -7323,6 +7931,7 @@ const Data = [
     color: "#104ec6",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5b59a562-6dd7-41c9-851d-18b719943008",
@@ -7335,6 +7944,7 @@ const Data = [
     color: "#8ee875",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "640677c4-d710-4e0f-8d18-3bb04dd2c39c",
@@ -7347,6 +7957,7 @@ const Data = [
     color: "#934e56",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ee945d68-1462-49e7-bff8-abe17e7feae9",
@@ -7359,6 +7970,7 @@ const Data = [
     color: "#5ab07c",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9a9a278e-221a-45c3-88d1-8be0b5984b2a",
@@ -7371,6 +7983,7 @@ const Data = [
     color: "#2b4eb7",
     category: "lacinia",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "68ffa80b-7251-4475-ab1c-ed18ae96b325",
@@ -7383,6 +7996,7 @@ const Data = [
     color: "#d0d5d9",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "334f7b82-ab9a-4780-9fdd-f2b5a8a0bad1",
@@ -7395,6 +8009,7 @@ const Data = [
     color: "#77078d",
     category: "convallis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "76211b65-aefc-4fb9-970e-97ee0585d64b",
@@ -7407,6 +8022,7 @@ const Data = [
     color: "#965879",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3c850349-688d-4160-a28a-e3e7167afd94",
@@ -7419,6 +8035,7 @@ const Data = [
     color: "#1abcc1",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "24c6d1fd-190d-4f79-b2c9-122f96552f44",
@@ -7431,6 +8048,7 @@ const Data = [
     color: "#2ef80d",
     category: "potenti",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "60f1f352-8690-4c70-9ac7-890912d90fd2",
@@ -7443,6 +8061,7 @@ const Data = [
     color: "#c888e9",
     category: "curabitur",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "b1afd58f-c5bd-4887-9345-345311188677",
@@ -7455,6 +8074,7 @@ const Data = [
     color: "#cb497c",
     category: "semper",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "19457321-0b63-40a0-a238-0d835570c109",
@@ -7467,6 +8087,7 @@ const Data = [
     color: "#6b5d50",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cca0f6e8-f982-4e4d-8343-5c8cd5ba09a6",
@@ -7479,6 +8100,7 @@ const Data = [
     color: "#b25a65",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "55e5f249-5799-4d67-972e-af2190343335",
@@ -7491,6 +8113,7 @@ const Data = [
     color: "#71c94e",
     category: "nibh",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "61a6b0c0-dd46-4076-bac5-bd801ab19ee5",
@@ -7503,6 +8126,7 @@ const Data = [
     color: "#ff979e",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7d7d2216-8471-46e5-84c7-eb21644732ae",
@@ -7515,6 +8139,7 @@ const Data = [
     color: "#002a44",
     category: "integer",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8111434b-a61b-4216-9044-443704b006e2",
@@ -7527,6 +8152,7 @@ const Data = [
     color: "#371603",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "829b7801-5740-4b39-b50c-543fc5e0d970",
@@ -7539,6 +8165,7 @@ const Data = [
     color: "#aab6a0",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "73bdd578-d76e-4c15-8b6b-68022ea261bb",
@@ -7551,6 +8178,7 @@ const Data = [
     color: "#2baf88",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "96aebd1d-1845-4417-ad74-ee3ea61ab161",
@@ -7563,6 +8191,7 @@ const Data = [
     color: "#182905",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "320d61a6-760c-42cc-866c-4aa0d189f0c4",
@@ -7575,6 +8204,7 @@ const Data = [
     color: "#871894",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5ef7a055-7850-43cd-9245-cb6afa5aeee5",
@@ -7587,6 +8217,7 @@ const Data = [
     color: "#699864",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "1199d4b0-c0f1-4571-81e7-43477d6c6192",
@@ -7599,6 +8230,7 @@ const Data = [
     color: "#b2fdb5",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "34a856f1-89b8-43b2-a212-bea8c4df1dd8",
@@ -7611,6 +8243,7 @@ const Data = [
     color: "#2d7f50",
     category: "quisque",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "00c7d4ee-2899-4b01-83bf-aec009541089",
@@ -7623,6 +8256,7 @@ const Data = [
     color: "#2c4e0f",
     category: "gravida",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d6f79269-0b30-44d6-a255-898ff44b9325",
@@ -7635,6 +8269,7 @@ const Data = [
     color: "#4eaea8",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4bc2393a-5b56-4f59-8935-a2f4e8a45a4c",
@@ -7647,6 +8282,7 @@ const Data = [
     color: "#347110",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f7c8f1f1-cf51-427c-b876-d25c40a24c45",
@@ -7659,6 +8295,7 @@ const Data = [
     color: "#c84b3f",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "09cbc766-9057-4c60-812d-f0fba5f6bc08",
@@ -7671,6 +8308,7 @@ const Data = [
     color: "#5fa3cf",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "51ae6f52-3394-40e9-a964-60297301e921",
@@ -7683,6 +8321,7 @@ const Data = [
     color: "#5dc7d8",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "585630c7-0eee-4e10-ad6e-67905d28a555",
@@ -7695,6 +8334,7 @@ const Data = [
     color: "#d6c477",
     category: "diam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f4e8e9b7-d54b-4278-ab0c-5aded8bd4054",
@@ -7707,6 +8347,7 @@ const Data = [
     color: "#0a3bfb",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "18f13925-a036-4d63-9f21-f0dfaf302dd6",
@@ -7719,6 +8360,7 @@ const Data = [
     color: "#18943a",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "510a8d6a-c08d-4357-a7fc-82eea2ab433b",
@@ -7731,6 +8373,7 @@ const Data = [
     color: "#fc1235",
     category: "vivamus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4fe4405d-8b54-421a-b450-39fef14042f2",
@@ -7743,6 +8386,7 @@ const Data = [
     color: "#60da2b",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0ba3da21-abb9-41d6-87de-9a3460c16939",
@@ -7755,6 +8399,7 @@ const Data = [
     color: "#9eafcb",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6d6a7c90-3a51-482b-a0d4-5ba38b7701ad",
@@ -7767,6 +8412,7 @@ const Data = [
     color: "#10ff7e",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3593d91c-227c-4c66-a5b4-229a088cf1e6",
@@ -7779,6 +8425,7 @@ const Data = [
     color: "#ef92a2",
     category: "id",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3f61b694-0b20-468b-8c27-e82d0ec82291",
@@ -7791,6 +8438,7 @@ const Data = [
     color: "#e4ae05",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a1855655-d748-4693-a427-a0ae688bd44c",
@@ -7803,6 +8451,7 @@ const Data = [
     color: "#5b4cb1",
     category: "consequat",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2abadc0e-c61c-408f-8181-eb6ad6cdb00b",
@@ -7815,6 +8464,7 @@ const Data = [
     color: "#6d999e",
     category: "feugiat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c3b7e1c1-a37b-4c15-ba26-dcfc9d062546",
@@ -7827,6 +8477,7 @@ const Data = [
     color: "#4f13f0",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5d28c55d-dfe7-489f-a885-85e2d1784743",
@@ -7839,6 +8490,7 @@ const Data = [
     color: "#cd5344",
     category: "sodales",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f115c64a-130d-4788-8a08-9f4dd2d34aa6",
@@ -7851,6 +8503,7 @@ const Data = [
     color: "#e41e5c",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b016f547-45f9-4abf-9ffa-36f48db04d0f",
@@ -7863,6 +8516,7 @@ const Data = [
     color: "#af5376",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "80dc40d4-99c3-4ba0-88d5-397c60dd6213",
@@ -7875,6 +8529,7 @@ const Data = [
     color: "#2b9dc8",
     category: "sollicitudin",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7a6e88a2-86ee-482f-a71d-0ece9c1119ec",
@@ -7887,6 +8542,7 @@ const Data = [
     color: "#a59863",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e2101dd0-65e1-450c-8ae0-42587b02159e",
@@ -7899,6 +8555,7 @@ const Data = [
     color: "#596c03",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ca158f87-136f-43e3-8f66-dc71ef6e14d1",
@@ -7911,6 +8568,7 @@ const Data = [
     color: "#c8e7d7",
     category: "in",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0ee043e3-d6df-432a-89c0-44cdb9b2396e",
@@ -7923,6 +8581,7 @@ const Data = [
     color: "#ceb437",
     category: "convallis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "07dfa92e-c1a0-47d8-baa7-47f9a75d9818",
@@ -7935,6 +8594,7 @@ const Data = [
     color: "#ba3378",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1d6aea02-3f67-40ce-a2ae-d86649bb7425",
@@ -7947,6 +8607,7 @@ const Data = [
     color: "#d06183",
     category: "etiam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "fd8c9635-7a61-4edb-84fe-d236184004b0",
@@ -7959,6 +8620,7 @@ const Data = [
     color: "#3b77d8",
     category: "accumsan",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fff7c3b8-34f2-40cc-b425-0d27fcdaa990",
@@ -7971,6 +8633,7 @@ const Data = [
     color: "#34fed4",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "34b2449f-60ab-494b-aa99-58d673ebd05d",
@@ -7983,6 +8646,7 @@ const Data = [
     color: "#5ec9a1",
     category: "cubilia",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9c9767a6-f69a-422d-acdc-ea2ae6043645",
@@ -7995,6 +8659,7 @@ const Data = [
     color: "#82408b",
     category: "tellus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "34be6861-fdfb-4189-94f1-57b889428de4",
@@ -8007,6 +8672,7 @@ const Data = [
     color: "#26f477",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "7c9612ec-878c-4f4b-9670-1f7c03a9674b",
@@ -8019,6 +8685,7 @@ const Data = [
     color: "#5e174c",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e541f11b-fef0-42d2-ab9f-8c6a7dc6be3a",
@@ -8031,6 +8698,7 @@ const Data = [
     color: "#4d0f24",
     category: "id",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "088974bb-a27f-4449-b58e-9686c94051c3",
@@ -8043,6 +8711,7 @@ const Data = [
     color: "#b9f3bd",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0e04335f-8074-44ed-b5d6-79a3cc931adc",
@@ -8055,6 +8724,7 @@ const Data = [
     color: "#9a22c2",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "098a5e78-0cfc-4102-9bbd-b5a612817df3",
@@ -8067,6 +8737,7 @@ const Data = [
     color: "#3e1033",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ce473242-cd7e-49ca-9279-2f6381e6809a",
@@ -8079,6 +8750,7 @@ const Data = [
     color: "#c8304d",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "29e878da-41cc-4f10-bf9a-beaf8a0d1027",
@@ -8091,6 +8763,7 @@ const Data = [
     color: "#90fea8",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "59d82bff-19ed-47ba-922d-cb44d4a937ca",
@@ -8103,6 +8776,7 @@ const Data = [
     color: "#1fc693",
     category: "maecenas",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6b824bb5-de01-435c-a3c8-9438e607bf12",
@@ -8115,6 +8789,7 @@ const Data = [
     color: "#faa005",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6075b57e-653b-4963-aee6-aefb6ba85817",
@@ -8127,6 +8802,7 @@ const Data = [
     color: "#edcf2c",
     category: "gravida",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "176f8182-5cf0-43e3-9440-58332427ae77",
@@ -8139,6 +8815,7 @@ const Data = [
     color: "#9036ab",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8383731a-e213-453e-8cf5-6ce83a1793e7",
@@ -8151,6 +8828,7 @@ const Data = [
     color: "#2dc324",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2e9f964a-dab8-41d4-aa0d-7e0e574e8f43",
@@ -8163,6 +8841,7 @@ const Data = [
     color: "#c2d9b6",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "db10fbb6-d748-4f3c-bac1-459a6921c748",
@@ -8175,6 +8854,7 @@ const Data = [
     color: "#4083dd",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "59d027e7-1a55-47fc-a32c-dc37688e05d6",
@@ -8187,6 +8867,7 @@ const Data = [
     color: "#b5c0e6",
     category: "sodales",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a2c3eb5c-40a1-49e5-9bd3-e2adebce97e9",
@@ -8199,6 +8880,7 @@ const Data = [
     color: "#87ae0b",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "70d20f4b-335a-458a-9d6d-73d7ac61411b",
@@ -8211,6 +8893,7 @@ const Data = [
     color: "#72ad8b",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "5d565b3b-bd24-45fd-aa8c-d804caf669cf",
@@ -8223,6 +8906,7 @@ const Data = [
     color: "#9f386d",
     category: "curae",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c4d726d7-0585-4c1a-bc9b-e093fdac62ec",
@@ -8235,6 +8919,7 @@ const Data = [
     color: "#cb5549",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b49e6791-6493-410b-b395-f6e2a23392c0",
@@ -8247,6 +8932,7 @@ const Data = [
     color: "#488b12",
     category: "mi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "afdd0665-6eac-4592-bcb6-b3b405c3b5e7",
@@ -8259,6 +8945,7 @@ const Data = [
     color: "#62a31e",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f3e31284-5111-4b07-a75d-2e64f5f13074",
@@ -8271,6 +8958,7 @@ const Data = [
     color: "#17e70e",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "f9fed7c9-2afe-4cfc-844c-1f482ed49850",
@@ -8283,6 +8971,7 @@ const Data = [
     color: "#1263ca",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "712ebcbb-96fb-4e58-8a47-076806047a53",
@@ -8295,6 +8984,7 @@ const Data = [
     color: "#e6a605",
     category: "justo",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4473f25f-92f4-4dd3-a036-5c9f5421d5aa",
@@ -8307,6 +8997,7 @@ const Data = [
     color: "#b8539b",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0ded8dbb-03da-4ed6-af6d-f0ff097c3fd4",
@@ -8319,6 +9010,7 @@ const Data = [
     color: "#73480d",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e297b4ce-e4e1-4175-b53b-9d4ac0f48dec",
@@ -8331,6 +9023,7 @@ const Data = [
     color: "#2d017f",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "10c9e70f-5362-46ce-b5bf-c713252d7a79",
@@ -8343,6 +9036,7 @@ const Data = [
     color: "#6755cb",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "44ae5962-5dee-4c4d-bb8e-1894e7dc3103",
@@ -8355,6 +9049,7 @@ const Data = [
     color: "#45780b",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0e71c182-d6d0-45e0-a00b-8c5716f3865d",
@@ -8367,6 +9062,7 @@ const Data = [
     color: "#d5df0f",
     category: "pulvinar",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "382215d0-e76b-4eee-9e17-f38b04abe6c6",
@@ -8379,6 +9075,7 @@ const Data = [
     color: "#b3c0f9",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a697a31d-b3bc-426b-9b08-3abb0cda4072",
@@ -8391,6 +9088,7 @@ const Data = [
     color: "#de85d7",
     category: "condimentum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "cb7d3e34-a978-47e1-a519-e548f72d4edb",
@@ -8403,6 +9101,7 @@ const Data = [
     color: "#d98165",
     category: "nec",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ea021d1f-6431-4fed-970f-503fd13aabd7",
@@ -8415,6 +9114,7 @@ const Data = [
     color: "#dd7e43",
     category: "montes",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "91d4c8d8-c9ea-4cfb-93cf-a7cf8984ef7c",
@@ -8427,6 +9127,7 @@ const Data = [
     color: "#1fcbba",
     category: "vulputate",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5808bb1d-c1cc-4dbd-b33a-95d50c6c3002",
@@ -8439,6 +9140,7 @@ const Data = [
     color: "#9185d1",
     category: "id",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8d03ea47-a17c-4f43-bdec-29c6d23d917d",
@@ -8451,6 +9153,7 @@ const Data = [
     color: "#30b0c8",
     category: "pellentesque",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "028654ba-69d9-451b-8b3b-a66898e93dc0",
@@ -8463,6 +9166,7 @@ const Data = [
     color: "#14bd42",
     category: "maecenas",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "edde9aa2-c1b1-4bea-baa3-e5b35f5b3b6c",
@@ -8475,6 +9179,7 @@ const Data = [
     color: "#53a55e",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f036f821-809b-4f5a-8334-6304c04dfbde",
@@ -8487,6 +9192,7 @@ const Data = [
     color: "#f1a3b4",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "821e016f-d028-47e5-97f3-671120dfb8f5",
@@ -8499,6 +9205,7 @@ const Data = [
     color: "#9d0aa7",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "80b38d11-2cdc-46d5-acc0-dbd0bf0d9e49",
@@ -8511,6 +9218,7 @@ const Data = [
     color: "#25cbb8",
     category: "dui",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ca4cda8b-78cb-4a6f-929a-e4f80c9e0b70",
@@ -8523,6 +9231,7 @@ const Data = [
     color: "#16362f",
     category: "ullamcorper",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3faa20bd-4641-473a-9daf-5bf5e7c02280",
@@ -8535,6 +9244,7 @@ const Data = [
     color: "#73373c",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e5911982-f2af-4a21-bd64-2b706bfb1805",
@@ -8547,6 +9257,7 @@ const Data = [
     color: "#aa832b",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "24e9fcd6-e4f2-4114-8077-7b657fd94e6b",
@@ -8559,6 +9270,7 @@ const Data = [
     color: "#a3663f",
     category: "porttitor",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "62198756-2f1c-45b0-a07e-9644ab640941",
@@ -8571,6 +9283,7 @@ const Data = [
     color: "#980d62",
     category: "at",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3157dfee-7280-43d6-b4fa-2839c8c350f5",
@@ -8583,6 +9296,7 @@ const Data = [
     color: "#5769f3",
     category: "tortor",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "f7a118fa-b0a3-4703-a2c3-eecb9b2c4d67",
@@ -8595,6 +9309,7 @@ const Data = [
     color: "#7e872f",
     category: "at",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "432c9412-80f7-47d0-b826-e0f137c24a07",
@@ -8607,6 +9322,7 @@ const Data = [
     color: "#1b9a4f",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "64fd9aa5-7b26-4d73-9f78-9c17b342695c",
@@ -8619,6 +9335,7 @@ const Data = [
     color: "#3ce6e9",
     category: "suspendisse",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "458fb50e-178a-4abc-9cfa-9b270810b3d4",
@@ -8631,6 +9348,7 @@ const Data = [
     color: "#9b1ea1",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "926e8350-f74b-4374-861d-de147ab57717",
@@ -8643,6 +9361,7 @@ const Data = [
     color: "#cc2a9c",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "c717fa88-ea66-479a-adab-34edbf9e2fe0",
@@ -8655,6 +9374,7 @@ const Data = [
     color: "#bff9d7",
     category: "turpis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "58b227f7-5f01-415e-b161-360dcde8d7af",
@@ -8667,6 +9387,7 @@ const Data = [
     color: "#78377c",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "14b4dd27-6cf8-49f4-938d-ec884d0b7745",
@@ -8679,6 +9400,7 @@ const Data = [
     color: "#81dfd9",
     category: "lacinia",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6e5a0b87-d12c-4688-8456-62771eccfaa3",
@@ -8691,6 +9413,7 @@ const Data = [
     color: "#2af875",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "921c9e47-c3f7-47ef-bbb3-52f7ee571bd4",
@@ -8703,6 +9426,7 @@ const Data = [
     color: "#607f2c",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "75c4cef1-b6b4-4141-8fb0-da603cb3bdce",
@@ -8715,6 +9439,7 @@ const Data = [
     color: "#121975",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "ca3f967f-07bd-4faf-83ea-89896b843b07",
@@ -8727,6 +9452,7 @@ const Data = [
     color: "#117cb3",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "da187719-0996-482e-a4d5-35f36984b3a7",
@@ -8739,6 +9465,7 @@ const Data = [
     color: "#246882",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "beed0b10-333a-4ccd-b342-0ea90563988f",
@@ -8751,6 +9478,7 @@ const Data = [
     color: "#353233",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c65786ad-2624-4f41-a0e5-98f0c7c9efd2",
@@ -8763,6 +9491,7 @@ const Data = [
     color: "#a43127",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9609dfd1-65c2-4cd7-b65b-26061ce820ba",
@@ -8775,6 +9504,7 @@ const Data = [
     color: "#fb95a3",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "10ec40f6-cc1f-4f02-a1d1-6d28902af068",
@@ -8787,6 +9517,7 @@ const Data = [
     color: "#e1d01f",
     category: "rhoncus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6cea425d-abca-4b65-8773-441e0fd297ef",
@@ -8799,6 +9530,7 @@ const Data = [
     color: "#c4320d",
     category: "primis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "32cf2b1d-28d6-40fe-b771-7487769a73ce",
@@ -8811,6 +9543,7 @@ const Data = [
     color: "#61463f",
     category: "condimentum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "732b09f8-8360-47ee-b2de-87e7f4d209e3",
@@ -8823,6 +9556,7 @@ const Data = [
     color: "#eff392",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2558d736-2e40-4d01-980b-3f220462a7d3",
@@ -8835,6 +9569,7 @@ const Data = [
     color: "#55ccf6",
     category: "nisi",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "4c4070c7-2627-4cb5-81f9-9b77b4a58b24",
@@ -8847,6 +9582,7 @@ const Data = [
     color: "#ca5b73",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "12a763dc-5d26-4e8d-b647-d02807629d66",
@@ -8859,6 +9595,7 @@ const Data = [
     color: "#8438db",
     category: "massa",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0aa241b4-f5a1-41a7-aebe-a8899529f5e0",
@@ -8871,6 +9608,7 @@ const Data = [
     color: "#b1c76a",
     category: "eleifend",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e8010e5e-5cc5-4019-85f2-e4b32505e0ca",
@@ -8883,6 +9621,7 @@ const Data = [
     color: "#e2ae89",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "86b5de52-c52a-4fbc-b2ca-f71cb3415577",
@@ -8895,6 +9634,7 @@ const Data = [
     color: "#c2727e",
     category: "nisi",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "17b097f9-1f73-45c0-8d5a-b0aace7003c5",
@@ -8907,6 +9647,7 @@ const Data = [
     color: "#cd9f03",
     category: "natoque",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3ad85c7f-f65c-4aec-b4c5-3bf38c3b54e9",
@@ -8919,6 +9660,7 @@ const Data = [
     color: "#cc9b24",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "525dbf66-33a8-4972-aed2-6c97381fcdf8",
@@ -8931,6 +9673,7 @@ const Data = [
     color: "#09309e",
     category: "congue",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a9e92544-7987-4be3-b151-608cbbd1bba9",
@@ -8943,6 +9686,7 @@ const Data = [
     color: "#85c972",
     category: "at",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a28e5c0b-dbac-4f04-8bd0-7f5782843466",
@@ -8955,6 +9699,7 @@ const Data = [
     color: "#a298b9",
     category: "ullamcorper",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "aa4031fb-d801-4575-8281-7feab49a00c5",
@@ -8967,6 +9712,7 @@ const Data = [
     color: "#7eaba4",
     category: "nullam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "68c1a166-cd9d-466e-9c96-8b41be622618",
@@ -8979,6 +9725,7 @@ const Data = [
     color: "#927c3f",
     category: "turpis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "72cebbf9-abe0-4e1f-acd6-04c84d05a9b9",
@@ -8991,6 +9738,7 @@ const Data = [
     color: "#6f60bc",
     category: "nam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b89cf20f-231b-4d04-bb61-8d5bdee04bf5",
@@ -9003,6 +9751,7 @@ const Data = [
     color: "#af558f",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "51192cb9-949c-422f-90b5-328375718ae1",
@@ -9015,6 +9764,7 @@ const Data = [
     color: "#3f24e1",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b5454bcf-9306-4fbf-a6a3-ba4d33cf2ff6",
@@ -9027,6 +9777,7 @@ const Data = [
     color: "#f32d95",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "79a12be3-471f-4c31-bf5a-be28f66dcbae",
@@ -9039,6 +9790,7 @@ const Data = [
     color: "#5852fa",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e45ce58c-81f0-4bdb-ad5c-70824513b67e",
@@ -9051,6 +9803,7 @@ const Data = [
     color: "#9e9767",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "82a644f4-c2af-433f-acf0-fb95ff4204a9",
@@ -9063,6 +9816,7 @@ const Data = [
     color: "#80d0fa",
     category: "tellus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e4768451-df8f-45ae-934a-eb8ee73b1bd8",
@@ -9075,6 +9829,7 @@ const Data = [
     color: "#ad2bf7",
     category: "bibendum",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "24fc844c-1758-4c73-ad0d-d6d0924cc369",
@@ -9087,6 +9842,7 @@ const Data = [
     color: "#1fa9d9",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a9ff75e8-12a2-4d65-a055-5892c4ddf512",
@@ -9099,6 +9855,7 @@ const Data = [
     color: "#94b7d0",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d533b1d5-1447-4430-9ad9-3a3199ecaf1c",
@@ -9111,6 +9868,7 @@ const Data = [
     color: "#b37f30",
     category: "non",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "669633d4-9310-4782-8bcf-67e7dd9e9f32",
@@ -9123,6 +9881,7 @@ const Data = [
     color: "#6a6d84",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "476654f9-8840-4841-a4fe-bdd861973858",
@@ -9135,6 +9894,7 @@ const Data = [
     color: "#deb88c",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "009375eb-3405-428d-996a-942a167d5bde",
@@ -9147,6 +9907,7 @@ const Data = [
     color: "#a304ea",
     category: "felis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "59f8b769-6b9f-4a7c-842f-59f805083d21",
@@ -9159,6 +9920,7 @@ const Data = [
     color: "#005c69",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "330d0b73-62eb-454f-acc6-e346ccae84b7",
@@ -9171,6 +9933,7 @@ const Data = [
     color: "#00f50f",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fb09c70f-1a49-49c7-b3b7-17342712ec92",
@@ -9183,6 +9946,7 @@ const Data = [
     color: "#eceb59",
     category: "vulputate",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8142b852-673a-43e7-b47a-a0bcc3b386df",
@@ -9195,6 +9959,7 @@ const Data = [
     color: "#a0290a",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "e3203934-961c-44b4-bdbe-becc9a2f3fe4",
@@ -9207,6 +9972,7 @@ const Data = [
     color: "#f66bb0",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "49e0667e-7653-4ad7-8975-949cb6153bc3",
@@ -9219,6 +9985,7 @@ const Data = [
     color: "#627312",
     category: "laoreet",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a0565327-0306-4062-9ca7-0eb33d8b26ac",
@@ -9231,6 +9998,7 @@ const Data = [
     color: "#99eae4",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7a7329a6-b5e9-41cc-95f6-c7efd29d3878",
@@ -9243,6 +10011,7 @@ const Data = [
     color: "#ae11eb",
     category: "turpis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1687a0c3-ee5f-442f-9664-c8423bce5e9c",
@@ -9255,6 +10024,7 @@ const Data = [
     color: "#d7591b",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4c834fc3-19e4-4606-8c50-53d53b5443e5",
@@ -9267,6 +10037,7 @@ const Data = [
     color: "#b7bea4",
     category: "phasellus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d9b6c2a7-8288-4386-be5e-f1d143ff445e",
@@ -9279,6 +10050,7 @@ const Data = [
     color: "#95a96a",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a1a341e9-7fb1-43b0-9360-3e50704909a6",
@@ -9291,6 +10063,7 @@ const Data = [
     color: "#acc4de",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b783d75f-cb81-49ec-a57b-a829a76620aa",
@@ -9303,6 +10076,7 @@ const Data = [
     color: "#f588fa",
     category: "at",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "f88c9a07-52a4-425d-aaec-aa08bc8d34f6",
@@ -9315,6 +10089,7 @@ const Data = [
     color: "#691adb",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d73a1ae5-fff7-45fa-bbb2-4d7d1c6af852",
@@ -9327,6 +10102,7 @@ const Data = [
     color: "#93c28f",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0e166c24-93db-49d7-b53a-80c663c4e2aa",
@@ -9339,6 +10115,7 @@ const Data = [
     color: "#3ad229",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "51053a43-193d-49c2-a4c3-ad5baa3534d3",
@@ -9351,6 +10128,7 @@ const Data = [
     color: "#c0ea76",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a4d1441a-800a-4a20-aef9-3f7a87ae0112",
@@ -9363,6 +10141,7 @@ const Data = [
     color: "#215ec6",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "23c2f596-8df6-4192-9903-4f84622c5d33",
@@ -9375,6 +10154,7 @@ const Data = [
     color: "#1de260",
     category: "nisi",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d0107b49-fb73-4e2d-aaed-b3ce8d5542d2",
@@ -9387,6 +10167,7 @@ const Data = [
     color: "#b8d4d6",
     category: "suspendisse",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "3c4a9200-d6f3-4999-8425-82566ad9d372",
@@ -9399,6 +10180,7 @@ const Data = [
     color: "#669cae",
     category: "morbi",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "aa2eb3e2-e643-4bd8-9bf9-d89bb3881d1e",
@@ -9411,6 +10193,7 @@ const Data = [
     color: "#31eb20",
     category: "praesent",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "46b4b78c-3562-409b-9184-a1176604c95c",
@@ -9423,6 +10206,7 @@ const Data = [
     color: "#5b8452",
     category: "dui",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "35ba4848-3756-45c3-a047-f00ab4bf8e7e",
@@ -9435,6 +10219,7 @@ const Data = [
     color: "#e3ea48",
     category: "hac",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "04ce43cb-1b1e-4fbd-b9cb-865944eb827e",
@@ -9447,6 +10232,7 @@ const Data = [
     color: "#87f84b",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b4a89ecc-6df7-4a11-843d-ad491288a3eb",
@@ -9459,6 +10245,7 @@ const Data = [
     color: "#7ee12e",
     category: "dictumst",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6785ecdd-70a5-4203-8833-139d4f381fa1",
@@ -9471,6 +10258,7 @@ const Data = [
     color: "#52de0b",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "18b09d05-d9cc-4355-b667-91e61d76cfc8",
@@ -9483,6 +10271,7 @@ const Data = [
     color: "#22775e",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "309e4d52-8784-441a-98dd-475675fa0ea4",
@@ -9495,6 +10284,7 @@ const Data = [
     color: "#d1700b",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b835cd67-0888-488b-a461-9e5a9d3f97d5",
@@ -9507,6 +10297,7 @@ const Data = [
     color: "#7847cb",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "70abf351-c579-42c0-bd06-e32c2e923ba2",
@@ -9519,6 +10310,7 @@ const Data = [
     color: "#0e165d",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5b39926d-c163-412b-91ad-fcab6882317a",
@@ -9531,6 +10323,7 @@ const Data = [
     color: "#e57c19",
     category: "sollicitudin",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "67fab4d6-13a9-4d7a-8a63-e5475b7f4946",
@@ -9543,6 +10336,7 @@ const Data = [
     color: "#d78527",
     category: "curabitur",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9d5e59e1-ec2b-4d89-94ff-38b45cf876e0",
@@ -9555,6 +10349,7 @@ const Data = [
     color: "#0c2dad",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "2d3ed16a-d4a4-489c-b266-a0615b88e5eb",
@@ -9567,6 +10362,7 @@ const Data = [
     color: "#9d8b7a",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "db4c673c-98f7-43b0-a7b6-bd67c9877711",
@@ -9579,6 +10375,7 @@ const Data = [
     color: "#31ca84",
     category: "sociis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2146989a-136b-4b20-a206-4fd7577b5b77",
@@ -9591,6 +10388,7 @@ const Data = [
     color: "#c201bc",
     category: "non",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "2b246e98-18d7-4c1b-81d3-d1ff195e6e5c",
@@ -9603,6 +10401,7 @@ const Data = [
     color: "#9778e0",
     category: "euismod",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "7bab58fb-bae3-40d1-a6cb-297d74bb75c9",
@@ -9615,6 +10414,7 @@ const Data = [
     color: "#c2354c",
     category: "eleifend",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a1834b10-e299-4df2-adc4-981ca51cde21",
@@ -9627,6 +10427,7 @@ const Data = [
     color: "#f28e92",
     category: "vulputate",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "570861d3-cd9b-4eac-b2af-20fb628c86c7",
@@ -9639,6 +10440,7 @@ const Data = [
     color: "#6ed72e",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f8408f5e-534e-49c7-b0ea-35a66f3fdef1",
@@ -9651,6 +10453,7 @@ const Data = [
     color: "#d87ab0",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "72c18855-8920-4736-8c0e-db61e29edc68",
@@ -9663,6 +10466,7 @@ const Data = [
     color: "#cc52b0",
     category: "nisi",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "bffbafa4-16c0-4fd5-87c6-68978aae822e",
@@ -9675,6 +10479,7 @@ const Data = [
     color: "#6bc422",
     category: "sollicitudin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b9dcec2d-947d-47ed-8bb8-81d96e35eafe",
@@ -9687,6 +10492,7 @@ const Data = [
     color: "#56cdf3",
     category: "varius",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "70373a1a-3050-4f4c-8719-f34775b69130",
@@ -9699,6 +10505,7 @@ const Data = [
     color: "#e9db65",
     category: "nibh",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "92bfc32e-c749-41b1-8e54-3c900a926a28",
@@ -9711,6 +10518,7 @@ const Data = [
     color: "#39137e",
     category: "cubilia",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8b08c146-d4be-4ec3-833e-16075799f577",
@@ -9723,6 +10531,7 @@ const Data = [
     color: "#ed41d7",
     category: "lorem",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "710b214d-5f3a-4c30-abad-fe1e607c53f0",
@@ -9735,6 +10544,7 @@ const Data = [
     color: "#1a39c1",
     category: "non",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "3ef32f5a-5070-46ea-a34f-67a31259d594",
@@ -9747,6 +10557,7 @@ const Data = [
     color: "#421ea1",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "01369028-08e2-40f4-b9ad-0609e8f7566d",
@@ -9759,6 +10570,7 @@ const Data = [
     color: "#34d8e4",
     category: "lacinia",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ab6df30e-239d-4ae0-98c7-18997cef18b0",
@@ -9771,6 +10583,7 @@ const Data = [
     color: "#0f4097",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "480b1e3b-415f-411e-b8a7-5948760e4d8b",
@@ -9783,6 +10596,7 @@ const Data = [
     color: "#3469c8",
     category: "eleifend",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7b3fbac9-dfc7-4b26-948d-0a83878f1d78",
@@ -9795,6 +10609,7 @@ const Data = [
     color: "#34e4d3",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3a77fd37-d202-4a96-8651-3602477ac1f6",
@@ -9807,6 +10622,7 @@ const Data = [
     color: "#418fad",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "dcbaf893-e308-4a1b-8836-28771e8bef82",
@@ -9819,6 +10635,7 @@ const Data = [
     color: "#fc3101",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3314a077-23dd-4601-a8b8-27b7e65e2218",
@@ -9831,6 +10648,7 @@ const Data = [
     color: "#b32d6a",
     category: "sit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ad253851-c712-4987-9a54-eb66329c587e",
@@ -9843,6 +10661,7 @@ const Data = [
     color: "#18a77b",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "d78ecaff-3588-4776-bc75-ea8e1db6ad34",
@@ -9855,6 +10674,7 @@ const Data = [
     color: "#73e8c8",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9d09adc5-2d1e-4097-8510-92486332c7ec",
@@ -9867,6 +10687,7 @@ const Data = [
     color: "#d51062",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ad9e8be1-290d-4d77-9ba4-dc9f2084efac",
@@ -9879,6 +10700,7 @@ const Data = [
     color: "#7a9699",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8783c56b-b32c-41c5-a897-1ae27dec3cf8",
@@ -9891,6 +10713,7 @@ const Data = [
     color: "#338381",
     category: "sem",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0c662ef7-4021-4c2f-947b-2baf392be23a",
@@ -9903,6 +10726,7 @@ const Data = [
     color: "#10ec6d",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "99da6659-d818-4127-a237-01d24a983864",
@@ -9915,6 +10739,7 @@ const Data = [
     color: "#5a5f2f",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "56f9c415-54d7-4d75-ab7d-2af3247d0507",
@@ -9927,6 +10752,7 @@ const Data = [
     color: "#c44433",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ca13c415-0857-48ef-af54-c559702003f1",
@@ -9939,6 +10765,7 @@ const Data = [
     color: "#9a2b86",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "b11e558b-99c4-429e-ac6f-e09948ecb4c5",
@@ -9951,6 +10778,7 @@ const Data = [
     color: "#279c40",
     category: "venenatis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "7c6dce35-528a-4541-8677-12ca3c30a787",
@@ -9963,6 +10791,7 @@ const Data = [
     color: "#664a22",
     category: "quam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "85e84e04-423b-4bb0-b1f5-50b180b19302",
@@ -9975,6 +10804,7 @@ const Data = [
     color: "#fc3ecd",
     category: "habitasse",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ee2f00d1-6c80-4a59-8af9-24e4d0dd4e25",
@@ -9987,6 +10817,7 @@ const Data = [
     color: "#69bbb5",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9855c839-c786-4b6f-bb23-b74a90d648b9",
@@ -9999,6 +10830,7 @@ const Data = [
     color: "#c6f04d",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5a7d9a17-d2fc-45ad-9e7f-36b8d4fff6b7",
@@ -10011,6 +10843,7 @@ const Data = [
     color: "#8a3fbe",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "57d1e183-1566-4ba7-b691-898cde97e51b",
@@ -10023,6 +10856,7 @@ const Data = [
     color: "#e4442d",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "17c6a680-92cf-4337-b970-1f6205203ed3",
@@ -10035,6 +10869,7 @@ const Data = [
     color: "#7d5102",
     category: "dui",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8d25046f-3788-4533-989e-d3441edd9d24",
@@ -10047,6 +10882,7 @@ const Data = [
     color: "#46ed14",
     category: "velit",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a74e7d10-fd45-4a3c-9f46-14bceb2f9c50",
@@ -10059,6 +10895,7 @@ const Data = [
     color: "#8865a4",
     category: "elementum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "7e4aeb40-a78f-4bdc-afad-0d188a2350a3",
@@ -10071,6 +10908,7 @@ const Data = [
     color: "#7e3b14",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "a1838feb-e6e4-4fa1-90ef-96dc0679a259",
@@ -10083,6 +10921,7 @@ const Data = [
     color: "#4a5454",
     category: "dapibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c5191730-96a6-4277-8b59-57d6cd0e9fd3",
@@ -10095,6 +10934,7 @@ const Data = [
     color: "#e0972f",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "cfd66e14-70f2-435e-bb91-fe7cd91ea726",
@@ -10107,6 +10947,7 @@ const Data = [
     color: "#e09335",
     category: "semper",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f3a2eda5-5663-413f-8f32-89227a969e70",
@@ -10119,6 +10960,7 @@ const Data = [
     color: "#e9217b",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a55019a7-4719-457d-9168-dda6b2123253",
@@ -10131,6 +10973,7 @@ const Data = [
     color: "#e30b7c",
     category: "nisi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ff0e3ae3-0b52-45b6-bca4-d8c745df718a",
@@ -10143,6 +10986,7 @@ const Data = [
     color: "#08ee9f",
     category: "penatibus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "1bbd670e-f15e-40f2-aa91-8ed6cbf6913e",
@@ -10155,6 +10999,7 @@ const Data = [
     color: "#325040",
     category: "fusce",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "ac5c1ebe-a6d0-41cb-bd5e-0c40a3ee1176",
@@ -10167,6 +11012,7 @@ const Data = [
     color: "#ac1074",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5d98d27a-7646-4bfb-b069-a09a51df8077",
@@ -10179,6 +11025,7 @@ const Data = [
     color: "#3b3f21",
     category: "consequat",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "eb96d302-0a8e-43fc-bdd0-61fb1156c8cd",
@@ -10191,6 +11038,7 @@ const Data = [
     color: "#0813f4",
     category: "est",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "fd1de98b-1425-42d3-971a-9e7287d0cfe4",
@@ -10203,6 +11051,7 @@ const Data = [
     color: "#7638b4",
     category: "velit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "108215d9-b638-4f3f-916e-50f6852663be",
@@ -10215,6 +11064,7 @@ const Data = [
     color: "#afe9e0",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6c14f850-1927-405c-b773-724886b6758f",
@@ -10227,6 +11077,7 @@ const Data = [
     color: "#2b31cf",
     category: "aliquam",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "83f2c35e-7661-4c60-85e1-b2dcc97e615d",
@@ -10239,6 +11090,7 @@ const Data = [
     color: "#844ba1",
     category: "felis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4a98c8d2-b5f1-4da5-b8bb-60fe62519cc9",
@@ -10251,6 +11103,7 @@ const Data = [
     color: "#d6ccf7",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "37e75739-b168-461c-a994-a035f3fae366",
@@ -10263,6 +11116,7 @@ const Data = [
     color: "#de152c",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "3970adb0-fa2d-43f5-b524-a172ee3a6aab",
@@ -10275,6 +11129,7 @@ const Data = [
     color: "#967acb",
     category: "cubilia",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "0f03f170-b059-46b2-9d5d-4ad01f591572",
@@ -10287,6 +11142,7 @@ const Data = [
     color: "#b7b686",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e48deb81-5c46-4965-a9e2-fc9c61eaf5f3",
@@ -10299,6 +11155,7 @@ const Data = [
     color: "#91963c",
     category: "a",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6390d212-457c-4650-a339-bd3fa971f8f2",
@@ -10311,6 +11168,7 @@ const Data = [
     color: "#9c2f97",
     category: "at",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "62b181c2-417d-4371-bd91-808a8dfe72e4",
@@ -10323,6 +11181,7 @@ const Data = [
     color: "#645fc0",
     category: "mi",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "4456d0e8-e0a1-460a-8d41-dcf777d23bc7",
@@ -10335,6 +11194,7 @@ const Data = [
     color: "#39179e",
     category: "enim",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "9ab59b60-afab-40fe-a87b-6b84730d400f",
@@ -10347,6 +11207,7 @@ const Data = [
     color: "#6946b0",
     category: "enim",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d2e8882d-395a-46de-bc80-43025dd53bb7",
@@ -10359,6 +11220,7 @@ const Data = [
     color: "#004eee",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "721ae5fd-24be-4ca7-a772-e09506359963",
@@ -10371,6 +11233,7 @@ const Data = [
     color: "#69391a",
     category: "eleifend",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4c9da830-59e9-4909-8c9a-01856b6cfce7",
@@ -10383,6 +11246,7 @@ const Data = [
     color: "#abf614",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "21bd86c3-de32-4cd3-aef9-0c6c82b6a1d5",
@@ -10395,6 +11259,7 @@ const Data = [
     color: "#eae348",
     category: "pretium",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "81a6db38-000f-4a66-8589-e16e46adf077",
@@ -10407,6 +11272,7 @@ const Data = [
     color: "#bd4a1d",
     category: "luctus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d3c1b729-b9af-428a-bec9-a55ec05f6e21",
@@ -10419,6 +11285,7 @@ const Data = [
     color: "#4c7d5c",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "13856d73-e4a2-4387-883a-7e3855d38c71",
@@ -10431,6 +11298,7 @@ const Data = [
     color: "#c34a4f",
     category: "in",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5a19cc10-05ab-442e-8340-3da04b8c5b17",
@@ -10443,6 +11311,7 @@ const Data = [
     color: "#6cdb0f",
     category: "vitae",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0898000b-a883-4671-a84b-58e3b1f6809d",
@@ -10455,6 +11324,7 @@ const Data = [
     color: "#874599",
     category: "potenti",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "84efadb1-c023-49cf-9207-ef69c3bfabda",
@@ -10467,6 +11337,7 @@ const Data = [
     color: "#2afcd8",
     category: "vivamus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "81e74b23-3f50-45aa-9d23-442b3bb2a012",
@@ -10479,6 +11350,7 @@ const Data = [
     color: "#52077b",
     category: "fusce",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e5478d5f-2d52-49ee-b1f2-853ae2d97a71",
@@ -10491,6 +11363,7 @@ const Data = [
     color: "#0b7512",
     category: "libero",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e0c6bf53-6ebf-424e-96b3-c4135ec89870",
@@ -10503,6 +11376,7 @@ const Data = [
     color: "#139fab",
     category: "duis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5e0edb8d-c000-4aa4-81f7-d1a73c86dd81",
@@ -10515,6 +11389,7 @@ const Data = [
     color: "#ef738e",
     category: "diam",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "7e8e10f5-2543-405c-9860-73c49543bcb8",
@@ -10527,6 +11402,7 @@ const Data = [
     color: "#9c051e",
     category: "rutrum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "df457167-7277-45cc-aed1-113f25670391",
@@ -10539,6 +11415,7 @@ const Data = [
     color: "#d11115",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "885bc75c-f385-4ba5-882f-c7a274cde318",
@@ -10551,6 +11428,7 @@ const Data = [
     color: "#e95fd0",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3ad79a9e-cf5d-4ade-af77-e7363601fb2e",
@@ -10563,6 +11441,7 @@ const Data = [
     color: "#e8f1c8",
     category: "praesent",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "862960f3-6f4f-4faa-844c-d00c38cf055a",
@@ -10575,6 +11454,7 @@ const Data = [
     color: "#b45bd8",
     category: "lectus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "728f6e15-9c90-40e9-9ece-26b20529de49",
@@ -10587,6 +11467,7 @@ const Data = [
     color: "#c5425c",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "5ea443dd-12f3-402d-a247-c979e848ebd6",
@@ -10599,6 +11480,7 @@ const Data = [
     color: "#dd2ccd",
     category: "posuere",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "f0ad041f-df89-437a-8dd0-2a07366ecadc",
@@ -10611,6 +11493,7 @@ const Data = [
     color: "#8e0280",
     category: "lectus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "5a320f43-b9f9-4bf0-a734-4c3a271bec2b",
@@ -10623,6 +11506,7 @@ const Data = [
     color: "#aadf59",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e681c12a-293a-4b3f-a879-b212444db2c8",
@@ -10635,6 +11519,7 @@ const Data = [
     color: "#772432",
     category: "enim",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "dd16e22c-f441-4fab-a153-19f9de657572",
@@ -10647,6 +11532,7 @@ const Data = [
     color: "#44bc0c",
     category: "leo",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "815451ba-a87f-4acc-97ba-c79f50d7d340",
@@ -10659,6 +11545,7 @@ const Data = [
     color: "#26fcd3",
     category: "lacinia",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "491ca795-2f69-4765-91bf-8edc43ee3b85",
@@ -10671,6 +11558,7 @@ const Data = [
     color: "#c7ba52",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "16147f1b-d561-459b-b01b-152e94b78474",
@@ -10683,6 +11571,7 @@ const Data = [
     color: "#b8e625",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "934f9650-8859-4909-806e-1c145616f6d5",
@@ -10695,6 +11584,7 @@ const Data = [
     color: "#4befe5",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "75c6a74e-b814-441e-bdf7-573394220df6",
@@ -10707,6 +11597,7 @@ const Data = [
     color: "#6193ac",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "426d8083-1b2e-4a58-baef-5b15680deaad",
@@ -10719,6 +11610,7 @@ const Data = [
     color: "#0c3d2f",
     category: "at",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5f5456fd-da40-47ce-9c5f-71437103d674",
@@ -10731,6 +11623,7 @@ const Data = [
     color: "#682e40",
     category: "lacus",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "0ebc6022-5658-4c38-8b0a-a414b04a0124",
@@ -10743,6 +11636,7 @@ const Data = [
     color: "#fd3445",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "cd6d5adf-d912-4d2e-9a9f-d2376444c527",
@@ -10755,6 +11649,7 @@ const Data = [
     color: "#6ef963",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "e638cbc6-e2d7-4977-b182-46456a3cd2ef",
@@ -10767,6 +11662,7 @@ const Data = [
     color: "#c4acc3",
     category: "nunc",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9c687ec1-9fc8-40a8-8cbf-cdb5263e92b8",
@@ -10779,6 +11675,7 @@ const Data = [
     color: "#151d16",
     category: "est",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "aa16b52e-1327-4793-bf4f-9d7698f9f6ff",
@@ -10791,6 +11688,7 @@ const Data = [
     color: "#ac0e45",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a612d73e-3fbb-4808-a845-5bf9fad88542",
@@ -10803,6 +11701,7 @@ const Data = [
     color: "#4dc0e1",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "17fffab1-1adc-4d42-a930-fdbc57308180",
@@ -10815,6 +11714,7 @@ const Data = [
     color: "#da8990",
     category: "sapien",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "460a56c9-61e6-4585-bce4-d2aae619c3b9",
@@ -10827,6 +11727,7 @@ const Data = [
     color: "#6fcacd",
     category: "magnis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1634523e-1cbb-4e93-8e95-fdf35c556325",
@@ -10839,6 +11740,7 @@ const Data = [
     color: "#d57fca",
     category: "magna",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "dbfbcf01-d026-443c-bd1b-721638ed3263",
@@ -10851,6 +11753,7 @@ const Data = [
     color: "#1d50f4",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "08881463-cb7d-474f-b76e-db537ccc94b3",
@@ -10863,6 +11766,7 @@ const Data = [
     color: "#b9433e",
     category: "curae",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0e460883-eede-4764-bf71-82ce7796f5e4",
@@ -10875,6 +11779,7 @@ const Data = [
     color: "#58890b",
     category: "erat",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b7e052a8-7a5c-4435-bf2d-a4671d598eeb",
@@ -10887,6 +11792,7 @@ const Data = [
     color: "#7da769",
     category: "consequat",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ac6eb1e2-b11d-410e-b9e8-e35c51758942",
@@ -10899,6 +11805,7 @@ const Data = [
     color: "#1248b4",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "922c5f44-caa3-47aa-9429-8aa4013d44b8",
@@ -10911,6 +11818,7 @@ const Data = [
     color: "#308ae6",
     category: "dictumst",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "90970502-bdf9-458c-a6d4-d246f860861f",
@@ -10923,6 +11831,7 @@ const Data = [
     color: "#01a137",
     category: "convallis",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0fe55e39-6cac-4510-8189-c72863e5bab5",
@@ -10935,6 +11844,7 @@ const Data = [
     color: "#fe3aed",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "9bd01e85-e05b-4803-8c1e-f461480025eb",
@@ -10947,6 +11857,7 @@ const Data = [
     color: "#841b74",
     category: "arcu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "6c8244f3-f4af-4147-b758-2cc2cbe25b27",
@@ -10959,6 +11870,7 @@ const Data = [
     color: "#0a2744",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "f5b13938-fade-4f49-9cb9-d0a352a3cf70",
@@ -10971,6 +11883,7 @@ const Data = [
     color: "#c58286",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "567627cc-c93a-498a-ac83-98b56ac57f95",
@@ -10983,6 +11896,7 @@ const Data = [
     color: "#bfdff8",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "6490dfea-9b60-47d8-8ec2-793d368398bc",
@@ -10995,6 +11909,7 @@ const Data = [
     color: "#897609",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b0d9ad85-483e-4c93-9a59-5e871d5fa591",
@@ -11007,6 +11922,7 @@ const Data = [
     color: "#4c98e2",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "eef56289-679e-4742-80a7-6d3269bd1415",
@@ -11019,6 +11935,7 @@ const Data = [
     color: "#ea0a03",
     category: "nonummy",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8dbe3ae4-13b1-47c9-a000-16392e89c4bb",
@@ -11031,6 +11948,7 @@ const Data = [
     color: "#e11675",
     category: "maecenas",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9b3be111-f14a-404f-bf79-8cd3dfd85ea3",
@@ -11043,6 +11961,7 @@ const Data = [
     color: "#389f51",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "225e78a7-b22e-4a9e-a4e5-4e20903a3a94",
@@ -11055,6 +11974,7 @@ const Data = [
     color: "#bc929d",
     category: "fermentum",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "eab3a2e2-380d-48c6-9fd5-1376d551f226",
@@ -11067,6 +11987,7 @@ const Data = [
     color: "#8d0e8e",
     category: "mi",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "9e43c50f-2a7c-43ff-84c0-421009e44b3b",
@@ -11079,6 +12000,7 @@ const Data = [
     color: "#d48dcd",
     category: "at",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "38351a84-6fbb-4490-ac6d-be4ebee249c2",
@@ -11091,6 +12013,7 @@ const Data = [
     color: "#a23728",
     category: "hac",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "da1510c6-ef32-41a4-bd96-f958a1282bd8",
@@ -11103,6 +12026,7 @@ const Data = [
     color: "#982dd2",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3ef1668c-e39a-4a5a-972e-6a7c1d74f6f9",
@@ -11115,6 +12039,7 @@ const Data = [
     color: "#e97303",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "876a37fe-e68d-4a3f-ad7b-75749c0e43ef",
@@ -11127,6 +12052,7 @@ const Data = [
     color: "#0a4413",
     category: "a",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "812880ec-3e72-4b31-ba50-d69a24b3bd8c",
@@ -11139,6 +12065,7 @@ const Data = [
     color: "#db6172",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "eff0d071-e4d4-4630-b0ec-d26787123286",
@@ -11151,6 +12078,7 @@ const Data = [
     color: "#5436d6",
     category: "scelerisque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "a992937c-0ff5-4f09-a6f0-3e12e63b598e",
@@ -11163,6 +12091,7 @@ const Data = [
     color: "#01536b",
     category: "mattis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "8fbf415c-622c-4b3f-977f-3e06cad56127",
@@ -11175,6 +12104,7 @@ const Data = [
     color: "#c659d0",
     category: "pede",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0e4b7fa1-c720-4822-a165-ed53a3a7dfbd",
@@ -11187,6 +12117,7 @@ const Data = [
     color: "#04760c",
     category: "in",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6eedb3ac-20eb-4248-9b9f-3d6dd121f34f",
@@ -11199,6 +12130,7 @@ const Data = [
     color: "#bc0d07",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "97a29b47-b7c6-4317-95f6-2567951e0bfc",
@@ -11211,6 +12143,7 @@ const Data = [
     color: "#dcc7c9",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "ea6f9867-a949-4ed0-82f7-643db34b766e",
@@ -11223,6 +12156,7 @@ const Data = [
     color: "#2e0b95",
     category: "massa",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "1d8b958e-8f89-4910-ae9b-26fcd1663414",
@@ -11235,6 +12169,7 @@ const Data = [
     color: "#803f16",
     category: "hac",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c3067aa5-fe18-43cd-85a5-760652a237f8",
@@ -11247,6 +12182,7 @@ const Data = [
     color: "#285193",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "3824cf1e-36a7-491b-983e-a8a8f79c2022",
@@ -11259,6 +12195,7 @@ const Data = [
     color: "#acc235",
     category: "leo",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "58d571e4-844c-4e6a-a3db-645cbae0413c",
@@ -11271,6 +12208,7 @@ const Data = [
     color: "#a33a74",
     category: "neque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "1090139e-adc2-4847-b7d0-7b5e5f9b2b44",
@@ -11283,6 +12221,7 @@ const Data = [
     color: "#7a82d1",
     category: "augue",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "04829570-bdfb-4223-84c4-32877674e190",
@@ -11295,6 +12234,7 @@ const Data = [
     color: "#f94a6c",
     category: "at",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "61b8d904-2e3e-4af9-b8b8-e47df6b5d003",
@@ -11307,6 +12247,7 @@ const Data = [
     color: "#bbdf23",
     category: "massa",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c1c9d81d-be4b-440b-af48-0760ef5e86e7",
@@ -11319,6 +12260,7 @@ const Data = [
     color: "#9d806e",
     category: "diam",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "c030cd97-069d-4e5d-aed2-49aeab31d077",
@@ -11331,6 +12273,7 @@ const Data = [
     color: "#4a77e9",
     category: "id",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d1f78f38-779a-4f2b-a288-c85e917b0c06",
@@ -11343,6 +12286,7 @@ const Data = [
     color: "#150a99",
     category: "purus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "0d503b46-d6db-41fb-8f62-ace4af6c6fce",
@@ -11355,6 +12299,7 @@ const Data = [
     color: "#ac6f35",
     category: "in",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "06c0a972-5068-4ec8-b126-233ed36f53fc",
@@ -11367,6 +12312,7 @@ const Data = [
     color: "#bdc4ec",
     category: "mauris",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "816afb84-1b42-4b8d-b050-1afcb8ab1c15",
@@ -11379,6 +12325,7 @@ const Data = [
     color: "#224685",
     category: "consectetuer",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c569a47c-f5de-4c7e-9428-ee171fd8a0b2",
@@ -11391,6 +12338,7 @@ const Data = [
     color: "#9c06e6",
     category: "ipsum",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "9c4f5b36-65fa-4dec-88a4-f67c6d8fa07f",
@@ -11403,6 +12351,7 @@ const Data = [
     color: "#969f2c",
     category: "euismod",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "d7af03f2-0c1e-401f-8de5-41b992a5f7ee",
@@ -11415,6 +12364,7 @@ const Data = [
     color: "#ef16b9",
     category: "quis",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "e875635e-af28-4eb1-b756-306fbc124d36",
@@ -11427,6 +12377,7 @@ const Data = [
     color: "#f7cc2c",
     category: "ac",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "1c4d2732-a8d0-4203-893e-796271249ced",
@@ -11439,6 +12390,7 @@ const Data = [
     color: "#aa68a3",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "82e1f8c6-f673-421f-b226-2fecf852c2cd",
@@ -11451,6 +12403,7 @@ const Data = [
     color: "#5fd1e4",
     category: "consectetuer",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "290a7898-f4ad-454c-916d-baba9365d2d4",
@@ -11463,6 +12416,7 @@ const Data = [
     color: "#368a9a",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b211c493-8880-4ba7-8005-3089b961536d",
@@ -11475,6 +12429,7 @@ const Data = [
     color: "#eb93ac",
     category: "lorem",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "39911d4a-62a1-4f71-8628-30f2056ceb49",
@@ -11487,6 +12442,7 @@ const Data = [
     color: "#50d6a7",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "35a24359-c32a-47af-a5fa-ddc3352dc512",
@@ -11499,6 +12455,7 @@ const Data = [
     color: "#09688b",
     category: "vestibulum",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "4258b857-7fad-4450-b182-b67f16ea51eb",
@@ -11511,6 +12468,7 @@ const Data = [
     color: "#b430dc",
     category: "iaculis",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "ee1ae6ea-12a2-479f-8244-87e669c307fd",
@@ -11523,6 +12481,7 @@ const Data = [
     color: "#63eb92",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "32cc884f-b1cc-448a-96ae-f6d11540e87d",
@@ -11535,6 +12494,7 @@ const Data = [
     color: "#7f7b0b",
     category: "ultrices",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "f59a74d0-eeda-48c4-ab22-e3ab8826e6d1",
@@ -11547,6 +12507,7 @@ const Data = [
     color: "#fd491e",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d2aebe94-db36-48ad-8bdb-3c53512bb2c7",
@@ -11559,6 +12520,7 @@ const Data = [
     color: "#dce782",
     category: "odio",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "6f9f8dbb-2900-4b0e-9c1e-9b3947b7e84f",
@@ -11571,6 +12533,7 @@ const Data = [
     color: "#d593e4",
     category: "nulla",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "c0c58906-4ff1-46c3-a03e-cdbe8db1d32e",
@@ -11583,6 +12546,7 @@ const Data = [
     color: "#521bd9",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d1bab9c4-0930-4906-a480-9e9ed84540bc",
@@ -11595,6 +12559,7 @@ const Data = [
     color: "#6b34a2",
     category: "tincidunt",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "a7476105-555d-4eff-b6a1-f8d834d9379c",
@@ -11607,6 +12572,7 @@ const Data = [
     color: "#272697",
     category: "eu",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "24419e70-7419-4bdf-9ba8-afbac13633f6",
@@ -11619,6 +12585,7 @@ const Data = [
     color: "#9af4d8",
     category: "nisl",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "7e45889a-4b1a-4b25-aec1-7819627994fb",
@@ -11631,6 +12598,7 @@ const Data = [
     color: "#2fb860",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "efee85c1-b3f2-489d-bf95-08c556972bca",
@@ -11643,6 +12611,7 @@ const Data = [
     color: "#e87e83",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4e4c096f-ce5c-47c4-ba92-9c721fb8cc4a",
@@ -11655,6 +12624,7 @@ const Data = [
     color: "#6075b8",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "f091e37b-4a23-402f-9a06-78aec5eed354",
@@ -11667,6 +12637,7 @@ const Data = [
     color: "#67b0d4",
     category: "quisque",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "59a8493b-fd4b-48f5-bcbe-b8500e961839",
@@ -11679,6 +12650,7 @@ const Data = [
     color: "#5f4da2",
     category: "sollicitudin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "b88231ca-e01f-4cc6-b110-414d0b4d7260",
@@ -11691,6 +12663,7 @@ const Data = [
     color: "#4f8bfc",
     category: "quisque",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "77cb0deb-0aa1-4059-85a9-72a8877ec818",
@@ -11703,6 +12676,7 @@ const Data = [
     color: "#d4afd7",
     category: "eleifend",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "4a501020-eaeb-48bf-83be-08216bda63fd",
@@ -11715,6 +12689,7 @@ const Data = [
     color: "#bff690",
     category: "at",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4170c6ac-645d-4783-b7c8-029b68070805",
@@ -11727,6 +12702,7 @@ const Data = [
     color: "#520fb0",
     category: "eros",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "574c8846-d347-44e5-9da1-96f67532defd",
@@ -11739,6 +12715,7 @@ const Data = [
     color: "#5241e2",
     category: "orci",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "5d3e3e00-18b0-48ec-a1d1-45ef659cc230",
@@ -11751,6 +12728,7 @@ const Data = [
     color: "#ab78b2",
     category: "ante",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "d82f297f-da52-44a9-9a3a-2e62ccbce795",
@@ -11763,6 +12741,7 @@ const Data = [
     color: "#6fd3f0",
     category: "ut",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "b029811c-6212-44d4-8f1f-08fda3a3219c",
@@ -11775,6 +12754,7 @@ const Data = [
     color: "#2ad958",
     category: "metus",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "c7188935-6155-4cc1-a372-65cebbe738d3",
@@ -11787,6 +12767,7 @@ const Data = [
     color: "#1ef38b",
     category: "amet",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "f3df5410-d1e0-4ab7-9564-2b46937a19ba",
@@ -11799,6 +12780,7 @@ const Data = [
     color: "#c01848",
     category: "varius",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "cc4cac5f-29c2-458d-93dc-4c146f33328f",
@@ -11811,6 +12793,7 @@ const Data = [
     color: "#82fe01",
     category: "suspendisse",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "2b14f748-c81f-4fca-8506-4285bd4f2598",
@@ -11823,6 +12806,7 @@ const Data = [
     color: "#d86662",
     category: "vel",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "3c18c142-84b3-4821-84bf-1826a08af43e",
@@ -11835,6 +12819,7 @@ const Data = [
     color: "#6a001b",
     category: "ligula",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "0bead944-af48-4cd6-951e-7efedd88b160",
@@ -11847,6 +12832,7 @@ const Data = [
     color: "#80f7fc",
     category: "blandit",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "6084eaff-fbec-4f1f-bd93-ed252f156cba",
@@ -11859,6 +12845,7 @@ const Data = [
     color: "#42deed",
     category: "tempus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "8f108594-e48b-4743-b8a9-1cc636c9e5a3",
@@ -11871,6 +12858,7 @@ const Data = [
     color: "#74616b",
     category: "dolor",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "a40871af-1374-4569-b56c-a6d50a695451",
@@ -11883,6 +12871,7 @@ const Data = [
     color: "#30230e",
     category: "convallis",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "1ff61b45-cf43-45fd-895a-b2507295086e",
@@ -11895,6 +12884,7 @@ const Data = [
     color: "#c358cb",
     category: "etiam",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "4c962c16-e6b5-42de-9b33-e4fd6cca2edc",
@@ -11907,6 +12897,7 @@ const Data = [
     color: "#2cc93c",
     category: "sed",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "59d70e8a-ade8-4656-a31f-6ea98d226b8f",
@@ -11919,6 +12910,7 @@ const Data = [
     color: "#86136c",
     category: "cras",
     img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    amount: 1,
   },
   {
     id: "edf7baf5-535e-4578-ad8b-a6e124568d92",
@@ -11931,6 +12923,7 @@ const Data = [
     color: "#c4bb1d",
     category: "faucibus",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "e50a25fd-fbd1-4a70-9896-02b3ae7ef75c",
@@ -11943,6 +12936,7 @@ const Data = [
     color: "#893834",
     category: "volutpat",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "fcd986ac-1f28-4920-a4d3-bd831a96243b",
@@ -11955,6 +12949,7 @@ const Data = [
     color: "#88570b",
     category: "eget",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
   {
     id: "352b71f7-b3f4-41bd-8008-8463682bd122",
@@ -11967,6 +12962,7 @@ const Data = [
     color: "#a6d197",
     category: "enim",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "5fd8bfae-7f3e-46a2-b68c-f169d836888b",
@@ -11979,6 +12975,7 @@ const Data = [
     color: "#a9d94d",
     category: "at",
     img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    amount: 1,
   },
   {
     id: "ca2b944d-79a7-4a06-bf20-724962edca57",
@@ -11991,6 +12988,7 @@ const Data = [
     color: "#5d6419",
     category: "donec",
     img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    amount: 1,
   },
   {
     id: "1400c308-d052-4ddb-a127-8c7b4ae8bc52",
@@ -12003,6 +13001,7 @@ const Data = [
     color: "#48fcd7",
     category: "proin",
     img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    amount: 1,
   },
 ];
 

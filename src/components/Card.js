@@ -4,11 +4,13 @@ import { FaShoppingBag } from "react-icons/fa";
 
 import '../css/Products.css'
 
-const Card = ({id, img, title, star, reviews, prevPrice, newPrice, handleClickOnCart, myCart}) => {
+const Card = ({id, img, title, star, reviews, prevPrice, newPrice, amount, handleClickOnCart, myCart}) => {
+  
+  const item = {id, img, title, star, reviews, prevPrice, newPrice, amount};  
 
   const handleClick = (e) => {
-    console.log(`title: ${title} and id: ${id}`)
-    handleClickOnCart(id, 1);
+    console.log(`title: ${title} and id: ${item.amount}`)
+    handleClickOnCart(item, 1);
   }  
 
   return (

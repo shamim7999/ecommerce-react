@@ -6,7 +6,7 @@ const Products = ({result}) => {
   return (
     <>
       <section className='card-container'>
-        {result}
+        {result} 
       </section>
     </>
   )
