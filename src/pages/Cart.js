@@ -212,17 +212,17 @@ const ShoppingCart = () => {
 
           <div className="d-flex flex-wrap justify-content-between align-items-center pb-4">
             <div className="mt-4">
-              <label className="text-muted font-weight-normal">Promocode</label>
-              <input type="text" placeholder="ABC" className="form-control" />
+              {/*<label className="text-muted font-weight-normal">Promocode</label>
+              <input type="text" placeholder="ABC" className="form-control" />*/}
             </div>
             <div className="d-flex">
               <div className="text-right mt-4 mr-5">
-                <label className="text-muted font-weight-normal m-0">Discount</label>
-                <div className="text-large"><strong>$0</strong></div>
+                <label className="text-muted font-weight-normal m-0"></label>
+                <div className="text-large"><strong>{/*0%*/}</strong></div>
               </div>
               <div className="text-right mt-4">
                 <label className="text-muted font-weight-normal m-0">Total price</label>
-                <div className="text-large"><strong>{totalPrice}</strong></div>
+                <div className="text-large"><strong>&nbsp; &nbsp; &nbsp;{totalPrice}</strong></div>
               </div>
             </div>
           </div>

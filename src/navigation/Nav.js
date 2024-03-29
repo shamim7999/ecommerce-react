@@ -12,7 +12,7 @@ const Nav = ({query, handleInputChange, totalItemsInCart}) => {
   return (
     <nav>
       <div className='nav-container'>
-        <input onChange={handleInputChange} type='text' className='search-input' placeholder='Enter your search shoes' />
+        <input onChange={handleInputChange} type='text' className='search-input' placeholder='Search category or title..' />
       </div>
       <div className='profile-container'>
         <a href='#'>

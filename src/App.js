@@ -63,8 +63,10 @@ const App = () => {
   };
 
   const filteredItems = products.filter((product) =>
-    product.title.toLowerCase().includes(query.toLowerCase())
+    product.title.toLowerCase().includes(query.toLowerCase()) ||
+    product.category.toLowerCase().includes(query.toLowerCase())
   );
+
 
   // Radio Filter
   const handleChange = (e) => {
@@ -88,17 +90,17 @@ const App = () => {
     // Filter by Select
     if (selected) {
       filteredProducts = filteredProducts.filter(
-        ({ category, color, company, newPrice, title, amount }) =>
+        ({ category, color, company, newPrice, title }) =>
           category === selected ||
           color === selected ||
           company === selected ||
-          newPrice === selected ||
-          title === selected
+          newPrice.toString() === selected ||
+          title === selected  
       );
     }
 
     return filteredProducts.map(
-      ({ id, img, title, star, reviews, prevPrice, newPrice, amount }) => (
+      ({ id, img, title, star, reviews, prevPrice, newPrice, amount, category }) => (
         <Card
           id={id}
           key={id}
@@ -111,6 +113,7 @@ const App = () => {
           handleClickOnCart={handleClickOnCart}
           myCart={myCart}
           amount={amount}
+          category={category}
         />
       )
     );
