@@ -38,7 +38,7 @@ const NewNav = ({handleChange, query, handleInputChange, totalItemsInCart}) => {
             <Form.Control
               onChange={handleInputChange}
               type="search"
-              placeholder="Search"
+              placeholder="Search title or category..."
               className="me-2"
               aria-label="Search"
             />
