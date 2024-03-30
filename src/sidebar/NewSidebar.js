@@ -2,8 +2,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-
-import '../css//NewSidebar.css'
+import '../css/NewSidebar.css';
 
 const NewSidebar = ({ handleChange }) => {
   const [show, setShow] = useState(false);
@@ -28,10 +27,17 @@ const NewSidebar = ({ handleChange }) => {
   // Sort the unique products by category
   const sortedUniqueCategories = [...uniqueCategories].sort();
 
+  const handleClick = (e) => {
+    const category = e.currentTarget.dataset.category;
+    console.log(`Clicked category: ${category}`);
+    handleChange(category);
+  };
+
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Category
+      <div style={{ fontWeight: 'bold' }}>Category</div>
+
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
@@ -39,9 +45,12 @@ const NewSidebar = ({ handleChange }) => {
           <Offcanvas.Title>Categories</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
+        <div onClick={handleClick} data-category="" key='hyt121212124112412' className="category-item">
+              All
+        </div>
           {/* Render unique categories with styles */}
           {sortedUniqueCategories.map((category, index) => (
-            <div key={index} className="category-item">
+            <div onClick={handleClick} data-category={category} key={index} className="category-item">
               {category}
             </div>
           ))}
@@ -49,6 +58,6 @@ const NewSidebar = ({ handleChange }) => {
       </Offcanvas>
     </>
   );
-}
+};
 
 export default NewSidebar;

@@ -1,0 +1,26 @@
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-icon {
+    margin-right: 5px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .cart-text {
+    font-weight: bold;
+  }
+  
+  .cart-button:hover {
+    background-color: #0056b3; /* Example hover background color */
+  }
+  

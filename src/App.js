@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import Navigation from "./navigation/Nav";
 import Products from "./products/Products";
-import Recommended from "./recommended/Recommended";
-import Sidebar from "./sidebar/Sidebar";
 import products from "./data/Data";
-import Card from "./components/Card";
 import NewNav from "./navigation/NewNav";
 import MyCard2 from "./components/MyCard2";
 
@@ -72,9 +68,9 @@ const App = () => {
 
 
   // Radio Filter
-  const handleChange = (e) => {
-    console.log(`Here: ${e.target.value}`);
-    setSelectedCategory(e.target.value);
+  const handleChange = (value) => {
+    console.log(`Here: ${value}`);
+    setSelectedCategory(value);
   };
 
   // Button Filter
