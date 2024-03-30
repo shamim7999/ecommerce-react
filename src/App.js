@@ -7,6 +7,7 @@ import Sidebar from "./sidebar/Sidebar";
 import products from "./data/Data";
 import Card from "./components/Card";
 import NewNav from "./navigation/NewNav";
+import MyCard2 from "./components/MyCard2";
 
 
 const App = () => {
@@ -103,7 +104,7 @@ const App = () => {
 
     return filteredProducts.map(
       ({ id, img, title, star, reviews, prevPrice, newPrice, amount, category }) => (
-        <Card
+        <MyCard2
           id={id}
           key={id}
           img={img}
@@ -125,10 +126,8 @@ const App = () => {
 
   return (
     <>
-    <Sidebar handleChange={handleChange} />
-    <Navigation query={query} handleInputChange={handleInputChange} totalItemsInCart={totalItemsInCart } />
-    <Recommended handleClick={handleClick} />
-    <Products result={result} /> 
+      <NewNav handleChange={handleChange} query={query} handleInputChange={handleInputChange} totalItemsInCart={totalItemsInCart } />
+      <Products result={result}/>
     </>
   );
 };
