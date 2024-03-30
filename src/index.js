@@ -6,6 +6,7 @@ import Test from "./pages/Test";
 import ShoppingCart from "./pages/Cart";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MakeOrder from "./pages/Checkout";
+import Success from "./components/Success";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route path="/checkout" element={<MakeOrder />} />
         <Route path="/test" element={<Test />} />
         <Route path="/cart" element={<ShoppingCart />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

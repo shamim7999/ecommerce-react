@@ -22,6 +22,16 @@ const MakeOrder = () => {
   }, [cartItems]);
 
   
+  const handleClearCart = () => {
+    console.log(`In Checkout to clear Cart`);
+    // Clear the cartItems
+    setCartItems([]);
+    // Clear local storage
+    localStorage.removeItem('myCart');
+    console.log(`Cart Items ${cartItems}`);
+}
+
+
   return (
     <div class="container px-3 my-5 clearfix">
   <div class="card">
@@ -186,8 +196,8 @@ const MakeOrder = () => {
                         Back to Shopping  
                 </button>
             </Link>
-          <Link to="/checkout">
-              <button type="button" className="btn btn-lg btn-primary mt-2 mx-3">
+            <Link to="/success">
+              <button onClick={handleClearCart} type="button" className="btn btn-lg btn-primary mt-2 mx-3">
                   
                     Order Now!
                   
