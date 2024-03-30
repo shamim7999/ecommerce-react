@@ -1,68 +1,28 @@
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-const  NewSidebar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+const NewSidebar = ({handleChange}) => {
+  const [show, setShow] = useState(false);
 
-  const toggleSidebar = () => {
-    setIsSidebarOpen(!isSidebarOpen);
-  };
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
-      {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container">
-          <a className="navbar-brand" href="#" onClick={toggleSidebar}>
-            <FontAwesomeIcon icon={faBars} />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+      <Button variant="primary" onClick={handleShow}>
+        Category
+      </Button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="#">
-                  Home <span className="sr-only">(current)</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      {/* Sidebar */}
-      <div className={`sidebar${isSidebarOpen ? ' active' : ''}`} id="sidebar">
-        <div className="sidebar-header">
-          <FontAwesomeIcon icon={faTimes} onClick={toggleSidebar} />
-        </div>
-        <div className="sidebar-content">
-          <h2>Sidebar Content</h2>
-          <p>This is the sidebar content.</p>
-        </div>
-      </div>
-
-      {/* Main Content */}
-      <div className="container mt-5">
-        <h2>Main Content</h2>
-        <p>This is the main content area.</p>
-      </div>
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
     </>
   );
 }
