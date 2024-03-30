@@ -16,12 +16,11 @@ const Category = ({ handleChange }) => {
     }
     return false;
   });
-
   // Sort the unique products by category
   uniqueProducts.sort((a, b) => a.category.localeCompare(b.category));
 
   return (
-    <div>
+    <div className="category-container">
       <h2 className="sidebar-title">Category</h2>
       <div>
         <label className="sidebar-label-container">

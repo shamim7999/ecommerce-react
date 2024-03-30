@@ -1,0 +1,25 @@
+.customer-info {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .customer-info h3 {
+    margin-bottom: 20px;
+  }
+  
+  .customer-info form {
+    max-width: 400px;
+  }
+  
+  .customer-info .form-group {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .customer-info {
+      margin-top: 20px;
+    }
+  }
+  
