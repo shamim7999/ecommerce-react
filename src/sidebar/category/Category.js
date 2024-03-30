@@ -34,7 +34,7 @@ const Category = ({ handleChange }) => {
             value={product.category}
             title={product.category}
             name="test"
-          />
+          />  
         ))}
       </div>
     </div>
