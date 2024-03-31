@@ -4,7 +4,6 @@ import Products from "./products/Products";
 import products from "./data/Data";
 import NewNav from "./navigation/NewNav";
 import MyCard2 from "./components/MyCard2";
-import MyToast from "./components/Toast";
 
 
 const App = () => {
@@ -124,7 +123,6 @@ const App = () => {
   return (
     <>
       <NewNav handleChange={handleChange} query={query} handleInputChange={handleInputChange} totalItemsInCart={totalItemsInCart} />
-      
       <Products result={result} style={{ marginTop: '100px' }} />
     </>
 

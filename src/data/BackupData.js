@@ -13,7 +13,7 @@ const Data = [
     company: "Reichel Inc",
     color: "#fd2538",
     category: "orci",
-    img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    img: "../images/burgers.jpg",
     amount: 1,
   },
   {

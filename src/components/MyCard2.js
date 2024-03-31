@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card, CardGroup, Col} from 'react-bootstrap';
-import { AiOutlineShoppingCart } from 'react-icons/ai';
-import MyToast from './Toast';
+
+import '../css/MyImage.css'
 
 const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, handleClickOnCart, category}) => {
     const item = {id, img, title, star, reviews, prevPrice, newPrice, amount, category};  
@@ -17,7 +17,7 @@ const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, ha
       <Col md={6} lg={3}>
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src={img} />
+            <Card.Img className='myImage' variant="top" src={img} />
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>

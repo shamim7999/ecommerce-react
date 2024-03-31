@@ -10,7 +10,7 @@ const Data = [
     company: "Reichel Inc",
     color: "#fd2538",
     category: "orci",
-    img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    img: "./burgers.jpg",
     amount: 1,
   },
   {
@@ -23,7 +23,7 @@ const Data = [
     company: "Johns, Kozey and Cormier",
     color: "#9b9947",
     category: "vestibulum",
-    img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    img: "./burgers.jpg",
     amount: 1,
   },
   {
@@ -36,7 +36,7 @@ const Data = [
     company: "O'Reilly, Oberbrunner and Bogan",
     color: "#e72967",
     category: "sit",
-    img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    img: "./crispy-fried-chicken-plate-with-salad-carrot.jpg",
     amount: 1,
   },
   {
