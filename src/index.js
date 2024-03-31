@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import MakeOrder from "./pages/Checkout";
 import Success from "./components/Success";
 import Error from "./components/Error";
+import ProductDetail from "./components/Detail";
 
 
 
@@ -22,6 +23,7 @@ root.render(
         <Route path="/cart" element={<ShoppingCart />} />
         <Route path="/success" element={<Success />} />
         <Route path="*" element={<Error />} />
+        <Route path="/details" element={<ProductDetail />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -173,6 +173,7 @@ const ShoppingCart = () => {
                             >
                               -
                             </button>
+
                           </div>
                         </td>
                         <td className="text-right font-weight-semibold align-middle p-4">
