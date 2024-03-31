@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Card, CardGroup, Col} from 'react-bootstrap';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import MyToast from './Toast';
 
 const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, handleClickOnCart, category}) => {
     const item = {id, img, title, star, reviews, prevPrice, newPrice, amount, category};  
@@ -8,6 +9,7 @@ const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, ha
     const handleClick = (e) => {
       console.log(`title: ${title} and id: ${item.amount}`)
       handleClickOnCart(item, 1);
+      alert(`${title} added to cart`);
     } 
     
     return (
@@ -23,6 +25,7 @@ const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, ha
                 additional content. This content is a little bit longer.
               </Card.Text>
               <small className="text-muted">{category}</small>
+              <h5><del>${prevPrice}</del> &nbsp; &nbsp; ${newPrice} </h5>
             </Card.Body>
             <Card.Footer>
             <Button onClick={handleClick} variant="success">Add to Cart</Button>{' '}
@@ -30,6 +33,9 @@ const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, ha
           </Card>
         </CardGroup>
       </Col>
+
+      
+
     </>
   );
 }

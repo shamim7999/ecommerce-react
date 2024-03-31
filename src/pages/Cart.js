@@ -31,12 +31,20 @@ const ShoppingCart = () => {
   const handleClickOnCross = (e) => {
     const itemId = e.target.value;
     console.log(`Cross : ${itemId}`);
-
+    
     const updatedCartItems = cartItems.filter((item) => item.id !== itemId);
+
     localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
     setCartItems(updatedCartItems);
 
-  }
+    const removedItem = cartItems.find((item) => item.id === itemId);
+    if (removedItem) {
+        alert(`${removedItem.title} removed from cart.`);
+    } else {
+        alert(`Item removed.`);
+    }
+}
+
 
   const handleAdd = (e) => {
     const itemId = e.target.value;
@@ -54,7 +62,7 @@ const ShoppingCart = () => {
   const handleSub = (e) => {
     const itemId = e.target.value;
     const updatedCartItems = cartItems.map((item) => {
-      if (item.id === itemId && item.amount > 0) {
+      if (item.id === itemId && item.amount > 1) {
         return { ...item, amount: item.amount - 1 };
       }
       return item;
@@ -136,27 +144,7 @@ const ShoppingCart = () => {
                                 {item.title}
                               </a>{" "}
                               {/* Use item.name instead of static text */}
-                              <small>
-                                {/* Render other details of the product dynamically */}
-                                <span className="text-muted">Color:</span>
-                                <span
-                                  className="ui-product-color ui-product-color-sm align-text-bottom"
-                                  style={{ background: "#000" }}
-                                ></span>{" "}
-                                &nbsp;
-                                <span className="text-muted">
-                                  Storage:{" "}
-                                </span>{" "}
-                                32GB &nbsp;
-                                <span className="text-muted">
-                                  Warranty:{" "}
-                                </span>{" "}
-                                Standard - 1 year &nbsp;
-                                <span className="text-muted">
-                                  Ships from:{" "}
-                                </span>{" "}
-                                China
-                              </small>
+                              
                             </div>
                           </div>
                         </td>
@@ -222,7 +210,7 @@ const ShoppingCart = () => {
               </div>
               <div className="text-right mt-4">
                 <label className="text-muted font-weight-normal m-0">Total price</label>
-                <div className="text-large"><strong>&nbsp; &nbsp; &nbsp;{totalPrice}</strong></div>
+                <div className="text-large"><strong>&nbsp; &nbsp; &nbsp;${totalPrice}</strong></div>
               </div>
             </div>
           </div>
