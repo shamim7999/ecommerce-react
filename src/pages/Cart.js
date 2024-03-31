@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 
 const ShoppingCart = () => {
   const [cartItems, setCartItems] = useState(
-    localStorage.getItem('myCart') ? JSON.parse(localStorage.getItem('myCart')) : []
+    localStorage.getItem("myCart")
+      ? JSON.parse(localStorage.getItem("myCart"))
+      : []
   );
   const [totalPrice, setTotalPrice] = useState(0);
 
@@ -21,30 +23,28 @@ const ShoppingCart = () => {
 
     let totalPrice = 0;
     // Iterate through cart items and calculate total price
-    cartItems.forEach(item => {
-        totalPrice += item.amount * item.newPrice;
+    cartItems.forEach((item) => {
+      totalPrice += item.amount * item.newPrice;
     });
     setTotalPrice(totalPrice);
-
   }, [cartItems]);
 
   const handleClickOnCross = (e) => {
     const itemId = e.target.value;
     console.log(`Cross : ${itemId}`);
-    
+
     const updatedCartItems = cartItems.filter((item) => item.id !== itemId);
 
-    localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
+    localStorage.setItem("myCart", JSON.stringify(updatedCartItems));
     setCartItems(updatedCartItems);
 
     const removedItem = cartItems.find((item) => item.id === itemId);
     if (removedItem) {
-        alert(`${removedItem.title} removed from cart.`);
+      alert(`${removedItem.title} removed from cart.`);
     } else {
-        alert(`Item removed.`);
+      alert(`Item removed.`);
     }
-}
-
+  };
 
   const handleAdd = (e) => {
     const itemId = e.target.value;
@@ -54,10 +54,9 @@ const ShoppingCart = () => {
       }
       return item;
     });
-    localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
+    localStorage.setItem("myCart", JSON.stringify(updatedCartItems));
     setCartItems(updatedCartItems);
   };
-
 
   const handleSub = (e) => {
     const itemId = e.target.value;
@@ -67,11 +66,10 @@ const ShoppingCart = () => {
       }
       return item;
     });
-    localStorage.setItem('myCart', JSON.stringify(updatedCartItems));
+    localStorage.setItem("myCart", JSON.stringify(updatedCartItems));
     setCartItems(updatedCartItems);
   };
-  
-  
+
   return (
     <div>
       <div className="container px-3 my-5 clearfix">
@@ -135,8 +133,9 @@ const ShoppingCart = () => {
                           <div className="media align-items-center">
                             <img
                               src={item.img}
-                              className="d-block ui-w-40 ui-bordered mr-4"
+                              // className="d-block ui-w-40 ui-bordered mr-4"
                               alt=""
+                              style={{ width: "150px", height: "auto" }}
                             />{" "}
                             {/* Use item.image instead of static URL */}
                             <div className="media-body">
@@ -144,7 +143,6 @@ const ShoppingCart = () => {
                                 {item.title}
                               </a>{" "}
                               {/* Use item.name instead of static text */}
-                              
                             </div>
                           </div>
                         </td>
@@ -180,14 +178,20 @@ const ShoppingCart = () => {
                         <td className="text-right font-weight-semibold align-middle p-4">
                           ${(item.newPrice * item.amount).toFixed(2)}
                         </td>
-                        <td className="text-center align-middle px-0" >
+                        <td className="text-center align-middle px-0">
                           <a
                             href="#"
                             className="shop-tooltip close float-none text-danger"
                             title=""
                             data-original-title="Remove"
                           >
-                            <button value={item.id} onClick={handleClickOnCross} >x</button>
+                            <button
+                              value={item.id}
+                              onClick={handleClickOnCross}
+                              className="btn btn-outline-danger"
+                            >
+                              x
+                            </button>
                           </a>
                         </td>
                       </tr>
@@ -198,37 +202,44 @@ const ShoppingCart = () => {
             </div>
             {/* / Shopping cart table */}
 
-          <div className="d-flex flex-wrap justify-content-between align-items-center pb-4">
-            <div className="mt-4">
-              {/*<label className="text-muted font-weight-normal">Promocode</label>
+            <div className="d-flex flex-wrap justify-content-between align-items-center pb-4">
+              <div className="mt-4">
+                {/*<label className="text-muted font-weight-normal">Promocode</label>
               <input type="text" placeholder="ABC" className="form-control" />*/}
-            </div>
-            <div className="d-flex">
-              <div className="text-right mt-4 mr-5">
-                <label className="text-muted font-weight-normal m-0"></label>
-                <div className="text-large"><strong>{/*0%*/}</strong></div>
               </div>
-              <div className="text-right mt-4">
-                <label className="text-muted font-weight-normal m-0">Total price</label>
-                <div className="text-large"><strong>&nbsp; &nbsp; &nbsp;${totalPrice}</strong></div>
+              <div className="d-flex">
+                <div className="text-right mt-4 mr-5">
+                  <label className="text-muted font-weight-normal m-0"></label>
+                  <div className="text-large">
+                    <strong>{/*0%*/}</strong>
+                  </div>
+                </div>
+                <div className="text-right mt-4">
+                  <label className="text-muted font-weight-normal m-0">
+                    Total price
+                  </label>
+                  <div className="text-large">
+                    <strong>&nbsp; &nbsp; &nbsp;${totalPrice}</strong>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="float-right">
-          <Link to="/">
-                <button type="button" className="btn btn-lg btn-danger mt-2"> 
-                        Back to Shopping  
+            <div className="float-right">
+              <Link to="/">
+                <button type="button" className="btn btn-lg btn-danger mt-2">
+                  Back to Shopping
                 </button>
-            </Link>
-          <Link to="/checkout">
-              <button type="button" className="btn btn-lg btn-primary mt-2 mx-3">
-                  
-                    Checkout
-                  
-              </button>
-            </Link>
-          </div>
+              </Link>
+              <Link to="/checkout">
+                <button
+                  type="button"
+                  className="btn btn-lg btn-primary mt-2 mx-3"
+                >
+                  Checkout
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

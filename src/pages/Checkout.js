@@ -41,7 +41,7 @@ const MakeOrder = () => {
     <div class="card-body">
       <div class="row">
         {/*Left side: Ordered items*/}
-        <div class="col-md-6">
+        <div class="col-md-8">
           <div class="table-responsive">
             <table class="table table-bordered m-0">
               <thead>
@@ -87,8 +87,10 @@ const MakeOrder = () => {
                         <div className="media align-items-center">
                           <img
                             src={item.img}
-                            className="d-block ui-w-40 ui-bordered mr-4"
+                            //className="d-block ui-w-40 ui-bordered mr-4"
                             alt=""
+                            style={{ width: "150px", height: "auto" }}
+                            
                           />{" "}
                           {/* Use item.image instead of static URL */}
                           <div className="media-body">
@@ -149,7 +151,7 @@ const MakeOrder = () => {
           </div>
         </div>
         {/*Right side: Customer information*/}
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="customer-info">
             <h3>Customer Information</h3>
             <form>
@@ -185,7 +187,7 @@ const MakeOrder = () => {
               </div>
               <div className="text-right mt-4">
                 <label className="text-muted font-weight-normal m-0">Total price</label>
-                <div className="text-large"><strong>&nbsp; &nbsp; &nbsp;{totalPrice}</strong></div>
+                <div className="text-large"><strong>&nbsp; &nbsp; &nbsp; ${totalPrice}</strong></div>
               </div>
             </div>
           </div>
