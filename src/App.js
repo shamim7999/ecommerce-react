@@ -36,14 +36,10 @@ const App = () => {
     console.log(`Item APP: ${item.amount}`);
     setMyCart(prevCart => {
       if (!prevCart.some(cartItem => cartItem.id === item.id)) {
-        // If the item is not already in the cart, add it with the specified counter
         return [...prevCart, { ...item, amount: counter }];
       } else {
-        // If the item is already in the cart, find its index in the array
         const index = prevCart.findIndex(cartItem => cartItem.id === item.id);
-        // Create a copy of the item with the updated amount
         const updatedItem = { ...prevCart[index], amount: prevCart[index].amount + counter };
-        // Create a new array with the updated item
         const updatedCart = [...prevCart];
         updatedCart[index] = updatedItem;
         return updatedCart;

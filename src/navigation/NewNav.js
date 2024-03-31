@@ -12,7 +12,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const NewNav = ({ handleChange, query, handleInputChange, totalItemsInCart }) => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary fixed-top mb-4">
+    <Navbar expand="lg" className="bg-body-tertiary sticky-top mb-4"  bg="dark" data-bs-theme="dark">>
       <Container fluid>
         <Navbar.Brand href="#">
           <NewSidebar handleChange={handleChange} />
@@ -20,7 +20,7 @@ const NewNav = ({ handleChange, query, handleInputChange, totalItemsInCart }) =>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
-            <Nav.Link href="#action1"></Nav.Link>
+            <Nav.Link href="#" style={{fontWeight: 'bold', color: 'white'}}>FoodMill.com</Nav.Link>
             <Nav.Link href="#action2"></Nav.Link>
             <Nav.Link href="#" disabled></Nav.Link>
           </Nav>
@@ -32,7 +32,7 @@ const NewNav = ({ handleChange, query, handleInputChange, totalItemsInCart }) =>
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success mx-2">Search</Button>
+            <Button variant="success mx-2">Search</Button>
             <Link to="/cart">
               <button className="cart-button">
                 <span className="cart-icon"><AiOutlineShoppingCart /></span>
