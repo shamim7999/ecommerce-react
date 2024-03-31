@@ -446,7 +446,7 @@ const Data = [
     company: "Anderson, Hermann and Ritchie",
     color: "#139fab",
     category: "duis",
-    img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    img: image10,
     amount: 1,
   },
   {
@@ -459,7 +459,7 @@ const Data = [
     company: "Nicolas Inc",
     color: "#ef738e",
     category: "diam",
-    img: "http://dummyimage.com/200x100.png/dddddd/000000",
+    img: image11,
     amount: 1,
   },
   {
@@ -472,7 +472,7 @@ const Data = [
     company: "Collins Group",
     color: "#9c051e",
     category: "rutrum",
-    img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    img: image12,
     amount: 1,
   },
   {
@@ -485,7 +485,7 @@ const Data = [
     company: "Barrows, Bauch and Kub",
     color: "#d11115",
     category: "donec",
-    img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    img: image13,
     amount: 1,
   },
   {
@@ -498,7 +498,7 @@ const Data = [
     company: "Steuber-Jones",
     color: "#e95fd0",
     category: "proin",
-    img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    img: image14,
     amount: 1,
   },
   {
@@ -511,7 +511,7 @@ const Data = [
     company: "Huels-Stiedemann",
     color: "#e8f1c8",
     category: "praesent",
-    img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    img: image15,
     amount: 1,
   },
   {
@@ -524,7 +524,7 @@ const Data = [
     company: "Shanahan Group",
     color: "#b45bd8",
     category: "lectus",
-    img: "http://dummyimage.com/200x100.png/ff4444/ffffff",
+    img: image16,
     amount: 1,
   },
   {
@@ -537,7 +537,7 @@ const Data = [
     company: "Bradtke, Mohr and Towne",
     color: "#c5425c",
     category: "orci",
-    img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    img: image17,
     amount: 1,
   },
   {
@@ -550,7 +550,7 @@ const Data = [
     company: "Graham Group",
     color: "#dd2ccd",
     category: "posuere",
-    img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    img: image18,
     amount: 1,
   },
   {
@@ -563,7 +563,7 @@ const Data = [
     company: "Schumm, D'Amore and Hessel",
     color: "#8e0280",
     category: "lectus",
-    img: "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
+    img: image19,
     amount: 1,
   },
   {
@@ -576,7 +576,7 @@ const Data = [
     company: "Collins Group",
     color: "#aadf59",
     category: "odio",
-    img: "http://dummyimage.com/200x100.png/cc0000/ffffff",
+    img: image20,
     amount: 1,
   },
   {
