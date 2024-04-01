@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "../css/Cart.css";
 import { Link } from "react-router-dom";
+import DefaultToast from "../components/DefaultToast";
 
 const ShoppingCart = () => {
   const [cartItems, setCartItems] = useState(
@@ -10,7 +11,7 @@ const ShoppingCart = () => {
       : []
   );
   const [totalPrice, setTotalPrice] = useState(0);
-
+  const [showToast, setShowToast] = useState(false); 
   // useEffect(() => {
   //   const storedCart = localStorage.getItem("myCart"); // Retrieve cart items from localStorage
   //   if (storedCart) {
@@ -38,12 +39,8 @@ const ShoppingCart = () => {
     localStorage.setItem("myCart", JSON.stringify(updatedCartItems));
     setCartItems(updatedCartItems);
 
-    const removedItem = cartItems.find((item) => item.id === itemId);
-    if (removedItem) {
-      alert(`${removedItem.title} removed from cart.`);
-    } else {
-      alert(`Item removed.`);
-    }
+
+    setShowToast(true);
   };
 
   const handleAdd = (e) => {
@@ -244,6 +241,15 @@ const ShoppingCart = () => {
           </div>
         </div>
       </div>
+
+      <DefaultToast
+                show={showToast}
+                setShow={setShowToast}
+                variant={"success"}
+                title="Success!"
+                body="Item removed from Cart."
+            />
+
     </div>
   );
 };
