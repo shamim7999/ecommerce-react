@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import "../css/Cart.css";
 import { Link } from "react-router-dom";
 import DefaultToast from "../components/DefaultToast";
+import { ButtonGroup } from "react-bootstrap";
 
 const ShoppingCart = () => {
   const [cartItems, setCartItems] = useState(
@@ -11,13 +12,7 @@ const ShoppingCart = () => {
       : []
   );
   const [totalPrice, setTotalPrice] = useState(0);
-  const [showToast, setShowToast] = useState(false); 
-  // useEffect(() => {
-  //   const storedCart = localStorage.getItem("myCart"); // Retrieve cart items from localStorage
-  //   if (storedCart) {
-  //     setCartItems(JSON.parse(storedCart)); // Parse and set cart items
-  //   }
-  // }, []); // Run once on component mount
+  const [showToast, setShowToast] = useState(false);
 
   useEffect(() => {
     console.log(`Cart Cart: ${JSON.stringify(cartItems)}`);
@@ -38,7 +33,6 @@ const ShoppingCart = () => {
 
     localStorage.setItem("myCart", JSON.stringify(updatedCartItems));
     setCartItems(updatedCartItems);
-
 
     setShowToast(true);
   };
@@ -133,6 +127,7 @@ const ShoppingCart = () => {
                               // className="d-block ui-w-40 ui-bordered mr-4"
                               alt=""
                               style={{ width: "150px", height: "auto" }}
+                              className="makeBigger"
                             />{" "}
                             {/* Use item.image instead of static URL */}
                             <div className="media-body">
@@ -148,29 +143,28 @@ const ShoppingCart = () => {
                         </td>{" "}
                         {/* Use item.price instead of static value */}
                         <td className="align-middle p-4">
-                          <div className="text-center">
+                          <div className="text-center d-flex">
                             {/* You can implement add/subtract functionality here */}
-                            <button
-                              className="btn btn-primary mb-1"
-                              value={item.id}
-                              onClick={handleAdd}
-                            >
-                              +
-                            </button>
-                            <input
-                              type="text"
-                              className="form-control text-center"
-                              value={item.amount}
-                              readOnly
-                            />
-                            <button
-                              className="btn btn-danger mt-1"
-                              value={item.id}
-                              onClick={handleSub}
-                            >
-                              -
-                            </button>
+                            <ButtonGroup>
+                              <button
+                                className="btn btn-danger"
+                                value={item.id}
+                                onClick={handleSub}
+                              >
+                                -
+                              </button>
+                              <button className="btn btn-light">
+                                {item.amount}
+                              </button>
 
+                              <button
+                                className="btn btn-primary"
+                                value={item.id}
+                                onClick={handleAdd}
+                              >
+                                +
+                              </button>
+                            </ButtonGroup>
                           </div>
                         </td>
                         <td className="text-right font-weight-semibold align-middle p-4">
@@ -243,13 +237,12 @@ const ShoppingCart = () => {
       </div>
 
       <DefaultToast
-                show={showToast}
-                setShow={setShowToast}
-                variant={"success"}
-                title="Success!"
-                body="Item removed from Cart."
-            />
-
+        show={showToast}
+        setShow={setShowToast}
+        variant={"success"}
+        title="Success!"
+        body="Item removed from Cart."
+      />
     </div>
   );
 };

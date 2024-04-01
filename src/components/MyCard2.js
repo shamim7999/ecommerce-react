@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { Button as MyButton ,Card, CardGroup, Col} from 'react-bootstrap';
-import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
 
 
 import '../css/MyImage.css'
 import DefaultToast from './DefaultToast';
+import { NavLink } from 'react-router-dom';
 
 const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, handleClickOnCart, category}) => {
     const item = {id, img, title, star, reviews, prevPrice, newPrice, amount, category};  
@@ -25,8 +22,12 @@ const MyCard2 = ({id, img, title, star, reviews, prevPrice, newPrice, amount, ha
     return (
     <>
       <Col md={6} lg={3}>
-        <CardGroup>
+        <CardGroup className='h-100'>
           <Card>
+          <NavLink
+            to={`/${item.title}`}
+            className="text-decoration-none"
+          />
             <Card.Img className='myImage' variant="top" src={img} />
             <Card.Body>
               <Card.Title>{title}</Card.Title>

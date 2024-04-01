@@ -2,7 +2,7 @@ import { Toast, ToastContainer } from "react-bootstrap";
 
 const DefaultToast = ({ show, setShow, title, body, variant }) => {
   return (
-    <ToastContainer position="top-end" className="p-3" style={{ zIndex: 1025, position: 'fixed' }}>
+    <ToastContainer position="bottom-end" className="p-3" style={{ zIndex: 1025, position: 'fixed' }}>
       <Toast
         bg={variant}
         onClose={() => setShow(false)}

@@ -130,12 +130,7 @@ const MakeOrder = () => {
                         <div className="text-center">
                           {/* You can implement add/subtract functionality here */}
                           
-                          <input
-                            type="text"
-                            className="form-control text-center"
-                            value={item.amount}
-                            readOnly
-                          />
+                          {item.amount}
                           
                         </div>
                       </td>
